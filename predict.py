@@ -7,6 +7,16 @@ from sklearn.cross_validation import cross_val_score
 from sklearn.model_selection import GridSearchCV
 from sklearn import metrics
 from sklearn.utils import class_weight
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.ensemble import AdaBoostClassifier
+from sklearn import svm
+from sklearn import neighbors
+from sklearn import neural_network
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.ensemble import BaggingClassifier
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.ensemble import RandomForestClassifier
 
 #data_frame, importando planilha
 
@@ -113,7 +123,7 @@ def fit_and_predict(nome, modelo, treino_dados, treino_marcacoes):
 
 resultados = {}
 
-from sklearn.naive_bayes import MultinomialNB
+#Predict Multinomial Naive Bayes
 modelo = MultinomialNB(alpha= 0.001, fit_prior= True)
 resultado = fit_and_predict("MultinomialNB Grided", modelo, treino_dados, treino_marcacoes)
 resultados[resultado] = modelo
@@ -161,7 +171,7 @@ print(multinomialNBBestParams)
 print("")
 '''
 
-from sklearn.ensemble import AdaBoostClassifier
+#Predixt Adaboost
 modelo = AdaBoostClassifier(n_estimators= 45, learning_rate= 0.01)
 resultado = fit_and_predict("AdaBoostClassifier Grided", modelo, treino_dados, treino_marcacoes)
 resultados[resultado] = modelo
@@ -210,7 +220,7 @@ print(adaBestParams)
 print("")
 '''
 
-from sklearn import svm
+#Predict SVC
 modelo = svm.SVC(C= 0.03, max_iter= -1, decision_function_shape= 'ovo', tol= 0.001, class_weight= None)
 resultado = fit_and_predict("SVC Grided", modelo, treino_dados, treino_marcacoes)
 resultados[resultado] = modelo
@@ -288,7 +298,7 @@ print(svmBestParams)
 print("")
 '''
 
-from sklearn import neighbors
+#Predict KNN
 modelo = neighbors.KNeighborsClassifier(n_neighbors = 4, metric = 'euclidean', weights = 'uniform', algorithm = 'auto')
 resultado = fit_and_predict("KNN Grided", modelo, treino_dados, treino_marcacoes)
 resultados[resultado] = modelo
@@ -335,7 +345,7 @@ print(knnBestParams)
 print("")
 '''
 
-from sklearn import neural_network
+#Predict MLP
 modelo = neural_network.MLPClassifier(hidden_layer_sizes=(200, 500), max_iter = 100)
 resultado = fit_and_predict("MLP Grided", modelo, treino_dados, treino_marcacoes)
 resultados[resultado] = modelo
@@ -366,7 +376,8 @@ if(resultado > 0.79):
 		if(resultadoOscar[i] == 1.0):
 			candidato[i] = candidato[i] + 1
 
-from sklearn.linear_model import LogisticRegression
+
+#Predict Logistic Regression
 modelo = LogisticRegression(C= 0.01, fit_intercept= True, tol= 1e-05, max_iter= 1, class_weight= None)
 resultado = fit_and_predict("LogisticRegression Grided", modelo, treino_dados, treino_marcacoes)
 resultados[resultado] = modelo
@@ -442,7 +453,8 @@ print(logisticRegressionBestParams)
 print("")
 '''
 
-from sklearn.ensemble import BaggingClassifier
+
+#Predict Bagging
 modelo = BaggingClassifier(n_estimators= 42, max_samples= 0.087)
 resultado = fit_and_predict("BaggingClassifier Grided", modelo, treino_dados, treino_marcacoes)
 resultados[resultado] = modelo
@@ -488,7 +500,8 @@ print(baggingBestParams)
 print("")
 '''
 
-from sklearn.ensemble import GradientBoostingClassifier
+
+#Predict Gradient Boosting
 modelo = GradientBoostingClassifier(n_estimators= 25, learning_rate= 0.2, max_depth= 1)
 resultado = fit_and_predict("GradientBoostingClassifier Grided", modelo, treino_dados, treino_marcacoes)
 resultados[resultado] = modelo
@@ -537,7 +550,8 @@ print(gradientBoostingBestParams)
 print("")
 '''
 
-from sklearn.ensemble import RandomForestClassifier
+
+#Predict Random Forest
 modelo = RandomForestClassifier(n_estimators= 10, criterion= 'gini', max_depth= 3)
 resultado = fit_and_predict("RandomForestClassifier Grided", modelo, treino_dados, treino_marcacoes)
 resultados[resultado] = modelo
@@ -588,7 +602,7 @@ print(randomBestParams)
 print("")
 '''
 
-from sklearn.ensemble import ExtraTreesClassifier
+#Predict Extra Tress
 modelo = ExtraTreesClassifier(criterion = 'gini', max_depth = 3, n_estimators = 150)
 resultado = fit_and_predict("ExtraTreesClassifier Grided", modelo, treino_dados, treino_marcacoes)
 resultados[resultado] = modelo
