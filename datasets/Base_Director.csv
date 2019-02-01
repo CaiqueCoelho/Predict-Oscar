@@ -183,3 +183,8 @@ year,category,film,name,BAFTA,Golden Globe,Guild,Oscar,running_time,box_office,i
 2016,Director,Moonlight,Barry Jenkins,0.0,0.0,0.0,0.0,111,23300000.0,7.9,86.0,98.0,1,1,0,0,0,0,0,0,1
 2016,Director,Manchester by the Sea,Kenneth Lonergan,0.0,0.0,0.0,0.0,137,60700000.0,8.1,81.0,96.0,1,1,0,0,0,0,0,0,1
 2016,Director,Arrival,Denis Villeneuve,0.0,0.0,0.0,0.0,116,195300000.0,8.1,82.0,94.0,1,0,0,1,0,0,0,0,1
+2017,Director,Dunkirk,Christopher Nolan,0,0,0,0,106,525600000.0,8.1,8.4,94,0,0,0,1,0,0,0,1,0
+2017,Director,Get Out,Jordan Peele,0,0,0,0,104,255000000.0,7.7,7.2,84,1,1,0,0,0,1,0,0,0
+2017,Director,Lady Bird,Greta Gerwig,0,0,0,0,94,44200000.0,7.8,7.2,94,1,1,0,0,0,0,0,0,1
+2017,Director,Phantom Thread,Paul Thomas Anderson,0,0,0,0,130,18000000.0,8.0,7.5,90,1,1,0,0,0,0,0,0,1
+2017,Director,The Shape of Water,Guillermo del Toro,1,1,0,1,123,67000000.0,7.8,7.1,87,1,1,0,0,0,0,0,0,1
