@@ -578,6 +578,8 @@ vencedor = resultados[maximo]
 print('\n\n')
 print(vencedor)
 print('\n\n')
+vencedor.fit(treino_dados, treino_marcacoes)
+resultado = vencedor.predict(validacao_dados)
 
 total_de_elementos = len(validacao_marcacoes)
 taxa_de_acerto = metrics.accuracy_score(validacao_marcacoes, resultado)
