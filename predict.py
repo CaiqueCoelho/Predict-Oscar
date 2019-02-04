@@ -1,8 +1,9 @@
+from __future__ import division
 import pandas as pd
 import numpy as np
-from __future__ import division
 from collections import Counter
-from sklearn.cross_validation import cross_val_score
+from sklearn.model_selection import cross_validate
+from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import GridSearchCV
 from sklearn import metrics
 from sklearn.utils import class_weight
@@ -28,11 +29,11 @@ def fit_and_predict(nome, modelo, treino_dados, treino_marcacoes):
 
 def gettingDistributionOfDatas():
 	#Contando a distribuicao dos dados para vencedor - 1 e perdedor - 0
-	vencedor = int(list(Y).count(1))
+	vencedor = int(list(Y_labels).count(1))
 	print('Quantidade vencedores: ' +str(vencedor))
-	perdedor = int(list(Y).count(0))
+	perdedor = int(list(Y_labels).count(0))
 	print('Quantidade perdedores: ' +str(perdedor))
-	total = len(Y)
+	total = len(Y_labels)
 	print('Quantidade total: ' +str(total))
 	distribuicao_vencedor = int(vencedor/total * 100)
 	distribuicao_perdedor = int(perdedor/total * 100)
@@ -43,8 +44,11 @@ def gettingDistributionOfDatas():
 	print(class_weight_count)
 
 #get dataset to train/test and to predict
-df = pd.read_csv('Base_Director.csv')
-df_to_predict = pd.read_csv('Dados_Director.csv')
+df = pd.read_csv('datasets/Base_Director.csv')
+df_to_predict = pd.read_csv('datasets/Dados_Director.csv')
+
+df.fillna(0, inplace = True)
+df_to_predict.fillna(0, inplace = True)
 
 #getting the importants attributes from original dataset to our dataset to train and test 
 X_train_test = df[['BAFTA', 'Golden Globe', 'Guild', 'running_time', 'box_office', 'imdb_score', 'rt_audience_score', 'rt_critic_score', 'produced_USA', 'R', 'PG', 'PG13', 'G', 'q1_release', 'q2_release', 'q3_release', 'q4_release']]
@@ -563,8 +567,8 @@ if(resultado > 0.79):
 
 #A eficacia do algoritmo que chuta tudo 0 ou 1 ou um unico valor
 acerto_base = max(Counter(validacao_marcacoes).itervalues()) #Devolve a quantidade do maior elemento
-acerto_de_um = list(Y).count('sim')
-acerto_de_zero = list(Y).count('nao')
+acerto_de_um = list(Y_labels).count('sim')
+acerto_de_zero = list(Y_labels).count('nao')
 taxa_de_acerto_base = 100.0 * acerto_base / len(validacao_marcacoes)
 print("Taxa de acerto base nos dados de validacao: %f" %taxa_de_acerto_base)
 
@@ -575,25 +579,24 @@ print('\n\n')
 print(vencedor)
 print('\n\n')
 
-vencedor.fit(treino_dados, treino_marcacoes)
-resultado = vencedor.predict(validacao_dados)
-print(resultado)
-
-
 total_de_elementos = len(validacao_marcacoes)
 taxa_de_acerto = metrics.accuracy_score(validacao_marcacoes, resultado)
 
 print("Taxa de acerto do algoritmo melhor no mundo real" + " foi de: " 
-	+ str(taxa_de_acerto) + "% " + "de " + str(total_de_elementos) + " elementos")
+	+ str(taxa_de_acerto) + "% " + "de " + str(total_de_elementos) + " elementos\n\n")
 
 
 name_and_films = df_to_predict[['film', 'name']]
 print(name_and_films)
-print('')
+print('\n')
 vencedor.fit(X_train_test, Y_labels)
-print(vencedor.predict(X_to_predict))
+vencedor_result = vencedor.predict(X_to_predict)
+print(name_and_films.iloc[[vencedor_result.index(max(vencedor_result))]])
 
 print('\nWithout accuracy validation:')
 print(candidato0)
+print(name_and_films.iloc[[candidato0.index(max(candidato0))]])
+print("\n")
 print('\nOnly if accuracy > 79%:')
 print(candidato)
+print(name_and_films.iloc[[candidato.index(max(candidato))]])
