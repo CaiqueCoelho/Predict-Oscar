@@ -17,6 +17,11 @@ from sklearn.ensemble import ExtraTreesClassifier
 from sklearn.ensemble import BaggingClassifier
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.preprocessing import Normalizer
+from sklearn.preprocessing import RobustScaler
+from sklearn.preprocessing import PowerTransformer
+from sklearn.feature_selection import SelectKBest, chi2
+from sklearn.decomposition import PCA
 
 def fit_and_predict(nome, modelo, treino_dados, treino_marcacoes):
 	k = 10
@@ -44,8 +49,8 @@ def gettingDistributionOfDatas():
 	print(class_weight_count)
 
 #get dataset to train/test and to predict
-df = pd.read_csv('datasets/Base_Director.csv')
-df_to_predict = pd.read_csv('datasets/Dados_Director.csv')
+df = pd.read_csv('datasets/Base_Picture.csv')
+df_to_predict = pd.read_csv('datasets/Dados_Picture.csv')
 
 df.fillna(0, inplace = True)
 df_to_predict.fillna(0, inplace = True)
@@ -66,6 +71,33 @@ X_to_predict = pd.get_dummies(X_to_predict)
 X_train_test = X_train_test.values
 X_to_predict = X_to_predict.values
 Y_labels = Y_labels.values
+
+#Normalized
+#transformer = Normalizer().fit(X_train_test)
+#X_train_test = transformer.transform(X_train_test)
+#X_to_predict = transformer.transform(X_to_predict)
+
+#Scaling
+#transformer = PowerTransformer().fit(X_train_test)
+#X_train_test = transformer.transform(X_train_test)
+#X_to_predict = transformer.transform(X_to_predict)
+
+#Scaling
+transformer = RobustScaler().fit(X_train_test)
+X_train_test = transformer.transform(X_train_test)
+X_to_predict = transformer.transform(X_to_predict)
+
+#PCA
+#pca_model = PCA(n_components=10, svd_solver='full')
+#X_train_test = pca_model.fit_transform(X_train_test, Y_labels)
+#X_to_predict = pca_model.transform(X_to_predict)
+
+
+#Select best features
+#selecter = SelectKBest(chi2, k=6)
+#X_train_test = selecter.fit_transform(X_train_test, Y_labels)
+#X_to_predict = selecter.transform(X_to_predict)
+
 
 gettingDistributionOfDatas()
 
@@ -92,38 +124,7 @@ candidato = [0] * qtd_candidatos
 candidato0 = [0] * qtd_candidatos
 resultados = {}
 
-#Predict Multinomial Naive Bayes
-modelo = MultinomialNB(alpha= 0.001, fit_prior= True)
-resultado = fit_and_predict("MultinomialNB Grided", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
-
-modelo = MultinomialNB()
-resultado = fit_and_predict("MultinomialNB", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
-
-#Predixt Adaboost
+#Predict Adaboost
 modelo = AdaBoostClassifier(n_estimators= 45, learning_rate= 0.01)
 resultado = fit_and_predict("AdaBoostClassifier Grided", modelo, treino_dados, treino_marcacoes)
 resultados[resultado] = modelo
@@ -593,7 +594,9 @@ print(name_and_films)
 print('\n')
 vencedor.fit(X_train_test, Y_labels)
 vencedor_result = vencedor.predict(X_to_predict)
-print(name_and_films.iloc[[vencedor_result.index(max(vencedor_result))]])
+print('\nBest model predict:')
+print(vencedor_result)
+print(name_and_films.iloc[[vencedor_result.tolist().index(max(vencedor_result))]])
 
 print('\nWithout accuracy validation:')
 print(candidato0)

@@ -1,9 +1,9 @@
 year,category,film,name,BAFTA,Golden Globe,Guild,Oscar,running_time,box_office,imdb_score,rt_audience_score,rt_critic_score,produced_USA,R,PG,PG13,G,q1_release,q2_release,q3_release,q4_release
-2018,Picture,Black Panther,Black Panther,,0,0,,134,700059566,7.4,6.6,88,1,0,0,1,0,1,0,0,0
-2018,Picture,BlacKkKlansman,BlacKkKlansman,,0,0,,135,48636445,7.5,7.5,83,1,1,0,0,0,0,0,1,0
-2018,Picture,Bohemian Rhapsody,Bohemian Rhapsody,,1,0,,134,205821056,8.2,8.1,49,1,0,0,1,0,0,0,0,1
-2018,Picture,The Favourite,The Favourite,,0,0,,119,26109876,7.9,7.5,90,1,1,0,0,0,0,0,0,1
-2018,Picture,Green Book ,Green Book ,,1,0,,130,49078216,8.3,7.8,70,1,0,0,1,0,0,0,0,1
-2018,Picture,Roma,Roma,,1,0,,135,116235682,8,8.1,96,0,1,0,0,0,0,0,0,1
-2018,Picture,A Star is Born,A Star is Born,,0,0,,136,206361489,8,8.5,88,1,1,0,0,0,0,0,0,1
-2018,Picture,Vice,Vice,,0,0,,132,42197631,7.1,6.2,61,1,1,0,0,0,0,0,0,1
+2018,Picture,Black Panther,Black Panther,0,0,0,,134,700059566,7.4,6.6,88,1,0,0,1,0,1,0,0,0
+2018,Picture,BlacKkKlansman,BlacKkKlansman,0,0,0,,135,48636445,7.5,7.5,83,1,1,0,0,0,0,0,1,0
+2018,Picture,Bohemian Rhapsody,Bohemian Rhapsody,0,1,0,,134,205821056,8.2,8.1,49,1,0,0,1,0,0,0,0,1
+2018,Picture,The Favourite,The Favourite,0,0,0,,119,26109876,7.9,7.5,90,1,1,0,0,0,0,0,0,1
+2018,Picture,Green Book ,Green Book ,0,1,0,,130,49078216,8.3,7.8,70,1,0,0,1,0,0,0,0,1
+2018,Picture,Roma,Roma,1,1,0,,135,116235682,8,8.1,96,0,1,0,0,0,0,0,0,1
+2018,Picture,A Star is Born,A Star is Born,0,0,0,,136,206361489,8,8.5,88,1,1,0,0,0,0,0,0,1
+2018,Picture,Vice,Vice,0,0,0,,132,42197631,7.1,6.2,61,1,1,0,0,0,0,0,0,1

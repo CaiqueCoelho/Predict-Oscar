@@ -1,6 +1,6 @@
 year,category,film,name,BAFTA,Golden Globe,Guild,Oscar,running_time,box_office,imdb_score,rt_audience_score,rt_critic_score,produced_USA,R,PG,PG13,G,q1_release,q2_release,q3_release,q4_release
-2018,Supporting Actress,Vice,Amy Adams,,0,0,,132,42197631,7.1,6.2,61,1,1,0,0,0,0,0,0,1
-2018,Supporting Actress,Roma,Marina De Tavira,,0,0,,135,116235682,8,8.1,96,0,1,0,0,0,0,0,0,1
-2018,Supporting Actress,If Beale Street Could Talk,Regina King,,1,0,,119,12692813,7.7,7.4,87,1,1,0,0,0,0,0,0,1
-2018,Supporting Actress,The Favourite,Emma Stone,,0,0,,119,26109876,7.9,7.5,90,1,1,0,0,0,0,0,0,1
-2018,Supporting Actress,The Favourite,Rachel Weisz,,0,0,,119,26109876,7.9,7.5,90,1,1,0,0,0,0,0,0,1
+2018,Supporting Actress,Vice,Amy Adams,0,0,0,,132,42197631,7.1,6.2,61,1,1,0,0,0,0,0,0,1
+2018,Supporting Actress,Roma,Marina De Tavira,0,0,0,,135,116235682,8,8.1,96,0,1,0,0,0,0,0,0,1
+2018,Supporting Actress,If Beale Street Could Talk,Regina King,0,1,0,,119,12692813,7.7,7.4,87,1,1,0,0,0,0,0,0,1
+2018,Supporting Actress,The Favourite,Emma Stone,0,0,0,,119,26109876,7.9,7.5,90,1,1,0,0,0,0,0,0,1
+2018,Supporting Actress,The Favourite,Rachel Weisz,1,0,0,,119,26109876,7.9,7.5,90,1,1,0,0,0,0,0,0,1
