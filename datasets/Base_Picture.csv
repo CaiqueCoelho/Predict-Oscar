@@ -216,3 +216,12 @@ year,category,film,name,BAFTA,Golden Globe,Guild,Oscar,running_time,box_office,i
 2016,Picture,Lion,Lion,0.0,0.0,0.0,0.0,118,76300000.0,8.0,93.0,86.0,0,0,0,1,0,1,0,0,0
 2016,Picture,Manchester by the Sea,Manchester by the Sea,0.0,0.0,0.0,0.0,137,60700000.0,8.1,81.0,96.0,1,1,0,0,0,0,0,0,1
 2016,Picture,Moonlight,Moonlight,0.0,1.0,0.0,1.0,111,23300000.0,7.9,86.0,98.0,1,1,0,0,0,0,0,0,1
+2017,Picture,Call Me by Your Name,Call Me by Your Name,0,0,0,0,132,22000000.0,8.2,7.4,93,0,1,0,0,0,0,0,0,1
+2017,Picture,Darkest Hour,Darkest Hour,0,0,0,0,125,115200000.0,7.4,7.1,75,0,0,0,1,0,0,0,0,1
+2017,Picture,Dunkirk,Dunkirk,0,0,0,0,106,525600000.0,8.1,8.4,94,0,0,0,1,0,0,0,1,0
+2017,Picture,Get Out,Get Out,0,0,0,0,104,255000000.0,7.7,7.2,84,1,1,0,0,0,1,0,0,0
+2017,Picture,Lady Bird,Lady Bird,0,1,0,0,94,44200000.0,7.8,7.2,94,1,1,0,0,0,0,0,0,1
+2017,Picture,Phantom Thread,Phantom Thread,0,0,0,0,130,18000000.0,8.0,7.5,90,1,1,0,0,0,0,0,0,1
+2017,Picture,The Post,The Post,0,0,0,0,116,106500000.0,7.3,7.0,83,1,0,0,1,0,0,0,0,1
+2017,Picture,The Shape of Water,The Shape of Water,0,0,0,1,123,67000000.0,7.8,7.1,87,1,1,0,0,0,0,0,0,1
+2017,Picture,"Three Billboards outside Ebbing, Missouri","Three Billboards outside Ebbing, Missouri",1,1,0,0,115,91100000.0,8.3,7.4,88,0,1,0,0,0,0,0,0,1

@@ -1,0 +1,186 @@
+year,category,film,name,BAFTA,Golden Globe,Guild,Oscar,running_time,box_office,imdb_score,rt_audience_score,rt_critic_score,produced_USA,R,PG,PG13,G,q1_release,q2_release,q3_release,q4_release
+1980,Adapted Screenplay,Ordinary People,Alvin Sargent,0.0,0.0,0.0,1.0,124,54800000.0,7.8,88.0,90.0,1,1,0,0,0,1,0,0,0
+1980,Adapted Screenplay,Breaker Morant,Jonathan Hardy,0.0,0.0,0.0,0.0,107,4735000.0,7.9,91.0,100.0,0,0,1,0,0,0,0,1,0
+1980,Adapted Screenplay,Coal Miner's Daughter,Tom Rickman,0.0,0.0,0.0,0.0,125,67182787.0,7.5,86.0,100.0,1,0,1,0,0,1,0,0,0
+1980,Adapted Screenplay,The Elephant Man,Christopher De Vore,0.0,0.0,0.0,0.0,124,26000000.0,8.2,93.0,90.0,1,0,1,0,0,0,0,0,1
+1980,Adapted Screenplay,The Stunt Man,Lawrence B. Marcus,0.0,0.0,0.0,0.0,131,7068886.0,7.2,75.0,89.0,1,1,0,0,0,0,1,0,0
+1981,Adapted Screenplay,On Golden Pond,Ernest Thompson,0.0,1.0,0.0,1.0,109,119300000.0,7.7,87.0,92.0,1,0,1,0,0,1,0,0,0
+1981,Adapted Screenplay,The French Lieutenant's Woman,Harold Pinter,0.0,0.0,0.0,0.0,127,26890068.0,7.0,68.0,76.0,0,1,0,0,0,0,0,0,1
+1981,Adapted Screenplay,Prince of the City,Jay Presson Allen,0.0,0.0,0.0,0.0,167,8124257.0,7.7,83.0,95.0,1,1,0,0,0,0,0,1,0
+1981,Adapted Screenplay,Ragtime,Michael Weller,0.0,0.0,0.0,0.0,155,11099118.0,7.3,77.0,90.0,1,0,1,0,0,0,0,0,1
+1982,Adapted Screenplay,Missing,Costa-Gavras,0.0,0.0,0.0,1.0,122,1416000000.0,7.8,85.0,97.0,1,0,1,0,0,1,0,0,0
+1982,Adapted Screenplay,Das Boot,Wolfgang Petersen,0.0,0.0,0.0,0.0,149,84900000.0,8.4,96.0,98.0,0,1,0,0,0,1,0,0,0
+1982,Adapted Screenplay,Sophie's Choice,Alan J. Pakula,0.0,0.0,0.0,0.0,151,30036000.0,7.7,85.0,79.0,1,1,0,0,0,1,0,0,0
+1982,Adapted Screenplay,The Verdict,David Mamet,0.0,0.0,0.0,0.0,129,53977250.0,7.8,88.0,96.0,1,1,0,0,0,0,0,0,1
+1982,Adapted Screenplay,Victor/Victoria,Blake Edwards,0.0,0.0,0.0,0.0,132,28215453.0,7.6,86.0,96.0,0,0,1,0,0,1,0,0,0
+1983,Adapted Screenplay,Terms of Endearment,James L. Brooks,0.0,1.0,0.0,1.0,132,108400000.0,7.4,84.0,88.0,1,0,1,0,0,0,0,0,1
+1983,Adapted Screenplay,The Dresser,Ronald Harwood,0.0,0.0,0.0,0.0,118,5310748.0,7.7,88.0,100.0,0,0,1,0,0,0,0,0,1
+1983,Adapted Screenplay,Educating Rita,Willy Russell,0.0,0.0,0.0,0.0,110,14600000.0,7.2,81.0,85.0,0,0,1,0,0,0,0,0,1
+1984,Adapted Screenplay,Amadeus,Peter Shaffer,0.0,1.0,0.0,1.0,161,52000000.0,8.3,95.0,95.0,1,1,0,0,0,0,0,1,0
+1984,Adapted Screenplay,"Greystoke: The Legend of Tarzan, Lord of the Apes",P.H. Vazak,0.0,0.0,0.0,0.0,130,45900000.0,6.3,61.0,69.0,0,0,1,0,0,1,0,0,0
+1984,Adapted Screenplay,The Killing Fields,Bruce Robinson,1.0,0.0,0.0,0.0,141,34700291.0,7.9,92.0,93.0,0,1,0,0,0,1,0,0,0
+1984,Adapted Screenplay,A Passage to India,David Lean,0.0,0.0,0.0,0.0,163,27200000.0,7.4,78.0,85.0,0,0,1,0,0,1,0,0,0
+1984,Adapted Screenplay,A Soldier's Story,Charles Fuller,0.0,0.0,0.0,0.0,101,21821347.0,7.2,82.0,89.0,1,0,1,0,0,0,0,0,1
+1985,Adapted Screenplay,Out of Africa,Kurt Luedtke,0.0,0.0,0.0,1.0,161,128500000.0,7.2,83.0,56.0,1,0,1,0,0,0,0,0,1
+1985,Adapted Screenplay,The Color Purple,Menno Meyjes,0.0,0.0,0.0,0.0,153,142000000.0,7.8,94.0,88.0,1,0,0,1,0,1,0,0,0
+1985,Adapted Screenplay,Kiss of the Spider Woman,Leonard Schrader,0.0,0.0,0.0,0.0,121,17005229.0,7.4,81.0,88.0,0,1,0,0,0,0,0,1,0
+1985,Adapted Screenplay,Prizzi's Honor,Richard Condon,1.0,0.0,0.0,0.0,130,26657534.0,6.8,62.0,88.0,1,1,0,0,0,0,1,0,0
+1985,Adapted Screenplay,The Trip to Bountiful,Horton Foote,0.0,0.0,0.0,0.0,108,7491903.0,7.6,86.0,100.0,1,0,1,0,0,1,0,0,0
+1986,Adapted Screenplay,A Room with a View,Ruth Prawer Jhabvala,0.0,0.0,0.0,1.0,117,21000000.0,7.4,86.0,100.0,0,0,0,1,0,0,1,0,0
+1986,Adapted Screenplay,Children of a Lesser God,Hesper Anderson,0.0,0.0,0.0,0.0,119,31853080.0,7.2,78.0,81.0,1,1,0,0,0,0,0,0,1
+1986,Adapted Screenplay,The Color of Money,Richard Price,0.0,0.0,0.0,0.0,120,52300000.0,7.0,73.0,89.0,1,1,0,0,0,0,0,0,1
+1986,Adapted Screenplay,Crimes of the Heart,Beth Henley,0.0,0.0,0.0,0.0,105,22905522.0,6.4,66.0,81.0,1,0,0,1,0,1,0,0,0
+1986,Adapted Screenplay,Stand by Me,Raynold Gideon,0.0,0.0,0.0,0.0,88,52300000.0,8.1,94.0,91.0,1,1,0,0,0,0,0,1,0
+1987,Adapted Screenplay,The Last Emperor,Bernardo Bertolucci,0.0,1.0,0.0,1.0,163,44000000.0,7.8,88.0,92.0,0,0,0,1,0,0,1,0,0
+1987,Adapted Screenplay,The Dead,Tony Huston,0.0,0.0,0.0,0.0,83,4370078.0,7.4,84.0,82.0,0,0,1,0,0,0,0,0,1
+1987,Adapted Screenplay,Fatal Attraction,James Dearden,0.0,0.0,0.0,0.0,119,320100000.0,6.9,72.0,78.0,1,1,0,0,0,0,0,1,0
+1987,Adapted Screenplay,Full Metal Jacket,Gustav Hasford,0.0,0.0,0.0,0.0,116,46400000.0,8.3,94.0,95.0,0,1,0,0,0,0,0,1,0
+1988,Adapted Screenplay,Dangerous Liaisons,Christopher Hampton,0.0,0.0,0.0,1.0,119,34700000.0,7.7,83.0,93.0,1,1,0,0,0,1,0,0,0
+1988,Adapted Screenplay,The Accidental Tourist,Frank Galati,0.0,0.0,0.0,0.0,121,32632093.0,6.8,60.0,79.0,1,0,1,0,0,1,0,0,0
+1988,Adapted Screenplay,Gorillas in the Mist: The Story of Dian Fossey,Anna Hamilton Phelan,0.0,0.0,0.0,0.0,129,61100000.0,7.0,74.0,82.0,1,0,0,1,0,0,0,0,1
+1988,Adapted Screenplay,Little Dorrit,Christine Edzard,0.0,0.0,0.0,0.0,360,1025228.0,7.6,67.0,71.0,0,0,0,0,1,0,0,0,1
+1988,Adapted Screenplay,The Unbearable Lightness of Being,Jean-Claude Carrire,1.0,0.0,0.0,0.0,171,10006806.0,7.4,85.0,95.0,1,1,0,0,0,1,0,0,0
+1989,Adapted Screenplay,Driving Miss Daisy,Alfred Uhry,0.0,0.0,0.0,1.0,100,145800000.0,7.4,81.0,82.0,1,0,1,0,0,1,0,0,0
+1989,Adapted Screenplay,Born on the Fourth of July,Ron Kovic,0.0,0.0,0.0,0.0,145,161000000.0,7.2,76.0,90.0,1,1,0,0,0,1,0,0,0
+1989,Adapted Screenplay,"Enemies, A Love Story",Paul Mazursky,0.0,0.0,0.0,0.0,119,7754571.0,6.8,53.0,91.0,0,1,0,0,0,0,0,0,1
+1989,Adapted Screenplay,Field of Dreams,Phil Alden Robinson,0.0,0.0,0.0,0.0,107,84400000.0,7.5,86.0,86.0,1,0,1,0,0,0,1,0,0
+1989,Adapted Screenplay,My Left Foot,Shane Connaughton,0.0,0.0,0.0,0.0,103,14700000.0,7.9,92.0,97.0,0,1,0,0,0,1,0,0,0
+1990,Adapted Screenplay,Dances with Wolves,Michael Blake,0.0,1.0,0.0,1.0,181,424200000.0,8.0,87.0,82.0,1,0,0,1,0,0,0,0,1
+1990,Adapted Screenplay,Awakenings,Steven Zaillian,0.0,0.0,0.0,0.0,121,52100000.0,7.8,89.0,88.0,1,0,0,1,0,1,0,0,0
+1990,Adapted Screenplay,Goodfellas,Nicholas Pileggi,1.0,0.0,0.0,0.0,145,46800000.0,8.7,97.0,97.0,1,1,0,0,0,0,0,1,0
+1990,Adapted Screenplay,The Grifters,Donald E. Westlake,0.0,0.0,0.0,0.0,110,13446769.0,7.0,70.0,90.0,1,1,0,0,0,1,0,0,0
+1990,Adapted Screenplay,Reversal of Fortune,Nicholas Kazan,0.0,0.0,0.0,0.0,111,15400000.0,7.3,77.0,94.0,1,1,0,0,0,0,0,0,1
+1991,Adapted Screenplay,The Silence of the Lambs,Ted Tally,0.0,0.0,0.0,1.0,118,272700000.0,8.6,95.0,95.0,1,1,0,0,0,1,0,0,0
+1991,Adapted Screenplay,Europa Europa,Agnieszka Holland,0.0,0.0,0.0,0.0,112,5575738.0,7.7,91.0,100.0,0,1,0,0,0,0,0,0,1
+1991,Adapted Screenplay,Fried Green Tomatoes,Fannie Flagg,0.0,0.0,0.0,0.0,136,119400000.0,7.7,91.0,73.0,1,0,0,1,0,1,0,0,0
+1991,Adapted Screenplay,JFK,Oliver Stone,0.0,0.0,0.0,0.0,188,205400000.0,8.0,88.0,84.0,1,1,0,0,0,0,0,0,1
+1991,Adapted Screenplay,The Prince of Tides,Pat Conroy,0.0,0.0,0.0,0.0,132,110000000.0,6.7,70.0,73.0,1,1,0,0,0,0,0,0,1
+1992,Adapted Screenplay,Howards End,Ruth Prawer Jhabvala,0.0,0.0,0.0,1.0,140,26100000.0,7.5,82.0,92.0,0,0,1,0,0,1,0,0,0
+1992,Adapted Screenplay,Enchanted April,Peter Barnes,0.0,0.0,0.0,0.0,95,13200170.0,7.4,83.0,82.0,0,0,1,0,0,0,1,0,0
+1992,Adapted Screenplay,The Player,Michael Tolkin,1.0,0.0,0.0,0.0,124,21706100.0,7.6,85.0,98.0,1,1,0,0,0,0,1,0,0
+1992,Adapted Screenplay,A River Runs Through It,Richard Friedenberg,0.0,0.0,0.0,0.0,123,43440294.0,7.3,83.0,83.0,1,0,1,0,0,0,0,0,1
+1992,Adapted Screenplay,Scent of a Woman,Bo Goldman,0.0,1.0,0.0,0.0,156,134100000.0,8.0,92.0,88.0,1,1,0,0,0,1,0,0,0
+1993,Adapted Screenplay,Schindler's List,Steven Zaillian,1.0,1.0,0.0,1.0,197,321200000.0,8.9,97.0,96.0,1,1,0,0,0,1,0,0,0
+1993,Adapted Screenplay,The Age of Innocence,Jay Cocks,0.0,0.0,0.0,0.0,139,32300000.0,7.2,76.0,80.0,1,0,1,0,0,0,0,0,1
+1993,Adapted Screenplay,In the Name of the Father,Terry George,0.0,0.0,0.0,0.0,133,65800000.0,8.1,95.0,94.0,0,1,0,0,0,1,0,0,0
+1993,Adapted Screenplay,The Remains of the Day,Ruth Prawer Jhabvala,0.0,0.0,0.0,0.0,134,63900000.0,7.9,89.0,97.0,0,0,1,0,0,0,0,0,1
+1993,Adapted Screenplay,Shadowlands,William Nicholson,0.0,0.0,0.0,0.0,131,25842377.0,7.4,89.0,96.0,0,0,1,0,0,1,0,0,0
+1994,Adapted Screenplay,Forrest Gump,Eric Roth,0.0,0.0,0.0,1.0,142,677900000.0,8.8,95.0,72.0,1,0,0,1,0,0,0,1,0
+1994,Adapted Screenplay,The Madness of King George,Alan Bennett,0.0,0.0,0.0,0.0,110,15200000.0,7.2,80.0,93.0,0,0,0,1,0,0,0,0,1
+1994,Adapted Screenplay,Nobody's Fool,Robert Benton,0.0,0.0,0.0,0.0,110,39491975.0,7.4,81.0,91.0,1,1,0,0,0,1,0,0,0
+1994,Adapted Screenplay,Quiz Show,Paul Attanasio,1.0,0.0,0.0,0.0,133,24800000.0,7.5,87.0,96.0,1,0,0,1,0,0,0,0,1
+1994,Adapted Screenplay,The Shawshank Redemption,Frank Darabont,0.0,0.0,0.0,0.0,142,58000000.0,9.3,98.0,91.0,1,1,0,0,0,0,0,0,1
+1995,Adapted Screenplay,Sense and Sensibility,Emma Thompson,0.0,1.0,0.0,1.0,136,134993774.0,7.7,90.0,98.0,0,0,1,0,0,1,0,0,0
+1995,Adapted Screenplay,Apollo 13,William Broyles Jr.,0.0,0.0,0.0,0.0,140,355200000.0,7.6,87.0,95.0,1,0,1,0,0,0,1,0,0
+1995,Adapted Screenplay,Babe,George Miller,0.0,0.0,0.0,0.0,92,254100000.0,6.8,67.0,97.0,0,0,0,0,1,0,0,1,0
+1995,Adapted Screenplay,Leaving Las Vegas,Mike Figgis,0.0,0.0,0.0,0.0,112,32029928.0,7.6,85.0,90.0,1,1,0,0,0,1,0,0,0
+1995,Adapted Screenplay,Il Postino,Anna Pavignano,0.0,0.0,0.0,0.0,108,21848932.0,7.8,94.0,93.0,0,0,1,0,0,1,0,0,0
+1996,Adapted Screenplay,Sling Blade,Billy Bob Thornton,0.0,0.0,0.0,1.0,135,24400000.0,8.0,93.0,96.0,1,1,0,0,0,1,0,0,0
+1996,Adapted Screenplay,The Crucible,Arthur Miller,0.0,0.0,0.0,0.0,123,7343114.0,6.8,66.0,67.0,1,0,0,1,0,0,0,0,1
+1996,Adapted Screenplay,The English Patient,Anthony Minghella,1.0,0.0,0.0,0.0,162,232000000.0,7.4,83.0,84.0,0,1,0,0,0,0,0,0,1
+1996,Adapted Screenplay,Trainspotting,John Hodge,0.0,0.0,0.0,0.0,93,72000000.0,8.2,93.0,90.0,0,1,0,0,0,0,0,1,0
+1997,Adapted Screenplay,L.A. Confidential,Curtis Hanson,0.0,0.0,0.0,1.0,138,126200000.0,7.3,94.0,99.0,1,1,0,0,0,0,0,1,0
+1997,Adapted Screenplay,Donnie Brasco,Paul Attanasio,0.0,0.0,0.0,0.0,126,124900000.0,7.8,89.0,87.0,1,1,0,0,0,1,0,0,0
+1997,Adapted Screenplay,The Sweet Hereafter,Atom Egoyan,0.0,0.0,0.0,0.0,112,3300000.0,7.7,86.0,100.0,0,1,0,0,0,0,0,0,1
+1997,Adapted Screenplay,Wag the Dog,Hilary Henkin,0.0,0.0,0.0,0.0,97,64256513.0,7.1,76.0,85.0,1,1,0,0,0,1,0,0,0
+1997,Adapted Screenplay,The Wings of the Dove,Hossein Amini,0.0,0.0,0.0,0.0,102,13700000.0,7.2,78.0,86.0,0,1,0,0,0,1,0,0,0
+1998,Adapted Screenplay,Gods and Monsters,Bill Condon,0.0,0.0,0.0,1.0,105,6500000.0,7.5,83.0,95.0,0,1,0,0,0,0,0,0,1
+1998,Adapted Screenplay,Out of Sight,Scott Frank,0.0,0.0,0.0,0.0,122,77700000.0,7.0,74.0,93.0,1,1,0,0,0,0,1,0,0
+1998,Adapted Screenplay,Primary Colors,Elaine May,1.0,0.0,0.0,0.0,143,52100000.0,6.7,64.0,80.0,1,1,0,0,0,1,0,0,0
+1998,Adapted Screenplay,A Simple Plan,Scott Smith,0.0,0.0,0.0,0.0,121,16300000.0,7.5,81.0,90.0,1,1,0,0,0,1,0,0,0
+1998,Adapted Screenplay,The Thin Red Line,Terrence Malick,0.0,0.0,0.0,0.0,170,98100000.0,7.6,80.0,78.0,1,1,0,0,0,1,0,0,0
+1999,Adapted Screenplay,The Cider House Rules,John Irving,0.0,0.0,0.0,1.0,125,88500000.0,7.4,77.0,71.0,1,0,0,1,0,1,0,0,0
+1999,Adapted Screenplay,Election,Alexander Payne,0.0,0.0,0.0,0.0,102,14900000.0,7.3,79.0,92.0,1,1,0,0,0,0,1,0,0
+1999,Adapted Screenplay,The Green Mile,Frank Darabont,0.0,0.0,0.0,0.0,189,290700000.0,8.5,94.0,80.0,1,1,0,0,0,0,0,0,1
+1999,Adapted Screenplay,The Insider,Michael Mann,0.0,0.0,0.0,0.0,157,60200000.0,7.9,90.0,96.0,1,1,0,0,0,0,0,0,1
+1999,Adapted Screenplay,The Talented Mr. Ripley,Anthony Minghella,0.0,0.0,0.0,0.0,138,128800000.0,7.3,80.0,83.0,1,1,0,0,0,0,0,0,1
+2000,Adapted Screenplay,Traffic,Stephen Gaghan,1.0,1.0,0.0,1.0,147,207500000.0,7.6,85.0,92.0,1,1,0,0,0,1,0,0,0
+2000,Adapted Screenplay,Chocolat,Robert Nelson Jacobs,0.0,0.0,0.0,0.0,121,152699946.0,7.3,83.0,63.0,1,0,0,1,0,1,0,0,0
+2000,Adapted Screenplay,"Crouching Tiger, Hidden Dragon",Hui-Ling Wang,0.0,0.0,0.0,0.0,120,213500000.0,7.9,86.0,97.0,0,0,0,1,0,1,0,0,0
+2000,Adapted Screenplay,"O Brother, Where Art Thou?",Joel Coen Ethan Coen,0.0,0.0,0.0,0.0,107,71900000.0,7.8,89.0,77.0,0,0,0,1,0,1,0,0,0
+2000,Adapted Screenplay,Wonder Boys,Steve Kloves,0.0,0.0,0.0,0.0,111,33400000.0,7.4,83.0,81.0,1,1,0,0,0,1,0,0,0
+2001,Adapted Screenplay,A Beautiful Mind,Akiva Goldsman,0.0,1.0,0.0,1.0,135,313000000.0,8.2,93.0,75.0,1,0,0,1,0,1,0,0,0
+2001,Adapted Screenplay,Ghost World,Daniel Clowes,0.0,0.0,0.0,0.0,112,8700000.0,7.4,84.0,92.0,1,1,0,0,0,0,0,1,0
+2001,Adapted Screenplay,In the Bedroom,Todd Field,0.0,0.0,0.0,0.0,131,43400000.0,7.5,81.0,93.0,1,1,0,0,0,1,0,0,0
+2001,Adapted Screenplay,The Lord of the Rings: The Fellowship of the Ring,Fran Walsh,0.0,0.0,0.0,0.0,178,871500000.0,8.8,95.0,91.0,0,0,0,1,0,0,0,0,1
+2001,Adapted Screenplay,Shrek,Ted Elliott,1.0,0.0,0.0,0.0,90,484400000.0,7.9,90.0,88.0,1,0,1,0,0,0,1,0,0
+2002,Adapted Screenplay,The Pianist,Ronald Harwood,0.0,0.0,0.0,1.0,150,120100000.0,8.5,95.0,96.0,0,1,0,0,0,1,0,0,0
+2002,Adapted Screenplay,About a Boy,Peter Hedges,0.0,0.0,0.0,0.0,101,130549455.0,7.1,54.0,94.0,1,0,0,1,0,0,1,0,0
+2002,Adapted Screenplay,Adaptation,Charlie Kaufman,0.0,0.0,0.0,0.0,114,32800000.0,7.7,85.0,91.0,1,1,0,0,0,1,0,0,0
+2002,Adapted Screenplay,Chicago,Bill Condon,0.0,0.0,0.0,0.0,113,306800000.0,7.2,83.0,86.0,1,0,0,1,0,1,0,0,0
+2002,Adapted Screenplay,The Hours,David Hare,0.0,0.0,0.0,0.0,114,108800000.0,7.6,84.0,81.0,0,0,0,1,0,1,0,0,0
+2003,Adapted Screenplay,The Lord of the Rings: The Return of the King,Fran Walsh,0.0,0.0,0.0,1.0,200,11200000.0,8.9,86.0,95.0,0,0,0,1,0,0,0,0,1
+2003,Adapted Screenplay,American Splendor,Shari Springer Berman Robert Pulcini,0.0,0.0,0.0,0.0,101,7986084.0,7.5,86.0,94.0,1,1,0,0,0,0,0,1,0
+2003,Adapted Screenplay,City of God,Brulio Mantovani,0.0,0.0,0.0,0.0,130,30600000.0,8.7,97.0,90.0,0,1,0,0,0,1,0,0,0
+2003,Adapted Screenplay,Mystic River,Brian Helgeland,0.0,0.0,0.0,0.0,137,156800000.0,8.0,89.0,87.0,1,1,0,0,0,0,0,0,1
+2003,Adapted Screenplay,Seabiscuit,Gary Ross,0.0,0.0,0.0,0.0,141,148300000.0,7.3,76.0,77.0,1,0,0,1,0,0,0,1,0
+2004,Adapted Screenplay,Sideways,Alexander Payne,1.0,1.0,0.0,1.0,123,109700000.0,7.5,78.0,96.0,1,1,0,0,0,1,0,0,0
+2004,Adapted Screenplay,Before Sunset,Richard Linklater,0.0,0.0,0.0,0.0,80,16000000.0,8.0,91.0,95.0,1,1,0,0,0,0,0,1,0
+2004,Adapted Screenplay,Finding Neverland,David Magee,0.0,0.0,0.0,0.0,101,116800000.0,7.7,87.0,83.0,0,0,1,0,0,0,0,0,1
+2004,Adapted Screenplay,Million Dollar Baby,Paul Haggis,0.0,0.0,0.0,0.0,132,216800000.0,8.1,90.0,91.0,1,0,0,1,0,1,0,0,0
+2004,Adapted Screenplay,The Motorcycle Diaries,Jos Rivera,0.0,0.0,0.0,0.0,126,57700000.0,7.8,92.0,84.0,0,1,0,0,0,0,0,0,1
+2005,Adapted Screenplay,Brokeback Mountain,Larry McMurtry,1.0,1.0,0.0,1.0,134,178100000.0,7.7,82.0,87.0,1,1,0,0,0,1,0,0,0
+2005,Adapted Screenplay,Capote,Dan Futterman,0.0,0.0,0.0,0.0,114,49200000.0,7.4,81.0,90.0,1,1,0,0,0,1,0,0,0
+2005,Adapted Screenplay,The Constant Gardener,Jeffrey Caine,0.0,0.0,0.0,0.0,129,82466670.0,7.5,82.0,84.0,0,1,0,0,0,0,0,1,0
+2005,Adapted Screenplay,A History of Violence,Josh Olson,0.0,0.0,0.0,0.0,96,60700000.0,7.5,76.0,87.0,1,1,0,0,0,0,0,1,0
+2005,Adapted Screenplay,Munich,Tony Kushner,0.0,0.0,0.0,0.0,163,130400000.0,7.6,83.0,78.0,1,1,0,0,0,1,0,0,0
+2006,Adapted Screenplay,The Departed,William Monahan,0.0,0.0,0.0,1.0,151,289800000.0,8.5,94.0,91.0,1,1,0,0,0,0,0,0,1
+2006,Adapted Screenplay,Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan,Sacha Baron Cohen,0.0,0.0,0.0,0.0,84,261600000.0,7.3,79.0,91.0,0,1,0,0,0,0,0,0,1
+2006,Adapted Screenplay,Children of Men,Alfonso Cuarn,0.0,0.0,0.0,0.0,109,70000000.0,7.9,85.0,92.0,0,1,0,0,0,1,0,0,0
+2006,Adapted Screenplay,Little Children,Todd Field,0.0,0.0,0.0,0.0,137,14800000.0,7.6,82.0,80.0,1,1,0,0,0,1,0,0,0
+2006,Adapted Screenplay,Notes on a Scandal,Patrick Marber,0.0,0.0,0.0,0.0,91,49800000.0,7.4,83.0,87.0,0,1,0,0,0,1,0,0,0
+2007,Adapted Screenplay,No Country for Old Men,Joel Coen Ethan Coen,0.0,0.0,0.0,1.0,122,171600000.0,8.1,86.0,93.0,1,1,0,0,0,0,0,0,1
+2007,Adapted Screenplay,Atonement,Christopher Hampton,0.0,0.0,0.0,0.0,123,129300000.0,7.8,80.0,83.0,0,1,0,0,0,1,0,0,0
+2007,Adapted Screenplay,Away from Her,Sarah Polley,0.0,0.0,0.0,0.0,110,9194283.0,7.6,81.0,94.0,0,0,0,1,0,0,1,0,0
+2007,Adapted Screenplay,The Diving Bell and the Butterfly,Ronald Harwood,1.0,0.0,0.0,0.0,112,19800000.0,8.0,92.0,94.0,0,0,0,1,0,1,0,0,0
+2007,Adapted Screenplay,There Will Be Blood,Paul Thomas Anderson,0.0,0.0,0.0,0.0,158,76200000.0,8.1,86.0,91.0,1,1,0,0,0,1,0,0,0
+2008,Adapted Screenplay,Slumdog Millionaire,Simon Beaufoy,1.0,1.0,0.0,1.0,120,377900000.0,8.0,90.0,92.0,0,1,0,0,0,0,0,0,1
+2008,Adapted Screenplay,The Curious Case of Benjamin Button,Eric Roth,0.0,0.0,0.0,0.0,166,333900000.0,7.8,80.0,72.0,1,0,0,1,0,0,0,0,1
+2008,Adapted Screenplay,Doubt,John Patrick Shanley,0.0,0.0,0.0,0.0,104,50900000.0,7.5,78.0,78.0,1,0,0,1,0,0,0,0,1
+2008,Adapted Screenplay,Frost/Nixon,Peter Morgan,0.0,0.0,0.0,0.0,122,27400000.0,7.7,88.0,92.0,1,1,0,0,0,1,0,0,0
+2008,Adapted Screenplay,The Reader,David Hare,0.0,0.0,0.0,0.0,124,108900000.0,7.6,79.0,61.0,0,1,0,0,0,1,0,0,0
+2009,Adapted Screenplay,"Precious: Based on the Novel ""Push"" by Sapphire",Geoffrey Fletcher,0.0,0.0,0.0,1.0,110,63600000.0,7.3,81.0,91.0,1,1,0,0,0,0,0,0,1
+2009,Adapted Screenplay,District 9,Neill Blomkamp,0.0,0.0,0.0,0.0,112,210800000.0,8.0,82.0,90.0,0,1,0,0,0,0,0,1,0
+2009,Adapted Screenplay,An Education,Nick Hornby,0.0,0.0,0.0,0.0,95,26100000.0,7.3,80.0,94.0,0,0,0,1,0,1,0,0,0
+2009,Adapted Screenplay,In the Loop,Jesse Armstrong,0.0,0.0,0.0,0.0,105,4870963.0,7.5,81.0,94.0,0,1,0,0,0,0,0,1,0
+2009,Adapted Screenplay,Up in the Air,Jason Reitman,1.0,1.0,0.0,0.0,109,166800000.0,7.4,79.0,91.0,1,1,0,0,0,0,0,0,1
+2010,Adapted Screenplay,The Social Network,Aaron Sorkin,1.0,1.0,0.0,1.0,120,224900000.0,7.7,86.0,96.0,1,0,0,1,0,0,0,0,1
+2010,Adapted Screenplay,127 Hours,Danny Boyle,0.0,0.0,0.0,0.0,93,60700000.0,7.6,85.0,93.0,0,1,0,0,0,1,0,0,0
+2010,Adapted Screenplay,Toy Story 3,Michael Arndt,0.0,0.0,0.0,0.0,103,10670000.0,8.3,89.0,99.0,1,0,0,0,1,0,1,0,0
+2010,Adapted Screenplay,True Grit,Joel Coen Ethan Coen,0.0,0.0,0.0,0.0,128,43700000.0,7.4,83.0,90.0,1,0,0,1,0,0,1,0,0
+2010,Adapted Screenplay,Winter's Bone,Debra Granik,0.0,0.0,0.0,0.0,100,16100000.0,7.2,76.0,94.0,1,1,0,0,0,0,0,1,0
+2011,Adapted Screenplay,The Descendants,Alexander Payne,0.0,0.0,0.0,1.0,115,177200000.0,7.3,79.0,89.0,1,1,0,0,0,0,0,0,1
+2011,Adapted Screenplay,Hugo,John Logan,0.0,0.0,0.0,0.0,126,185800000.0,7.5,78.0,94.0,0,0,1,0,0,0,0,0,1
+2011,Adapted Screenplay,The Ides of March,George Clooney,0.0,0.0,0.0,0.0,101,76000000.0,7.1,73.0,84.0,1,1,0,0,0,0,0,0,1
+2011,Adapted Screenplay,Moneyball,Steven Zaillian,0.0,0.0,0.0,0.0,133,110200000.0,7.6,86.0,94.0,1,0,0,1,0,0,0,1,0
+2011,Adapted Screenplay,Tinker Tailor Soldier Spy,Bridget O'Connor,1.0,0.0,0.0,0.0,127,80600000.0,7.1,65.0,83.0,0,1,0,0,0,1,0,0,0
+2012,Adapted Screenplay,Argo,Chris Terrio,0.0,0.0,0.0,1.0,120,232300000.0,7.7,90.0,96.0,1,1,0,0,0,0,0,0,1
+2012,Adapted Screenplay,Beasts of the Southern Wild,Lucy Alibar,0.0,0.0,0.0,0.0,93,21900000.0,7.3,76.0,86.0,1,0,0,1,0,0,0,1,0
+2012,Adapted Screenplay,Life of Pi,David Magee,0.0,0.0,0.0,0.0,127,609000000.0,7.9,84.0,87.0,1,0,1,0,0,0,0,0,1
+2012,Adapted Screenplay,Lincoln,Tony Kushner,0.0,0.0,0.0,0.0,150,275300000.0,7.4,80.0,90.0,1,0,0,1,0,0,0,0,1
+2012,Adapted Screenplay,Silver Linings Playbook,David O. Russell,1.0,0.0,0.0,0.0,122,236400000.0,7.8,86.0,92.0,1,1,0,0,0,0,0,0,1
+2013,Adapted Screenplay,12 Years a Slave,John Ridley,0.0,0.0,0.0,1.0,134,187700000.0,8.1,90.0,96.0,1,1,0,0,0,0,0,0,1
+2013,Adapted Screenplay,Before Midnight,Richard Linklater,0.0,0.0,0.0,0.0,109,23400000.0,7.9,82.0,98.0,1,1,0,0,0,0,1,0,0
+2013,Adapted Screenplay,Captain Phillips,Billy Ray,0.0,0.0,0.0,0.0,134,218800000.0,7.8,89.0,93.0,1,0,0,1,0,0,0,0,1
+2013,Adapted Screenplay,Philomena,Steve Coogan,1.0,0.0,0.0,0.0,98,100100000.0,7.6,89.0,92.0,0,0,0,1,0,0,0,0,1
+2013,Adapted Screenplay,The Wolf of Wall Street,Terence Winter,0.0,0.0,0.0,0.0,179,392000000.0,8.2,82.0,77.0,1,1,0,0,0,0,0,0,1
+2014,Adapted Screenplay,The Imitation Game,Graham Moore,0.0,0.0,0.0,1.0,114,233600000.0,8.1,91.0,90.0,1,0,0,1,0,0,0,0,1
+2014,Adapted Screenplay,American Sniper,Jason Hall,0.0,0.0,0.0,0.0,132,547400000.0,7.3,84.0,72.0,1,1,0,0,0,1,0,0,0
+2014,Adapted Screenplay,Inherent Vice,Paul Thomas Anderson,0.0,0.0,0.0,0.0,149,14700000.0,6.7,52.0,74.0,1,1,0,0,0,1,0,0,0
+2014,Adapted Screenplay,The Theory of Everything,Anthony McCarten,1.0,0.0,0.0,0.0,123,123700000.0,7.7,84.0,79.0,0,0,0,1,0,0,0,0,1
+2014,Adapted Screenplay,Whiplash,Damien Chazelle,0.0,0.0,0.0,0.0,106,49000000.0,8.5,94.0,94.0,1,1,0,0,0,0,0,0,1
+2015,Adapted Screenplay,The Big Short,Adam McKay,1.0,0.0,0.0,1.0,130,133300000.0,7.8,88.0,88.0,1,1,0,0,0,0,0,0,1
+2015,Adapted Screenplay,Brooklyn,Nick Hornby,0.0,0.0,0.0,0.0,112,62100000.0,7.5,87.0,97.0,0,0,0,1,0,0,0,0,1
+2015,Adapted Screenplay,Carol,Phyllis Nagy,0.0,0.0,0.0,0.0,118,40300000.0,7.2,73.0,94.0,0,1,0,0,0,1,0,0,0
+2015,Adapted Screenplay,The Martian,Drew Goddard,0.0,0.0,0.0,0.0,141,630200000.0,8.0,91.0,92.0,1,0,0,1,0,0,0,0,1
+2015,Adapted Screenplay,Room,Emma Donoghue,0.0,0.0,0.0,0.0,118,36200000.0,8.2,93.0,94.0,0,1,0,0,0,1,0,0,0
+2016,Adapted Screenplay,Arrival,Eric Heisserer,0.0,0.0,0.0,0.0,116,195300000.0,8.1,82.0,94.0,1,0,0,1,0,0,0,0,1
+2016,Adapted Screenplay,Fences,August Wilson,0.0,0.0,0.0,0.0,139,55600000.0,7.4,79.0,93.0,1,0,0,1,0,0,0,0,1
+2016,Adapted Screenplay,Hidden Figures,Theodore Melfi,0.0,0.0,0.0,0.0,127,169100000.0,7.9,94.0,92.0,1,0,1,0,0,1,0,0,0
+2016,Adapted Screenplay,Lion,Luke Davies,1.0,0.0,0.0,0.0,118,76300000.0,8.0,93.0,86.0,0,0,0,1,0,1,0,0,0
+2016,Adapted Screenplay,Moonlight,Barry Jenkins,0.0,0.0,0.0,1.0,111,23300000.0,7.9,86.0,98.0,1,1,0,0,0,0,0,0,1
+2017,Adapted Screenplay,Call Me by Your Name,Screenplay by James Ivory,1,0,0,1,132,22000000.0,8.2,7.4,93,0,1,0,0,0,0,0,0,1
+2017,Adapted Screenplay,The Disaster Artist,Screenplay by Scott Neustadter & Michael H. Weber,0,0,0,0,104,27600000.0,7.8,7.7,76,1,1,0,0,0,0,0,0,1
+2017,Adapted Screenplay,Logan,Screenplay by Scott Frank & James Mangold and Michael Green,0,0,0,,137,616800000.0,8.1,8.4,77,1,1,0,0,0,1,0,0,0
+2017,Adapted Screenplay,Molly's Game,Written for the screen by Aaron Sorkin,0,0,0,0,140,50300000.0,7.6,7.4,71,1,1,0,0,0,0,0,0,1
+2017,Adapted Screenplay,Mudbound,Screenplay by Virgil Williams and Dee Rees,0,0,0,0,134,36011,7.5,6.2,85,1,1,0,0,0,0,0,0,1
