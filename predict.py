@@ -22,38 +22,60 @@ from sklearn.preprocessing import RobustScaler
 from sklearn.preprocessing import PowerTransformer
 from sklearn.feature_selection import SelectKBest, chi2
 from sklearn.decomposition import PCA
+from sklearn import tree
 
-def fit_and_predict(nome, modelo, treino_dados, treino_marcacoes):
-	k = 10
-	scores = cross_val_score(modelo, treino_dados, treino_marcacoes, cv = k)
-	taxa_de_acerto = np.mean(scores)
-	
-	msg = "Taxa de acerto do {0}: {1}".format(nome, taxa_de_acerto)
-	print msg
-	return taxa_de_acerto
+#from sklearn.preprocessing import Imputer
+from sklearn.preprocessing import PowerTransformer
+from sklearn.preprocessing import RobustScaler
+
+def fit_and_predict(modelName, model, train_x, train_y):
+    k = 10
+    scores = cross_val_score(model, train_x, train_y, cv = k)
+    hit_hate = np.mean(scores)
+    
+    msg = "Hit Rate from {0}: {1}".format(modelName, hit_hate)
+    print(msg)
+    
+    return hit_hate
 
 def gettingDistributionOfDatas():
-	#Contando a distribuicao dos dados para vencedor - 1 e perdedor - 0
-	vencedor = int(list(Y_labels).count(1))
-	print('Quantidade vencedores: ' +str(vencedor))
-	perdedor = int(list(Y_labels).count(0))
-	print('Quantidade perdedores: ' +str(perdedor))
-	total = len(Y_labels)
-	print('Quantidade total: ' +str(total))
-	distribuicao_vencedor = int(vencedor/total * 100)
-	distribuicao_perdedor = int(perdedor/total * 100)
-	print('\nDistribuicao dados vencedores: ' +str(distribuicao_vencedor) + '%')
-	print('Distribuicao dados perdedores: ' +str(distribuicao_perdedor) + '% \n')
-	print('class_weight:')
-	class_weight_count = {1: distribuicao_vencedor, 0: distribuicao_perdedor}
-	print(class_weight_count)
+    winners = int(list(Y_labels).count(1))
+    print('Quantity winners: ' +str(winners))
+    
+    losers = int(list(Y_labels).count(0))
+    print('Quantity losers: ' +str(losers))
+    
+    total = len(Y_labels)
+    print('Total Quantity: ' +str(total))
+    
+    distribution_winners = int(winners/total * 100)
+    distribution_losers = int(losers/total * 100)
+    print('\nDistribution of winning data: ' +str(distribution_winners) + '%')
+    print('Distribution of losing data: ' +str(distribution_losers) + '% \n')
+    
+    print('class_weight:')
+    class_weight_count = {1: distribution_winners, 0: distribution_losers}
+    print(class_weight_count)
+    
+    return class_weight_count
 
 #get dataset to train/test and to predict
-df = pd.read_csv('datasets/Base_Picture.csv')
-df_to_predict = pd.read_csv('datasets/Dados_Picture.csv')
+df = pd.read_csv('datasets/Base_Original.csv')
+df_to_predict = pd.read_csv('datasets/Dados_Original.csv')
 
-df.fillna(0, inplace = True)
-df_to_predict.fillna(0, inplace = True)
+#check if exist any NaN values
+df.isnull().values.any()
+
+#check if exist any NaN values
+df_to_predict.isnull().values.any()
+
+df_to_predict.head()
+
+# if exist any Nan values we need to handle with this
+#imputer = Imputer(missing_values = np.nan, strategy = 'mean', axis = 0)
+#df_to_predict_np_array =  np.array(df_to_predict) 
+#imputer = imputer.fit(df_to_predict_np_array[:, 4:])
+# df_to_predict_np_array[:, 4:] = imputer.transform(X[:, :])
 
 #getting the importants attributes from original dataset to our dataset to train and test 
 X_train_test = df[['BAFTA', 'Golden Globe', 'Guild', 'running_time', 'box_office', 'imdb_score', 'rt_audience_score', 'rt_critic_score', 'produced_USA', 'R', 'PG', 'PG13', 'G', 'q1_release', 'q2_release', 'q3_release', 'q4_release']]
@@ -62,546 +84,189 @@ Y_labels = df['Oscar']
 #getting the importants attributes from original dataset to our dataset to predict
 X_to_predict = df_to_predict[['BAFTA', 'Golden Globe', 'Guild', 'running_time', 'box_office', 'imdb_score', 'rt_audience_score', 'rt_critic_score', 'produced_USA', 'R', 'PG', 'PG13', 'G', 'q1_release', 'q2_release', 'q3_release', 'q4_release']]
 
+# to improve our analysis, we will do a pre-processing to normalize the data
+attributes_to_normalize = ['running_time', 'box_office', 'imdb_score', 'rt_audience_score', 'rt_critic_score']
+X_train_robust = X_train_test.copy()
+X_train_to_predict = X_to_predict
 
-# Transforma as variaveis categoricas em variaveis binarias
-X_train_test = pd.get_dummies(X_train_test)
-X_to_predict = pd.get_dummies(X_to_predict)
-
-# Transforma de data_frames para arrays
-X_train_test = X_train_test.values
-X_to_predict = X_to_predict.values
-Y_labels = Y_labels.values
-
-#Normalized
-#transformer = Normalizer().fit(X_train_test)
-#X_train_test = transformer.transform(X_train_test)
-#X_to_predict = transformer.transform(X_to_predict)
-
-#Scaling
-#transformer = PowerTransformer().fit(X_train_test)
-#X_train_test = transformer.transform(X_train_test)
-#X_to_predict = transformer.transform(X_to_predict)
-
-#Scaling
-transformer = RobustScaler().fit(X_train_test)
-X_train_test = transformer.transform(X_train_test)
-X_to_predict = transformer.transform(X_to_predict)
-
-#PCA
-#pca_model = PCA(n_components=10, svd_solver='full')
-#X_train_test = pca_model.fit_transform(X_train_test, Y_labels)
-#X_to_predict = pca_model.transform(X_to_predict)
-
-
-#Select best features
-#selecter = SelectKBest(chi2, k=6)
-#X_train_test = selecter.fit_transform(X_train_test, Y_labels)
-#X_to_predict = selecter.transform(X_to_predict)
-
+X_train_robust[attributes_to_normalize] = RobustScaler().fit_transform(X_train_test[attributes_to_normalize])
+X_train_to_predict[attributes_to_normalize] = RobustScaler().fit_transform(X_train_to_predict[attributes_to_normalize])
 
 gettingDistributionOfDatas()
 
-#Getting class_weirght distribution
+#Getting class_weight distribution
 class_weight = class_weight.compute_class_weight('balanced', np.unique(Y_labels), Y_labels)
 class_weight_dict = {1: class_weight[0], 0: class_weight[1]}
 print(class_weight_dict)
-print('')
+
+# for simplicity lets transform ours dataframes in arrays
+X_train_test = X_train_robust.values
+X_to_predict = X_train_to_predict.values
+Y_labels = Y_labels.values
 
 #Percentage train
-porcentagem_de_treino = 0.8
-tamanho_de_treino = porcentagem_de_treino * len(Y_labels)
-treino_dados = X_train_test[:int(tamanho_de_treino)]
-treino_marcacoes = Y_labels[:int(tamanho_de_treino)]
-
+percentage_train = 0.8
+size_train = percentage_train * len(Y_labels)
+train_data_X = X_train_test[:int(size_train)]
+train_data_Y = Y_labels[:int(size_train)]
 
 #Percentage test
-validacao_dados = X_train_test[int(tamanho_de_treino):]
-validacao_marcacoes = Y_labels[int(tamanho_de_treino):]
+test_data_X = X_train_test[int(size_train):]
+test_data_Y = Y_labels[int(size_train):]
 
-#Contando quantidade de predicoes como ganhas
-qtd_candidatos = len(X_to_predict)
-candidato = [0] * qtd_candidatos
-candidato0 = [0] * qtd_candidatos
-resultados = {}
+#Counting quantity of predictions as won
+qt_candidates = len(X_to_predict)
+candidate = [0] * qt_candidates
+candidate0 = [0] * qt_candidates
+results = {}
+
+def predict_results(model, result):
+    results[result] = model
+    model.fit(train_data_X, train_data_Y)
+    resultOscar = model.predict(X_to_predict)
+    print('Oscar 2019: ' + str(resultOscar))
+    print('')
+    for i in range(qt_candidates):
+            if(resultOscar[i] == 1.0):
+                candidate0[i] = candidate0[i] + 1
+    if(result > 0.79):
+        for i in range(qt_candidates):
+            if(resultOscar[i] == 1.0):
+                candidate[i] = candidate[i] + 1
+
+#Predict Adaboost Grided
+model = AdaBoostClassifier(n_estimators= 45, learning_rate= 0.01)
+result = fit_and_predict("AdaBoostClassifier Grided", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
 #Predict Adaboost
-modelo = AdaBoostClassifier(n_estimators= 45, learning_rate= 0.01)
-resultado = fit_and_predict("AdaBoostClassifier Grided", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
+model = AdaBoostClassifier()
+result = fit_and_predict("AdaBoostClassifier", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
+# Predict SVC Grided
+model = svm.SVC(C= 0.03, max_iter= -1, decision_function_shape= 'ovo', tol= 0.001, class_weight= None, gamma='scale')
+result = fit_and_predict("SVC Grided", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
-modelo = AdaBoostClassifier()
-resultado = fit_and_predict("AdaBoostClassifier", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
+# Predict SVC Grided with class_weight balanced
+model = svm.SVC(C= 0.03, max_iter= -1, decision_function_shape= 'ovo', tol= 0.001, class_weight= 'balanced', gamma='auto')
+result = fit_and_predict("SVC Grided with class_weight balanced", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
-#Predict SVC
-modelo = svm.SVC(C= 0.03, max_iter= -1, decision_function_shape= 'ovo', tol= 0.001, class_weight= None)
-resultado = fit_and_predict("SVC Grided", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
+# Predict SVC Grided with class_weight count
+model = svm.SVC(C= 0.03, max_iter= -1, decision_function_shape= 'ovo', tol= 0.001, class_weight= class_weight_dict, gamma='auto')
+result = fit_and_predict("SVC Grided with class_weight count", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
-modelo = svm.SVC(C= 0.03, max_iter= -1, decision_function_shape= 'ovo', tol= 0.001, class_weight= 'balanced')
-resultado = fit_and_predict("SVC Grided and class_weight balanced", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
+# Predict SVC
+model = svm.SVC(gamma='auto')
+result = fit_and_predict("SVC Grided", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
-modelo = svm.SVC(C= 0.03, max_iter= -1, decision_function_shape= 'ovo', tol= 0.001, class_weight= class_weight_dict)
-resultado = fit_and_predict("SVC Grided and class_weight count", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
-
-modelo = svm.SVC()
-resultado = fit_and_predict("SVC", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
-
+#Predict KNN Grided
+model = neighbors.KNeighborsClassifier(n_neighbors = 4, metric = 'euclidean', weights = 'uniform', algorithm = 'auto')
+result = fit_and_predict("KNN Grided", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
 #Predict KNN
-modelo = neighbors.KNeighborsClassifier(n_neighbors = 4, metric = 'euclidean', weights = 'uniform', algorithm = 'auto')
-resultado = fit_and_predict("KNN Grided", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
-
-modelo = neighbors.KNeighborsClassifier()
-resultado = fit_and_predict("KNN", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
-
+model = neighbors.KNeighborsClassifier()
+result = fit_and_predict("KNN", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
 #Predict MLP
-modelo = neural_network.MLPClassifier(hidden_layer_sizes=(200, 500), max_iter = 100)
-resultado = fit_and_predict("MLP Grided", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
+model = neural_network.MLPClassifier()
+result = fit_and_predict("MLP", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
-modelo = neural_network.MLPClassifier()
-resultado = fit_and_predict("MLP", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
+#Predict Logistic Regression and class_weigh balanced
+model = LogisticRegression(C= 0.01, fit_intercept= True, tol= 1e-05, max_iter= 100, class_weight= 'balanced', solver='lbfgs')
+result = fit_and_predict("LogisticRegression Grided and class_weigh balanced", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
+#Predict Logistic Regression and class_weigh count
+model = LogisticRegression(C= 0.01, fit_intercept= True, tol= 1e-05, max_iter= 100, class_weight= class_weight_dict, solver='lbfgs')
+result = fit_and_predict("LogisticRegression Grided and class_weigh balanced", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
 #Predict Logistic Regression
-modelo = LogisticRegression(C= 0.01, fit_intercept= True, tol= 1e-05, max_iter= 1, class_weight= None)
-resultado = fit_and_predict("LogisticRegression Grided", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
+model = LogisticRegression(solver='lbfgs')
+result = fit_and_predict("LogisticRegression", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
-modelo = LogisticRegression(C= 0.01, fit_intercept= True, tol= 1e-05, max_iter= 1, class_weight= 'balanced')
-resultado = fit_and_predict("LogisticRegression Grided and class_weigh balanced", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
-
-modelo = LogisticRegression(C= 0.01, fit_intercept= True, tol= 1e-05, max_iter= 1, class_weight= class_weight_dict)
-resultado = fit_and_predict("LogisticRegression Grided and class_weight count", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
-
-modelo = LogisticRegression()
-resultado = fit_and_predict("LogisticRegression", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
-
+#Predict Bagging Grided
+model = BaggingClassifier(n_estimators= 42, max_samples= 0.087)
+result = fit_and_predict("BaggingClassifier Grided", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
 #Predict Bagging
-modelo = BaggingClassifier(n_estimators= 42, max_samples= 0.087)
-resultado = fit_and_predict("BaggingClassifier Grided", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
-
-modelo = BaggingClassifier()
-resultado = fit_and_predict("BaggingClassifier", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
-
+model = BaggingClassifier()
+result = fit_and_predict("BaggingClassifier", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
 #Predict Gradient Boosting
-modelo = GradientBoostingClassifier(n_estimators= 25, learning_rate= 0.2, max_depth= 1)
-resultado = fit_and_predict("GradientBoostingClassifier Grided", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
+model = GradientBoostingClassifier()
+result = fit_and_predict("GradientBoostingClassifier", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
-modelo = GradientBoostingClassifier()
-resultado = fit_and_predict("GradientBoostingClassifier", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
+#Predict Random Forest Grided
+model = RandomForestClassifier(n_estimators= 10, criterion= 'gini', max_depth= 3)
+result = fit_and_predict("RandomForestClassifier Grided", model, train_data_X, train_data_Y)
+predict_results(model, result)
+
+#Predict Random Forest Grided and class_weight count
+model = RandomForestClassifier(n_estimators= 10000, criterion= 'gini', max_depth= 3, class_weight= class_weight_dict)
+result = fit_and_predict("RandomForestClassifier Grided and class_weight count", model, train_data_X, train_data_Y)
+predict_results(model, result)
+
+#Predict Random Forest Grided and class_weight balanced
+model = RandomForestClassifier(n_estimators= 10000, criterion= 'gini', max_depth= 3, class_weight= 'balanced')
+result = fit_and_predict("RandomForestClassifier Grided and class_weight balanced", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
 #Predict Random Forest
-modelo = RandomForestClassifier(n_estimators= 10, criterion= 'gini', max_depth= 3)
-resultado = fit_and_predict("RandomForestClassifier Grided", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
+model = RandomForestClassifier(n_estimators=100)
+result = fit_and_predict("RandomForestClassifier", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
-modelo = RandomForestClassifier(n_estimators= 10000, criterion= 'gini', max_depth= 3, class_weight= class_weight_dict)
-resultado = fit_and_predict("RandomForestClassifier Grided and class_weight count", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
+#Predict Extra Tress Grided
+model = ExtraTreesClassifier(criterion = 'gini', max_depth = 3, n_estimators = 150)
+result = fit_and_predict("ExtraTreesClassifier Grided", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
-
+#Predict Extra Tress Grided and class_weight balanced
+model = ExtraTreesClassifier(criterion = 'gini', max_depth = 3, n_estimators = 150, class_weight= 'balanced')
+result = fit_and_predict("ExtraTreesClassifier Grided and class_weight balanced", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
 #Predict Extra Tress
-modelo = ExtraTreesClassifier(criterion = 'gini', max_depth = 3, n_estimators = 150)
-resultado = fit_and_predict("ExtraTreesClassifier Grided", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
+model = ExtraTreesClassifier(n_estimators = 100)
+result = fit_and_predict("ExtraTreesClassifier", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
-modelo = ExtraTreesClassifier(criterion = 'gini', max_depth = 3, n_estimators = 150, class_weight= 'balanced')
-resultado = fit_and_predict("ExtraTreesClassifier Grided and class_weight balanced", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
+#Predict DecisionTree Grided
+model = tree.DecisionTreeClassifier(criterion = 'entropy', max_depth = 3)
+result = fit_and_predict("DecisionTree Grided", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
-modelo = ExtraTreesClassifier(criterion = 'gini', max_depth = 3, n_estimators = 150, class_weight= class_weight_dict)
-resultado = fit_and_predict("ExtraTreesClassifier Grided and class_weight count", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
+#Predict DecisionTree Grided and class_weight count
+model = tree.DecisionTreeClassifier(criterion = 'entropy', max_depth = 3, class_weight= class_weight_dict)
+result = fit_and_predict("DecisionTree Grided and class_weight count", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
-modelo = ExtraTreesClassifier()
-resultado = fit_and_predict("ExtraTreesClassifier", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
+#Predict DecisionTree Grided and class_weight balanced
+model = tree.DecisionTreeClassifier(criterion = 'entropy', max_depth = 3, class_weight = 'balanced')
+result = fit_and_predict("DecisionTree Grided and class_weight balanced", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
+#Predict DecisionTree
+model = tree.DecisionTreeClassifier()
+result = fit_and_predict("DecisionTree", model, train_data_X, train_data_Y)
+predict_results(model, result)
 
-from sklearn import tree
-modelo = tree.DecisionTreeClassifier(criterion = 'entropy', max_depth = 3)
-resultado = fit_and_predict("DecisionTree Grided", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
-
-modelo = tree.DecisionTreeClassifier(criterion = 'entropy', max_depth = 3, class_weight= 'balanced')
-resultado = fit_and_predict("DecisionTree Grided and class_weight balanced", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
-
-modelo = tree.DecisionTreeClassifier(criterion = 'entropy', max_depth = 3, class_weight= class_weight_dict)
-resultado = fit_and_predict("DecisionTree Grided and class_weight count", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
-
-modelo = tree.DecisionTreeClassifier()
-resultado = fit_and_predict("DecisionTree", modelo, treino_dados, treino_marcacoes)
-resultados[resultado] = modelo
-modelo.fit(X_train_test, Y_labels)
-resultadoOscar = modelo.predict(X_to_predict)
-print('Oscar 2018: ' + str(resultadoOscar))
-print('')
-for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato0[i] = candidato0[i] + 1
-if(resultado > 0.79):
-	for i in range(qtd_candidatos):
-		if(resultadoOscar[i] == 1.0):
-			candidato[i] = candidato[i] + 1
-
-
-
-
-#A eficacia do algoritmo que chuta tudo 0 ou 1 ou um unico valor
-acerto_base = max(Counter(validacao_marcacoes).itervalues()) #Devolve a quantidade do maior elemento
-acerto_de_um = list(Y_labels).count('sim')
-acerto_de_zero = list(Y_labels).count('nao')
-taxa_de_acerto_base = 100.0 * acerto_base / len(validacao_marcacoes)
-print("Taxa de acerto base nos dados de validacao: %f" %taxa_de_acerto_base)
-
-#print resultados
-maximo = max(resultados)
-vencedor = resultados[maximo]
-print('\n\n')
-print(vencedor)
-print('\n\n')
-vencedor.fit(treino_dados, treino_marcacoes)
-resultado = vencedor.predict(validacao_dados)
-
-total_de_elementos = len(validacao_marcacoes)
-taxa_de_acerto = metrics.accuracy_score(validacao_marcacoes, resultado)
-
-print("Taxa de acerto do algoritmo melhor no mundo real" + " foi de: " 
-	+ str(taxa_de_acerto) + "% " + "de " + str(total_de_elementos) + " elementos\n\n")
-
-
-name_and_films = df_to_predict[['film', 'name']]
-print(name_and_films)
-print('\n')
-vencedor.fit(X_train_test, Y_labels)
-vencedor_result = vencedor.predict(X_to_predict)
-print('\nBest model predict:')
-print(vencedor_result)
-print(name_and_films.iloc[[vencedor_result.tolist().index(max(vencedor_result))]])
-
-print('\nWithout accuracy validation:')
-print(candidato0)
-print(name_and_films.iloc[[candidato0.index(max(candidato0))]])
-print("\n")
-print('\nOnly if accuracy > 79%:')
-print(candidato)
-print(name_and_films.iloc[[candidato.index(max(candidato))]])
+#The effectiveness of the algorithm that kicks everything 0 or 1 or a single value
+base_hit = max(Counter(test_data_Y).values()) #Devolve a quantidade do maior elemento
+base_one = list(Y_labels).count(1)
+base_zero = list(Y_labels).count(0)
+hit_rate_base = 100.0 * base_hit / len(test_data_Y)
+print("Hit rate based on validation data: %f" %hit_rate_base)
