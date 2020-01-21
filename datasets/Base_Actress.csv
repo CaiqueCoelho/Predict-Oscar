@@ -186,3 +186,8 @@ year,category,film,name,BAFTA,Golden Globe,Guild,Oscar,running_time,box_office,i
 2017,Actress,"I, Tonya",Margot Robbie,0,0,0,0,120,28000000.0,7.7,7.5,77,1,0,0,0,0,0,0,0,1
 2017,Actress,Lady Bird,Saoirse Ronan,0,1,0,0,94,44200000.0,7.8,7.2,94,1,1,0,0,0,0,0,0,1
 2017,Actress,The Post,Meryl Streep,0,0,0,0,116,106500000.0,7.3,7.0,83,1,0,0,1,0,0,0,0,1
+2018,Actress,Roma,Yalitza Aparicio,0,0,0,0.0,135,116235682,8,8.1,96,0,1,0,0,0,0,0,0,1
+2018,Actress,The Wife,Glenn Close,0,1,1,0.0,100,8700552,7.3,7.5,77,1,1,0,0,0,0,0,1,0
+2018,Actress,The Favourite,Olivia Colman,1,1,0,1.0,119,26109876,7.9,7.5,90,1,1,0,0,0,0,0,0,1
+2018,Actress,A Star Is Born,Lady Gaga,0,0,0,0.0,136,206361489,8,8.5,88,1,1,0,0,0,0,0,0,1
+2018,Actress,Can You Ever Forgive Me? ,Melissa McCarthy,0,0,0,0.0,106,8046201,7.4,7.6,87,1,1,0,0,0,0,0,0,1

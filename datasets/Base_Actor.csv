@@ -184,3 +184,8 @@ year,category,film,name,BAFTA,Golden Globe,Guild,Oscar,running_time,box_office,i
 2017,Actor,Get Out,Daniel Kaluuya,0,0,0,0,104,255000000.0,7.7,7.2,84,1,1,0,0,0,1,0,0,0
 2017,Actor,Darkest Hour,Gary Oldman,1,1,1,1,125,115200000.0,7.4,7.1,75,0,0,0,1,0,0,0,0,1
 2017,Actor,"Roman J. Israel, Esq.",Denzel Washington,0,0,0,0,122,11900000.0,6.4,6.4,58,1,0,0,1,0,0,0,0,1
+2018,Actor,Vice,Christian Bale,0,1,0,0,132,42197631,7.1,6.2,61,1,1,0,0,0,0,0,0,1
+2018,Actor,A Star Is Born,Bradley Cooper,0,0,0,0,136,206361489,8,8.5,88,1,1,0,0,0,0,0,0,1
+2018,Actor,At Eternity's Gate,Willem Dafoe,0,0,0,0,111,2208801,7.1,6.2,78,1,0,0,1,0,0,0,0,1
+2018,Actor,Bohemian Rhapsody,Rami Malek,1,1,1,1.0,134,205821056,8.2,8.1,49,1,0,0,1,0,0,0,0,1
+2018,Actor,Green Book ,Viggo Mortensen,0,0,0,0,130,49078216,8.3,7.8,70,1,0,0,1,0,0,0,0,1
