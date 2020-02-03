@@ -1,6 +1,6 @@
 year,category,film,name,BAFTA,Golden Globe,Guild,Oscar,running_time,box_office,imdb_score,rt_audience_score,rt_critic_score,produced_USA,R,PG,PG13,G,q1_release,q2_release,q3_release,q4_release
-2019,Supporting Actress,Richard Jewell,Kathy Bathes,,0,0,0,129,30900178,7.6,7.5,69,1,1,0,0,0,0,0,0,1
-2019,Supporting Actress,Marriage Story,Laura Dern,,1,1,0,136,2300000,8.1,8,93,1,1,0,0,0,0,0,0,1
-2019,Supporting Actress,JoJo Rabbit,Scarlett Johansson,,0,0,0,108,43837072,8.1,6.8,58,1,0,0,1,0,0,0,0,1
-2019,Supporting Actress,Little Women,Florence Pugh,,0,0,0,135,130191052,8.2,7.7,87,1,0,1,0,0,0,0,0,1
-2019,Supporting Actress,Bombshell,Margot Robbie,,0,0,0,108,31852638,6.8,6.6,64,1,1,0,0,0,0,0,0,1
+2019,Supporting Actress,Richard Jewell,Kathy Bathes,0,0,0,0,129,30900178,7.6,7.5,69,1,1,0,0,0,0,0,0,1
+2019,Supporting Actress,Marriage Story,Laura Dern,1,1,1,0,136,2300000,8.1,8,93,1,1,0,0,0,0,0,0,1
+2019,Supporting Actress,JoJo Rabbit,Scarlett Johansson,0,0,0,0,108,43837072,8.1,6.8,58,1,0,0,1,0,0,0,0,1
+2019,Supporting Actress,Little Women,Florence Pugh,0,0,0,0,135,130191052,8.2,7.7,87,1,0,1,0,0,0,0,0,1
+2019,Supporting Actress,Bombshell,Margot Robbie,0,0,0,0,108,31852638,6.8,6.6,64,1,1,0,0,0,0,0,0,1

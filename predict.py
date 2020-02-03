@@ -60,8 +60,8 @@ def gettingDistributionOfDatas():
     return class_weight_count
 
 #get dataset to train/test and to predict
-df = pd.read_csv('datasets/Base_Original.csv')
-df_to_predict = pd.read_csv('datasets/Dados_Original.csv')
+df = pd.read_csv('datasets/Base_Actor.csv')
+df_to_predict = pd.read_csv('datasets/Dados_Actor.csv')
 
 #check if exist any NaN values
 df.isnull().values.any()
@@ -270,3 +270,34 @@ base_one = list(Y_labels).count(1)
 base_zero = list(Y_labels).count(0)
 hit_rate_base = 100.0 * base_hit / len(test_data_Y)
 print("Hit rate based on validation data: %f" %hit_rate_base)
+
+maximum = max(results)
+winner = results[maximum]
+print('\n\n')
+print(winner)
+print('\n\n')
+winner.fit(train_data_X, train_data_Y)
+result = winner.predict(test_data_X)
+
+len_to_predict = len(train_data_Y)
+hit_rate = metrics.accuracy_score(test_data_Y, result)
+
+print("Better algorithm hit rate in the real world " + "was: " 
+      + str(hit_rate) + "% " + "from " + str(len_to_predict) + " elements\n\n")
+
+name_and_films = df_to_predict[['film', 'name']]
+print(name_and_films)
+print('\n')
+winner.fit(train_data_X, train_data_Y)
+winner_result = winner.predict(X_to_predict)
+print('\nBest model predict:')
+print(winner_result)
+print(name_and_films.iloc[[winner_result.tolist().index(max(winner_result))]])
+
+print('\nWithout accuracy validation:')
+print(candidate0)
+print(name_and_films.iloc[[candidate0.index(max(candidate0))]])
+print("\n")
+print('\nOnly if accuracy > 89%:')
+print(candidate)
+print(name_and_films.iloc[[candidate.index(max(candidate))]])

@@ -1,6 +1,6 @@
 year,category,film,name,BAFTA,Golden Globe,Guild,Oscar,running_time,box_office,imdb_score,rt_audience_score,rt_critic_score,produced_USA,R,PG,PG13,G,q1_release,q2_release,q3_release,q4_release
-2019,Actor,Pain and Glory,Antonio Banderas,,0,0,0,113,36555651,7.7,8,88,0,1,0,0,0,0,0,0,1
-2019,Actor,Once Upon a Time... in Hollywood,Leoardo DiCaprio,,0,0,0,161,373058543,7.8,7.6,83,1,1,0,0,0,0,0,1,0
-2019,Actor,Marriage Story,Adam Driver,,0,0,0,136,2300000,8.1,8,93,1,1,0,0,0,0,0,0,1
-2019,Actor,Joker,Joaquin Phoenix,,1,1,0,122,1069147201,8.6,9.1,59,1,1,0,0,0,0,0,1,0
-2019,Actor,The Two Popes,Jonathan Price,,0,0,0,125,204998,7.6,7.5,75,1,0,0,1,0,0,0,0,1
+2019,Actor,Pain and Glory,Antonio Banderas,0,0,0,0,113,36555651,7.7,8,88,0,1,0,0,0,0,0,0,1
+2019,Actor,Once Upon a Time... in Hollywood,Leoardo DiCaprio,0,0,0,0,161,373058543,7.8,7.6,83,1,1,0,0,0,0,0,1,0
+2019,Actor,Marriage Story,Adam Driver,0,0,0,0,136,2300000,8.1,8,93,1,1,0,0,0,0,0,0,1
+2019,Actor,Joker,Joaquin Phoenix,1,1,1,0,122,1069147201,8.6,9.1,59,1,1,0,0,0,0,0,1,0
+2019,Actor,The Two Popes,Jonathan Price,0,0,0,0,125,204998,7.6,7.5,75,1,0,0,1,0,0,0,0,1
