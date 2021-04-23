@@ -60,8 +60,8 @@ def gettingDistributionOfDatas():
     return class_weight_count
 
 #get dataset to train/test and to predict
-df = pd.read_csv('datasets/Base_Actor.csv')
-df_to_predict = pd.read_csv('datasets/Dados_Actor.csv')
+df = pd.read_csv('datasets/Base_Actress.csv')
+df_to_predict = pd.read_csv('datasets/Dados_Actress.csv')
 
 #check if exist any NaN values
 df.isnull().values.any()
