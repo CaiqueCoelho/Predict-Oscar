@@ -1,195 +1,200 @@
 year,category,film,name,BAFTA,Golden Globe,Guild,Oscar,running_time,box_office,imdb_score,rt_audience_score,rt_critic_score,produced_USA,R,PG,PG13,G,q1_release,q2_release,q3_release,q4_release
-1980,Supporting Actor,Ordinary People,Timothy Hutton,0.0,1.0,0.0,1.0,124,54800000.0,7.8,88.0,90.0,1,1,0,0,0,1,0,0,0
-1980,Supporting Actor,Ordinary People,Judd Hirsch,0.0,0.0,0.0,0.0,124,54800000.0,7.8,88.0,90.0,1,1,0,0,0,1,0,0,0
-1980,Supporting Actor,The Great Santini,Michael O'Keefe,0.0,0.0,0.0,0.0,115,4700000.0,7.2,76.0,94.0,1,0,1,0,0,0,0,0,1
-1980,Supporting Actor,Raging Bull,Joe Pesci,0.0,0.0,0.0,0.0,129,23400000.0,8.2,93.0,97.0,1,1,0,0,0,0,0,0,1
-1980,Supporting Actor,Melvin and Howard,Jason Robards,0.0,0.0,0.0,0.0,95,4309490.0,6.9,61.0,94.0,1,1,0,0,0,0,0,1,0
-1981,Supporting Actor,Arthur,John Gielgud,0.0,1.0,0.0,1.0,97,95461682.0,6.9,77.0,90.0,1,0,1,0,0,0,0,1,0
-1981,Supporting Actor,Only When I Laugh,James Coco,0.0,0.0,0.0,0.0,120,25524778.0,6.5,40.0,50.0,1,1,0,0,0,0,0,1,0
-1981,Supporting Actor,Chariots of Fire,Ian Holm,1.0,0.0,0.0,0.0,124,59000000.0,7.2,80.0,83.0,0,0,1,0,0,0,1,0,0
-1981,Supporting Actor,Reds,Jack Nicholson,0.0,0.0,0.0,0.0,195,40400000.0,7.5,82.0,94.0,1,0,1,0,0,0,0,0,1
-1981,Supporting Actor,Ragtime,Howard Rollins,0.0,0.0,0.0,0.0,155,11099118.0,7.3,77.0,90.0,1,0,1,0,0,0,0,0,1
-1982,Supporting Actor,An Officer and a Gentleman,Louis Gossett Jr.,0.0,1.0,0.0,1.0,122,129800000.0,7.0,81.0,81.0,1,1,0,0,0,0,0,1,0
-1982,Supporting Actor,The Best Little Whorehouse in Texas,Charles Durning,0.0,0.0,0.0,0.0,114,69700000.0,5.8,68.0,56.0,1,1,0,0,0,0,0,1,0
-1982,Supporting Actor,The World According to Garp,John Lithgow,0.0,0.0,0.0,0.0,136,29712172.0,7.2,79.0,79.0,1,1,0,0,0,0,0,1,0
-1982,Supporting Actor,The Verdict,James Mason,0.0,0.0,0.0,0.0,129,53977250.0,7.8,88.0,96.0,1,1,0,0,0,0,0,0,1
-1982,Supporting Actor,Victor Victoria,Robert Preston,0.0,0.0,0.0,0.0,132,28215453.0,7.6,86.0,96.0,0,0,1,0,0,1,0,0,0
-1983,Supporting Actor,Terms of Endearment,Jack Nicholson,0.0,1.0,0.0,1.0,132,108400000.0,7.4,84.0,88.0,1,0,1,0,0,0,0,0,1
-1983,Supporting Actor,To Be or Not to Be,Charles Durning,0.0,0.0,0.0,0.0,107,13000000.0,6.8,76.0,63.0,1,0,1,0,0,0,0,0,1
-1983,Supporting Actor,Terms of Endearment,John Lithgow,0.0,0.0,0.0,0.0,132,108400000.0,7.4,84.0,88.0,1,0,1,0,0,0,0,0,1
-1983,Supporting Actor,The Right Stuff,Sam Shepard,0.0,0.0,0.0,0.0,192,21100000.0,7.9,90.0,98.0,1,0,1,0,0,1,0,0,0
-1984,Supporting Actor,The Killing Fields,Haing S. Ngor,0.0,1.0,0.0,1.0,141,34700291.0,7.9,92.0,93.0,0,1,0,0,0,1,0,0,0
-1984,Supporting Actor,A Soldier's Story,Adolph Caesar,0.0,0.0,0.0,0.0,101,21821347.0,7.2,82.0,89.0,1,0,1,0,0,0,0,0,1
-1984,Supporting Actor,Places in the Heart,John Malkovich,0.0,0.0,0.0,0.0,102,34901614.0,7.3,82.0,96.0,1,0,1,0,0,0,0,0,1
-1984,Supporting Actor,The Karate Kid,Pat Morita,0.0,0.0,0.0,0.0,127,90800000.0,7.2,82.0,90.0,1,0,1,0,0,0,1,0,0
-1984,Supporting Actor,"Greystoke: The Legend of Tarzan, Lord of the Apes",Ralph Richardson,0.0,0.0,0.0,0.0,130,45900000.0,6.3,61.0,69.0,0,0,1,0,0,1,0,0,0
-1985,Supporting Actor,Cocoon,Don Ameche,0.0,0.0,0.0,1.0,117,85300000.0,6.7,59.0,80.0,1,0,0,1,0,0,1,0,0
-1985,Supporting Actor,Out of Africa,Klaus Maria Brandauer,0.0,1.0,0.0,0.0,161,128500000.0,7.2,83.0,56.0,1,0,1,0,0,0,0,0,1
-1985,Supporting Actor,Prizzi's Honor,William Hickey,0.0,0.0,0.0,0.0,130,26657534.0,6.8,62.0,88.0,1,1,0,0,0,0,1,0,0
-1985,Supporting Actor,Jagged Edge,Robert Loggia,0.0,0.0,0.0,0.0,108,40491165.0,6.4,58.0,82.0,1,1,0,0,0,0,0,0,1
-1985,Supporting Actor,Runaway Train,Eric Roberts,0.0,0.0,0.0,0.0,110,7700000.0,7.3,76.0,87.0,1,1,0,0,0,1,0,0,0
-1986,Supporting Actor,Hannah and Her Sisters,Michael Caine,0.0,0.0,0.0,1.0,106,40100000.0,8.0,90.0,93.0,1,0,0,1,0,1,0,0,0
-1986,Supporting Actor,Platoon,Tom Berenger,0.0,1.0,0.0,0.0,120,138500000.0,8.1,93.0,88.0,1,1,0,0,0,1,0,0,0
-1986,Supporting Actor,Platoon,Willem Dafoe,0.0,0.0,0.0,0.0,120,138500000.0,8.1,93.0,88.0,1,1,0,0,0,1,0,0,0
-1986,Supporting Actor,A Room with a View,Denholm Elliott,0.0,0.0,0.0,0.0,117,21000000.0,7.4,86.0,100.0,0,0,0,1,0,0,1,0,0
-1986,Supporting Actor,Hoosiers,Dennis Hopper,0.0,0.0,0.0,0.0,115,28600000.0,7.6,88.0,88.0,1,0,1,0,0,1,0,0,0
-1987,Supporting Actor,The Untouchables,Sean Connery,0.0,1.0,0.0,1.0,119,106200000.0,7.9,89.0,80.0,1,1,0,0,0,0,1,0,0
-1987,Supporting Actor,Broadcast News,Albert Brooks,0.0,0.0,0.0,0.0,133,67331309.0,7.2,78.0,98.0,1,1,0,0,0,0,0,0,1
-1987,Supporting Actor,Street Smart,Morgan Freeman,0.0,0.0,0.0,0.0,97,1119112.0,6.4,42.0,69.0,0,1,0,0,0,1,0,0,0
-1987,Supporting Actor,Moonstruck,Vincent Gardenia,0.0,0.0,0.0,0.0,102,91640528.0,7.1,80.0,92.0,1,0,1,0,0,1,0,0,0
-1987,Supporting Actor,Cry Freedom,Denzel Washington,0.0,0.0,0.0,0.0,157,5900000.0,7.5,88.0,81.0,0,0,1,0,0,0,0,0,1
-1988,Supporting Actor,A Fish Called Wanda,Kevin Kline,0.0,0.0,0.0,1.0,108,62500000.0,7.6,84.0,93.0,0,1,0,0,0,0,0,1,0
-1988,Supporting Actor,Little Dorrit,Alec Guinness,0.0,0.0,0.0,0.0,360,1025228.0,7.6,67.0,71.0,0,0,0,0,1,0,0,0,1
-1988,Supporting Actor,Tucker: The Man and His Dream,Martin Landau,0.0,1.0,0.0,0.0,110,19700000.0,6.9,67.0,84.0,1,0,1,0,0,0,0,1,0
-1988,Supporting Actor,Running on Empty,River Phoenix,0.0,0.0,0.0,0.0,111,2835116.0,7.7,68.0,85.0,1,0,0,1,0,0,0,1,0
-1988,Supporting Actor,Married to the Mob,Dean Stockwell,0.0,0.0,0.0,0.0,104,21486757.0,6.1,47.0,91.0,1,1,0,0,0,0,0,1,0
-1989,Supporting Actor,Glory,Denzel Washington,0.0,1.0,0.0,1.0,122,26800000.0,7.9,93.0,93.0,1,1,0,0,0,1,0,0,0
-1989,Supporting Actor,Do the Right Thing,Danny Aiello,0.0,0.0,0.0,0.0,120,37300000.0,7.9,90.0,93.0,1,1,0,0,0,0,0,1,0
-1989,Supporting Actor,Driving Miss Daisy,Dan Aykroyd,0.0,0.0,0.0,0.0,100,145800000.0,7.4,81.0,82.0,1,0,1,0,0,1,0,0,0
-1989,Supporting Actor,A Dry White Season,Marlon Brando,0.0,0.0,0.0,0.0,97,3766879.0,7.0,75.0,81.0,1,1,0,0,0,0,0,1,0
-1989,Supporting Actor,Crimes and Misdemeanors,Martin Landau,0.0,0.0,0.0,0.0,104,18254702.0,8.0,91.0,93.0,1,0,0,1,0,0,0,0,1
-1990,Supporting Actor,Goodfellas,Joe Pesci,0.0,0.0,0.0,1.0,145,46800000.0,8.7,97.0,97.0,1,1,0,0,0,0,0,1,0
-1990,Supporting Actor,Longtime Companion,Bruce Davison,0.0,1.0,0.0,0.0,96,4609953.0,7.5,82.0,100.0,1,1,0,0,0,0,1,0,0
-1990,Supporting Actor,The Godfather Part III,Andy Garca,0.0,0.0,0.0,0.0,162,136800000.0,7.6,78.0,67.0,1,1,0,0,0,0,0,0,1
-1990,Supporting Actor,Dances with Wolves,Graham Greene,0.0,0.0,0.0,0.0,181,424200000.0,8.0,87.0,82.0,1,0,0,1,0,0,0,0,1
-1990,Supporting Actor,Dick Tracy,Al Pacino,0.0,0.0,0.0,0.0,105,162700000.0,6.1,53.0,64.0,1,0,1,0,0,0,1,0,0
-1991,Supporting Actor,City Slickers,Jack Palance,0.0,1.0,0.0,1.0,112,180000000.0,6.7,64.0,90.0,1,0,0,1,0,0,1,0,0
-1991,Supporting Actor,JFK,Tommy Lee Jones,0.0,0.0,0.0,0.0,188,205400000.0,8.0,88.0,84.0,1,1,0,0,0,0,0,0,1
-1991,Supporting Actor,Bugsy,Harvey Keitel,0.0,0.0,0.0,0.0,137,49100000.0,6.8,69.0,85.0,1,1,0,0,0,0,0,0,1
-1991,Supporting Actor,Bugsy,Ben Kingsley,0.0,0.0,0.0,0.0,137,49100000.0,6.8,69.0,85.0,1,1,0,0,0,0,0,0,1
-1991,Supporting Actor,Barton Fink,Michael Lerner,0.0,0.0,0.0,0.0,117,6200000.0,7.7,89.0,91.0,1,1,0,0,0,0,0,1,0
-1992,Supporting Actor,Unforgiven,Gene Hackman,1.0,1.0,0.0,1.0,131,159200000.0,8.3,93.0,95.0,1,1,0,0,0,0,0,1,0
-1992,Supporting Actor,The Crying Game,Jaye Davidson,0.0,0.0,0.0,0.0,111,62500000.0,7.3,78.0,97.0,0,1,0,0,0,1,0,0,0
-1992,Supporting Actor,A Few Good Men,Jack Nicholson,0.0,0.0,0.0,0.0,138,243200000.0,7.6,89.0,81.0,1,1,0,0,0,0,0,0,1
-1992,Supporting Actor,Glengarry Glen Ross,Al Pacino,0.0,0.0,0.0,0.0,100,10700000.0,7.8,88.0,94.0,1,1,0,0,0,0,0,0,1
-1992,Supporting Actor,Mr. Saturday Night,David Paymer,0.0,0.0,0.0,0.0,119,13300000.0,5.8,36.0,56.0,1,1,0,0,0,0,0,1,0
-1993,Supporting Actor,The Fugitive,Tommy Lee Jones,0.0,1.0,0.0,1.0,130,368900000.0,7.8,89.0,96.0,1,0,0,1,0,0,0,1,0
-1993,Supporting Actor,What's Eating Gilbert Grape,Leonardo DiCaprio,0.0,0.0,0.0,0.0,118,10000000.0,7.8,89.0,89.0,1,0,0,1,0,1,0,0,0
-1993,Supporting Actor,Schindler's List,Ralph Fiennes,1.0,0.0,0.0,0.0,197,321200000.0,8.9,97.0,96.0,1,1,0,0,0,1,0,0,0
-1993,Supporting Actor,In the Line of Fire,John Malkovich,0.0,0.0,0.0,0.0,128,177000000.0,7.2,79.0,95.0,1,1,0,0,0,0,0,1,0
-1993,Supporting Actor,In the Name of the Father,Pete Postlethwaite,0.0,0.0,0.0,0.0,133,65800000.0,8.1,95.0,94.0,0,1,0,0,0,1,0,0,0
-1994,Supporting Actor,Ed Wood,Martin Landau,0.0,1.0,1.0,1.0,127,5900000.0,7.9,88.0,92.0,1,1,0,0,0,0,0,0,1
-1994,Supporting Actor,Pulp Fiction,Samuel L. Jackson,1.0,0.0,0.0,0.0,154,213900000.0,8.9,96.0,94.0,1,1,0,0,0,0,0,0,1
-1994,Supporting Actor,Bullets over Broadway,Chazz Palminteri,0.0,0.0,0.0,0.0,98,13400000.0,7.5,83.0,96.0,1,1,0,0,0,1,0,0,0
-1994,Supporting Actor,Quiz Show,Paul Scofield,0.0,0.0,0.0,0.0,133,24800000.0,7.5,87.0,96.0,1,0,0,1,0,0,0,0,1
-1994,Supporting Actor,Forrest Gump,Gary Sinise,0.0,0.0,0.0,0.0,142,677900000.0,8.8,95.0,72.0,1,0,0,1,0,0,0,1,0
-1995,Supporting Actor,The Usual Suspects,Kevin Spacey,0.0,0.0,0.0,1.0,106,34400000.0,8.6,96.0,88.0,1,1,0,0,0,0,0,1,0
-1995,Supporting Actor,Babe,James Cromwell,0.0,0.0,0.0,0.0,92,254100000.0,6.8,67.0,97.0,0,0,0,0,1,0,0,1,0
-1995,Supporting Actor,Apollo 13,Ed Harris,0.0,0.0,1.0,0.0,140,355200000.0,7.6,87.0,95.0,1,0,1,0,0,0,1,0,0
-1995,Supporting Actor,12 Monkeys,Brad Pitt,0.0,1.0,0.0,0.0,129,168800000.0,8.0,88.0,88.0,1,1,0,0,0,1,0,0,0
-1995,Supporting Actor,Rob Roy,Tim Roth,1.0,0.0,0.0,0.0,139,31600000.0,6.9,75.0,72.0,1,1,0,0,0,0,1,0,0
-1996,Supporting Actor,Jerry Maguire,Cuba Gooding Jr.,0.0,0.0,1.0,1.0,138,273600000.0,7.3,79.0,82.0,1,1,0,0,0,0,0,0,1
-1996,Supporting Actor,Fargo,William H. Macy,0.0,0.0,0.0,0.0,98,60600000.0,8.1,93.0,94.0,0,1,0,0,0,0,1,0,0
-1996,Supporting Actor,Shine,Armin Mueller-Stahl,0.0,0.0,0.0,0.0,105,35900000.0,7.7,90.0,91.0,0,0,0,1,0,1,0,0,0
-1996,Supporting Actor,Primal Fear,Edward Norton,0.0,1.0,0.0,0.0,130,102600000.0,7.7,89.0,74.0,1,1,0,0,0,0,1,0,0
-1996,Supporting Actor,Ghosts of Mississippi,James Woods,0.0,0.0,0.0,0.0,130,13323144.0,6.7,62.0,45.0,1,0,0,1,0,1,0,0,0
-1997,Supporting Actor,Good Will Hunting,Robin Williams,0.0,0.0,1.0,1.0,126,225900000.0,8.3,94.0,97.0,1,1,0,0,0,1,0,0,0
-1997,Supporting Actor,Jackie Brown,Robert Forster,0.0,0.0,0.0,0.0,154,74700000.0,7.5,85.0,87.0,1,1,0,0,0,0,0,0,1
-1997,Supporting Actor,Amistad,Anthony Hopkins,0.0,0.0,0.0,0.0,154,44200000.0,7.2,79.0,76.0,1,1,0,0,0,0,0,0,1
-1997,Supporting Actor,As Good as It Gets,Greg Kinnear,0.0,0.0,0.0,0.0,139,314178011.0,7.7,86.0,86.0,1,0,0,1,0,0,0,0,1
-1997,Supporting Actor,Boogie Nights,Burt Reynolds,0.0,1.0,0.0,0.0,155,43100000.0,7.9,89.0,92.0,1,1,0,0,0,0,0,0,1
-1998,Supporting Actor,Affliction,James Coburn,0.0,0.0,0.0,1.0,114,6330054.0,7.0,72.0,87.0,1,1,0,0,0,1,0,0,0
-1998,Supporting Actor,A Civil Action,Robert Duvall,0.0,0.0,1.0,0.0,115,56709981.0,6.5,55.0,60.0,1,0,0,1,0,1,0,0,0
-1998,Supporting Actor,The Truman Show,Ed Harris,0.0,1.0,0.0,0.0,103,264100000.0,8.1,88.0,94.0,1,0,1,0,0,0,1,0,0
-1998,Supporting Actor,Shakespeare in Love,Geoffrey Rush,0.0,0.0,0.0,0.0,123,289300000.0,7.2,80.0,92.0,1,1,0,0,0,1,0,0,0
-1998,Supporting Actor,A Simple Plan,Billy Bob Thornton,0.0,0.0,0.0,0.0,121,16300000.0,7.5,81.0,90.0,1,1,0,0,0,1,0,0,0
-1999,Supporting Actor,The Cider House Rules,Michael Caine,0.0,0.0,1.0,1.0,125,88500000.0,7.4,77.0,71.0,1,0,0,1,0,1,0,0,0
-1999,Supporting Actor,Magnolia,Tom Cruise,0.0,1.0,0.0,0.0,188,48500000.0,8.0,89.0,84.0,1,1,0,0,0,1,0,0,0
-1999,Supporting Actor,The Green Mile,Michael Clarke Duncan,0.0,0.0,0.0,0.0,189,290700000.0,8.5,94.0,80.0,1,1,0,0,0,0,0,0,1
-1999,Supporting Actor,The Talented Mr. Ripley,Jude Law,1.0,0.0,0.0,0.0,138,128800000.0,7.3,80.0,83.0,1,1,0,0,0,0,0,0,1
-1999,Supporting Actor,The Sixth Sense,Haley Joel Osment,0.0,0.0,0.0,0.0,107,672800000.0,8.1,89.0,85.0,1,0,0,1,0,0,0,1,0
-2000,Supporting Actor,Traffic,Benicio del Toro,1.0,1.0,0.0,1.0,147,207500000.0,7.6,85.0,92.0,1,1,0,0,0,1,0,0,0
-2000,Supporting Actor,The Contender,Jeff Bridges,0.0,0.0,0.0,0.0,126,22361811.0,7.0,73.0,76.0,1,1,0,0,0,0,0,0,1
-2000,Supporting Actor,Shadow of the Vampire,Willem Dafoe,0.0,0.0,0.0,0.0,92,11200000.0,6.9,74.0,81.0,0,1,0,0,0,1,0,0,0
-2000,Supporting Actor,Erin Brockovich,Albert Finney,0.0,0.0,1.0,0.0,130,256300000.0,7.3,80.0,84.0,1,1,0,0,0,1,0,0,0
-2000,Supporting Actor,Gladiator,Joaquin Phoenix,0.0,0.0,0.0,0.0,155,457600000.0,8.5,87.0,76.0,0,1,0,0,0,0,1,0,0
-2001,Supporting Actor,Iris,Jim Broadbent,0.0,1.0,0.0,1.0,90,16200000.0,7.1,74.0,79.0,0,1,0,0,0,1,0,0,0
-2001,Supporting Actor,Training Day,Ethan Hawke,0.0,0.0,0.0,0.0,122,104500000.0,7.7,89.0,72.0,1,1,0,0,0,0,0,0,1
-2001,Supporting Actor,Sexy Beast,Ben Kingsley,0.0,0.0,0.0,0.0,88,31765934.0,7.3,85.0,86.0,0,1,0,0,0,0,0,1,0
-2001,Supporting Actor,The Lord of the Rings: The Fellowship of the Ring,Ian McKellen,0.0,0.0,1.0,0.0,178,871500000.0,8.8,95.0,91.0,0,0,0,1,0,0,0,0,1
-2001,Supporting Actor,Ali,Jon Voight,0.0,0.0,0.0,0.0,157,87700000.0,6.8,65.0,67.0,1,1,0,0,0,0,0,0,1
-2002,Supporting Actor,Adaptation.,Chris Cooper,0.0,0.0,0.0,1.0,114,32800000.0,7.7,85.0,91.0,1,1,0,0,0,1,0,0,0
-2002,Supporting Actor,The Hours,Ed Harris,0.0,0.0,0.0,0.0,114,108800000.0,7.6,84.0,81.0,0,0,0,1,0,1,0,0,0
-2002,Supporting Actor,Road to Perdition,Paul Newman,0.0,0.0,0.0,0.0,117,181000000.0,7.7,86.0,81.0,1,1,0,0,0,0,0,1,0
-2002,Supporting Actor,Chicago,John C. Reilly,0.0,0.0,0.0,0.0,113,306800000.0,7.2,83.0,86.0,1,0,0,1,0,1,0,0,0
-2002,Supporting Actor,Catch Me If You Can,Christopher Walken,1.0,0.0,1.0,0.0,141,352100000.0,8.0,89.0,96.0,1,0,0,1,0,0,0,0,1
-2003,Supporting Actor,Mystic River,Tim Robbins,0.0,1.0,1.0,1.0,137,156800000.0,8.0,89.0,87.0,1,1,0,0,0,0,0,0,1
-2003,Supporting Actor,The Cooler,Alec Baldwin,0.0,0.0,0.0,0.0,101,10464788.0,7.0,69.0,77.0,1,1,0,0,0,1,0,0,0
-2003,Supporting Actor,21 Grams,Benicio del Toro,0.0,0.0,0.0,0.0,124,60400000.0,7.7,86.0,80.0,1,1,0,0,0,1,0,0,0
-2003,Supporting Actor,In America,Djimon Hounsou,0.0,0.0,0.0,0.0,105,25382911.0,7.8,91.0,89.0,0,0,0,1,0,1,0,0,0
-2003,Supporting Actor,The Last Samurai,Ken Watanabe,0.0,0.0,0.0,0.0,154,456800000.0,7.7,83.0,66.0,1,1,0,0,0,0,0,0,1
-2004,Supporting Actor,Million Dollar Baby,Morgan Freeman,0.0,0.0,1.0,1.0,132,216800000.0,8.1,90.0,91.0,1,0,0,1,0,1,0,0,0
-2004,Supporting Actor,The Aviator,Alan Alda,0.0,0.0,0.0,0.0,170,213700000.0,7.5,79.0,87.0,1,0,0,1,0,0,0,0,1
-2004,Supporting Actor,Sideways,Thomas Haden Church,0.0,0.0,0.0,0.0,123,109700000.0,7.5,78.0,96.0,1,1,0,0,0,1,0,0,0
-2004,Supporting Actor,Collateral,Jamie Foxx,0.0,0.0,0.0,0.0,120,217800000.0,7.6,84.0,86.0,1,1,0,0,0,0,0,1,0
-2004,Supporting Actor,Closer,Clive Owen,1.0,1.0,0.0,0.0,104,115505027.0,7.3,81.0,68.0,1,1,0,0,0,0,0,0,1
-2005,Supporting Actor,Syriana,George Clooney,0.0,1.0,0.0,1.0,128,94000000.0,7.0,67.0,72.0,1,1,0,0,0,0,0,0,1
-2005,Supporting Actor,Crash,Matt Dillon,0.0,0.0,0.0,0.0,112,98400000.0,7.8,88.0,75.0,1,1,0,0,0,0,1,0,0
-2005,Supporting Actor,Cinderella Man,Paul Giamatti,0.0,0.0,1.0,0.0,144,108500000.0,8.0,91.0,80.0,1,0,0,1,0,0,1,0,0
-2005,Supporting Actor,Brokeback Mountain,Jake Gyllenhaal,1.0,0.0,0.0,0.0,134,178100000.0,7.7,82.0,87.0,1,1,0,0,0,1,0,0,0
-2005,Supporting Actor,A History of Violence,William Hurt,0.0,0.0,0.0,0.0,96,60700000.0,7.5,76.0,87.0,1,1,0,0,0,0,0,1,0
-2006,Supporting Actor,Little Miss Sunshine,Alan Arkin,1.0,0.0,0.0,1.0,101,100500000.0,7.8,91.0,91.0,1,1,0,0,0,0,0,1,0
-2006,Supporting Actor,Little Children,Jackie Earle Haley,0.0,0.0,0.0,0.0,137,14800000.0,7.6,82.0,80.0,1,1,0,0,0,1,0,0,0
-2006,Supporting Actor,Blood Diamond,Djimon Hounsou,0.0,0.0,0.0,0.0,143,171400000.0,8.0,90.0,62.0,1,1,0,0,0,0,0,0,1
-2006,Supporting Actor,Dreamgirls,Eddie Murphy,0.0,1.0,1.0,0.0,130,154800000.0,6.5,71.0,78.0,1,0,0,1,0,0,0,0,1
-2006,Supporting Actor,The Departed,Mark Wahlberg,0.0,0.0,0.0,0.0,151,289800000.0,8.5,94.0,91.0,1,1,0,0,0,0,0,0,1
-2007,Supporting Actor,No Country for Old Men,Javier Bardem,1.0,1.0,1.0,1.0,122,171600000.0,8.1,86.0,93.0,1,1,0,0,0,0,0,0,1
-2007,Supporting Actor,The Assassination of Jesse James by the Coward Robert Ford,Casey Affleck,0.0,0.0,0.0,0.0,159,15000000.0,7.5,75.0,76.0,1,1,0,0,0,0,0,0,1
-2007,Supporting Actor,Charlie Wilson's War,Philip Seymour Hoffman,0.0,0.0,0.0,0.0,100,119000000.0,7.1,73.0,82.0,1,1,0,0,0,0,0,0,1
-2007,Supporting Actor,Into the Wild,Hal Holbrook,0.0,0.0,0.0,0.0,148,56300000.0,8.2,89.0,82.0,1,1,0,0,0,0,0,0,1
-2007,Supporting Actor,Michael Clayton,Tom Wilkinson,0.0,0.0,0.0,0.0,119,92900000.0,7.3,69.0,90.0,1,1,0,0,0,0,0,0,1
-2008,Supporting Actor,The Dark Knight,Heath Ledger,1.0,1.0,1.0,1.0,152,10050000.0,9.0,94.0,94.0,0,0,0,1,0,0,0,1,0
-2008,Supporting Actor,Milk,Josh Brolin,0.0,0.0,0.0,0.0,128,54600000.0,7.6,89.0,94.0,1,1,0,0,0,1,0,0,0
-2008,Supporting Actor,Tropic Thunder,Robert Downey Jr.,0.0,0.0,0.0,0.0,106,188100000.0,7.0,70.0,82.0,1,1,0,0,0,0,0,1,0
-2008,Supporting Actor,Doubt,Philip Seymour Hoffman,0.0,0.0,0.0,0.0,104,50900000.0,7.5,78.0,78.0,1,0,0,1,0,0,0,0,1
-2008,Supporting Actor,Revolutionary Road,Michael Shannon,0.0,0.0,0.0,0.0,119,75200000.0,7.3,71.0,67.0,1,1,0,0,0,1,0,0,0
-2009,Supporting Actor,Inglourious Basterds,Christoph Waltz,1.0,1.0,1.0,1.0,153,321500000.0,8.3,87.0,89.0,1,1,0,0,0,0,0,1,0
-2009,Supporting Actor,Invictus,Matt Damon,0.0,0.0,0.0,0.0,133,122200000.0,7.4,74.0,76.0,1,0,0,1,0,0,0,0,1
-2009,Supporting Actor,The Messenger,Woody Harrelson,0.0,0.0,0.0,0.0,113,1521261.0,7.2,75.0,89.0,1,1,0,0,0,0,0,0,1
-2009,Supporting Actor,The Last Station,Christopher Plummer,0.0,0.0,0.0,0.0,112,13550772.0,7.0,66.0,71.0,0,1,0,0,0,1,0,0,0
-2009,Supporting Actor,The Lovely Bones,Stanley Tucci,0.0,0.0,0.0,0.0,135,93600000.0,6.7,52.0,31.0,1,0,0,1,0,1,0,0,0
-2010,Supporting Actor,The Fighter,Christian Bale,0.0,1.0,1.0,1.0,115,129200000.0,7.9,89.0,90.0,1,1,0,0,0,0,0,0,1
-2010,Supporting Actor,Winter's Bone,John Hawkes,0.0,0.0,0.0,0.0,100,16100000.0,7.2,76.0,94.0,1,1,0,0,0,0,0,1,0
-2010,Supporting Actor,The Town,Jeremy Renner,0.0,0.0,0.0,0.0,124,154000000.0,7.6,85.0,94.0,1,1,0,0,0,0,0,1,0
-2010,Supporting Actor,The Kids Are All Right,Mark Ruffalo,0.0,0.0,0.0,0.0,107,34700000.0,7.1,73.0,93.0,1,1,0,0,0,0,0,1,0
-2010,Supporting Actor,The King's Speech,Geoffrey Rush,1.0,0.0,0.0,0.0,119,414200000.0,8.0,92.0,95.0,0,1,0,0,0,0,0,0,1
-2011,Supporting Actor,Beginners,Christopher Plummer,1.0,1.0,1.0,1.0,104,14300000.0,7.2,77.0,84.0,1,1,0,0,0,0,1,0,0
-2011,Supporting Actor,My Week with Marilyn,Kenneth Branagh,0.0,0.0,0.0,0.0,101,35000000.0,7.0,71.0,83.0,0,1,0,0,0,0,0,0,1
-2011,Supporting Actor,Moneyball,Jonah Hill,0.0,0.0,0.0,0.0,133,110200000.0,7.6,86.0,94.0,1,0,0,1,0,0,0,1,0
-2011,Supporting Actor,Warrior,Nick Nolte,0.0,0.0,0.0,0.0,140,23100000.0,8.2,92.0,82.0,1,0,0,1,0,0,0,1,0
-2011,Supporting Actor,Extremely Loud and Incredibly Close,Max von Sydow,0.0,0.0,0.0,0.0,129,55200000.0,6.9,61.0,46.0,1,0,0,1,0,1,0,0,0
-2012,Supporting Actor,Django Unchained,Christoph Waltz,1.0,1.0,0.0,1.0,165,425400000.0,8.4,91.0,88.0,1,1,0,0,0,0,0,0,1
-2012,Supporting Actor,Argo,Alan Arkin,0.0,0.0,0.0,0.0,120,232300000.0,7.7,90.0,96.0,1,1,0,0,0,0,0,0,1
-2012,Supporting Actor,Silver Linings Playbook,Robert De Niro,0.0,0.0,0.0,0.0,122,236400000.0,7.8,86.0,92.0,1,1,0,0,0,0,0,0,1
-2012,Supporting Actor,The Master,Philip Seymour Hoffman,0.0,0.0,0.0,0.0,137,28300000.0,7.1,61.0,86.0,1,1,0,0,0,0,0,1,0
-2012,Supporting Actor,Lincoln,Tommy Lee Jones,0.0,0.0,1.0,0.0,150,275300000.0,7.4,80.0,90.0,1,0,0,1,0,0,0,0,1
-2013,Supporting Actor,Dallas Buyers Club,Jared Leto,0.0,1.0,1.0,1.0,116,55200000.0,8.0,91.0,94.0,1,1,0,0,0,0,0,0,1
-2013,Supporting Actor,Captain Phillips,Barkhad Abdi,1.0,0.0,0.0,0.0,134,218800000.0,7.8,89.0,93.0,1,0,0,1,0,0,0,0,1
-2013,Supporting Actor,American Hustle,Bradley Cooper,0.0,0.0,0.0,0.0,138,251100000.0,7.3,74.0,93.0,1,1,0,0,0,0,0,0,1
-2013,Supporting Actor,12 Years a Slave,Michael Fassbender,0.0,0.0,0.0,0.0,134,187700000.0,8.1,90.0,96.0,1,1,0,0,0,0,0,0,1
-2013,Supporting Actor,The Wolf of Wall Street,Jonah Hill,0.0,0.0,0.0,0.0,179,392000000.0,8.2,82.0,77.0,1,1,0,0,0,0,0,0,1
-2014,Supporting Actor,Whiplash,J. K. Simmons,1.0,1.0,1.0,1.0,106,49000000.0,8.5,94.0,94.0,1,1,0,0,0,0,0,0,1
-2014,Supporting Actor,The Judge,Robert Duvall,0.0,0.0,0.0,0.0,141,84400000.0,7.4,72.0,48.0,1,1,0,0,0,0,0,0,1
-2014,Supporting Actor,Boyhood,Ethan Hawke,0.0,0.0,0.0,0.0,165,44500000.0,7.9,81.0,98.0,1,1,0,0,0,0,0,1,0
-2014,Supporting Actor,Birdman or (The Unexpected Virtue of Ignorance),Edward Norton,0.0,0.0,0.0,0.0,119,103200000.0,7.8,77.0,91.0,1,1,0,0,0,0,0,0,1
-2014,Supporting Actor,Foxcatcher,Mark Ruffalo,0.0,0.0,0.0,0.0,134,13600000.0,7.0,66.0,88.0,1,1,0,0,0,1,0,0,0
-2015,Supporting Actor,Bridge of Spies,Mark Rylance,1.0,0.0,0.0,1.0,141,165500000.0,7.6,87.0,91.0,1,0,0,1,0,0,0,0,1
-2015,Supporting Actor,The Big Short,Christian Bale,0.0,0.0,0.0,0.0,130,133300000.0,7.8,88.0,88.0,1,1,0,0,0,0,0,0,1
-2015,Supporting Actor,The Revenant,Tom Hardy,0.0,0.0,0.0,0.0,156,533000000.0,8.0,84.0,81.0,1,1,0,0,0,1,0,0,0
-2015,Supporting Actor,Spotlight,Mark Ruffalo,0.0,0.0,0.0,0.0,129,88300000.0,8.1,93.0,96.0,1,1,0,0,0,0,0,0,1
-2015,Supporting Actor,Creed,Sylvester Stallone,0.0,1.0,0.0,0.0,133,173600000.0,7.7,89.0,95.0,1,0,0,1,0,0,0,0,1
-2016,Supporting Actor,Moonlight,Mahershala Ali,0.0,0.0,1.0,1.0,111,23300000.0,7.9,86.0,98.0,1,1,0,0,0,0,0,0,1
-2016,Supporting Actor,Hell or High Water,Jeff Bridges,0.0,0.0,0.0,0.0,102,32300000.0,7.7,89.0,98.0,1,1,0,0,0,0,0,1,0
-2016,Supporting Actor,Manchester by the Sea,Lucas Hedges,0.0,0.0,0.0,0.0,137,60700000.0,8.1,81.0,96.0,1,1,0,0,0,0,0,0,1
-2016,Supporting Actor,Lion,Dev Patel,1.0,0.0,0.0,0.0,118,76300000.0,8.0,93.0,86.0,0,0,0,1,0,1,0,0,0
-2016,Supporting Actor,Nocturnal Animals,Michael Shannon,0.0,0.0,0.0,0.0,116,30600000.0,7.6,75.0,73.0,1,1,0,0,0,0,0,0,1
-2017,Supporting Actor,The Florida Project,Willem Dafoe,0,0,0,0,111,6700000.0,7.7,6.8,92,1,0,0,0,0,0,0,0,1
-2017,Supporting Actor,"Three Billboards outside Ebbing, Missouri",Woody Harrelson,0,0,0,0,115,91100000.0,8.3,7.4,88,0,1,0,0,0,0,0,0,1
-2017,Supporting Actor,The Shape of Water,Richard Jenkins,0,0,0,0,123,67000000.0,7.8,7.1,87,1,1,0,0,0,0,0,0,1
-2017,Supporting Actor,All the Money in the World,Christopher Plummer,0,0,0,0,132,44200000.0,7.1,6.4,72,1,1,0,0,0,0,0,0,1
-2017,Supporting Actor,"Three Billboards outside Ebbing, Missouri",Sam Rockwell,1,1,1,1,115,91100000.0,8.3,7.4,88,0,1,0,0,0,0,0,0,1
-2018,Supporting Actor,Green Book,Mahershala Ali,1,1,1,1.0,130,49078216,8.3,7.8,70,1,0,0,1,0,0,0,0,1
-2018,Supporting Actor,BlacKkKlansman,Adam Driver,0,0,0,0.0,135,48636445,7.5,7.5,83,1,1,0,0,0,0,0,1,0
-2018,Supporting Actor,A Star Is Born,Sam Elliott,0,0,0,0.0,136,206361489,8,8.5,88,1,1,0,0,0,0,0,0,1
-2018,Supporting Actor,Can You Ever Forgive Me? ,Richard E. Grant,0,0,0,0.0,106,8046201,7.4,7.6,87,1,1,0,0,0,0,0,0,1
-2018,Supporting Actor,Vice,Sam Rockwell,0,0,0,0.0,132,42197631,7.1,6.2,61,1,1,0,0,0,0,0,0,1
+1980,Supporting Actor,Ordinary People,Timothy Hutton,0,1,0,1,124,54800000,7.8,88,90,1,1,0,0,0,1,0,0,0
+1980,Supporting Actor,Ordinary People,Judd Hirsch,0,0,0,0,124,54800000,7.8,88,90,1,1,0,0,0,1,0,0,0
+1980,Supporting Actor,The Great Santini,Michael O'Keefe,0,0,0,0,115,4700000,7.2,76,94,1,0,1,0,0,0,0,0,1
+1980,Supporting Actor,Raging Bull,Joe Pesci,0,0,0,0,129,23400000,8.2,93,97,1,1,0,0,0,0,0,0,1
+1980,Supporting Actor,Melvin and Howard,Jason Robards,0,0,0,0,95,4309490,6.9,61,94,1,1,0,0,0,0,0,1,0
+1981,Supporting Actor,Arthur,John Gielgud,0,1,0,1,97,95461682,6.9,77,90,1,0,1,0,0,0,0,1,0
+1981,Supporting Actor,Only When I Laugh,James Coco,0,0,0,0,120,25524778,6.5,40,50,1,1,0,0,0,0,0,1,0
+1981,Supporting Actor,Chariots of Fire,Ian Holm,1,0,0,0,124,59000000,7.2,80,83,0,0,1,0,0,0,1,0,0
+1981,Supporting Actor,Reds,Jack Nicholson,0,0,0,0,195,40400000,7.5,82,94,1,0,1,0,0,0,0,0,1
+1981,Supporting Actor,Ragtime,Howard Rollins,0,0,0,0,155,11099118,7.3,77,90,1,0,1,0,0,0,0,0,1
+1982,Supporting Actor,An Officer and a Gentleman,Louis Gossett Jr.,0,1,0,1,122,129800000,7,81,81,1,1,0,0,0,0,0,1,0
+1982,Supporting Actor,The Best Little Whorehouse in Texas,Charles Durning,0,0,0,0,114,69700000,5.8,68,56,1,1,0,0,0,0,0,1,0
+1982,Supporting Actor,The World According to Garp,John Lithgow,0,0,0,0,136,29712172,7.2,79,79,1,1,0,0,0,0,0,1,0
+1982,Supporting Actor,The Verdict,James Mason,0,0,0,0,129,53977250,7.8,88,96,1,1,0,0,0,0,0,0,1
+1982,Supporting Actor,Victor Victoria,Robert Preston,0,0,0,0,132,28215453,7.6,86,96,0,0,1,0,0,1,0,0,0
+1983,Supporting Actor,Terms of Endearment,Jack Nicholson,0,1,0,1,132,108400000,7.4,84,88,1,0,1,0,0,0,0,0,1
+1983,Supporting Actor,To Be or Not to Be,Charles Durning,0,0,0,0,107,13000000,6.8,76,63,1,0,1,0,0,0,0,0,1
+1983,Supporting Actor,Terms of Endearment,John Lithgow,0,0,0,0,132,108400000,7.4,84,88,1,0,1,0,0,0,0,0,1
+1983,Supporting Actor,The Right Stuff,Sam Shepard,0,0,0,0,192,21100000,7.9,90,98,1,0,1,0,0,1,0,0,0
+1984,Supporting Actor,The Killing Fields,Haing S. Ngor,0,1,0,1,141,34700291,7.9,92,93,0,1,0,0,0,1,0,0,0
+1984,Supporting Actor,A Soldier's Story,Adolph Caesar,0,0,0,0,101,21821347,7.2,82,89,1,0,1,0,0,0,0,0,1
+1984,Supporting Actor,Places in the Heart,John Malkovich,0,0,0,0,102,34901614,7.3,82,96,1,0,1,0,0,0,0,0,1
+1984,Supporting Actor,The Karate Kid,Pat Morita,0,0,0,0,127,90800000,7.2,82,90,1,0,1,0,0,0,1,0,0
+1984,Supporting Actor,"Greystoke: The Legend of Tarzan, Lord of the Apes",Ralph Richardson,0,0,0,0,130,45900000,6.3,61,69,0,0,1,0,0,1,0,0,0
+1985,Supporting Actor,Cocoon,Don Ameche,0,0,0,1,117,85300000,6.7,59,80,1,0,0,1,0,0,1,0,0
+1985,Supporting Actor,Out of Africa,Klaus Maria Brandauer,0,1,0,0,161,128500000,7.2,83,56,1,0,1,0,0,0,0,0,1
+1985,Supporting Actor,Prizzi's Honor,William Hickey,0,0,0,0,130,26657534,6.8,62,88,1,1,0,0,0,0,1,0,0
+1985,Supporting Actor,Jagged Edge,Robert Loggia,0,0,0,0,108,40491165,6.4,58,82,1,1,0,0,0,0,0,0,1
+1985,Supporting Actor,Runaway Train,Eric Roberts,0,0,0,0,110,7700000,7.3,76,87,1,1,0,0,0,1,0,0,0
+1986,Supporting Actor,Hannah and Her Sisters,Michael Caine,0,0,0,1,106,40100000,8,90,93,1,0,0,1,0,1,0,0,0
+1986,Supporting Actor,Platoon,Tom Berenger,0,1,0,0,120,138500000,8.1,93,88,1,1,0,0,0,1,0,0,0
+1986,Supporting Actor,Platoon,Willem Dafoe,0,0,0,0,120,138500000,8.1,93,88,1,1,0,0,0,1,0,0,0
+1986,Supporting Actor,A Room with a View,Denholm Elliott,0,0,0,0,117,21000000,7.4,86,100,0,0,0,1,0,0,1,0,0
+1986,Supporting Actor,Hoosiers,Dennis Hopper,0,0,0,0,115,28600000,7.6,88,88,1,0,1,0,0,1,0,0,0
+1987,Supporting Actor,The Untouchables,Sean Connery,0,1,0,1,119,106200000,7.9,89,80,1,1,0,0,0,0,1,0,0
+1987,Supporting Actor,Broadcast News,Albert Brooks,0,0,0,0,133,67331309,7.2,78,98,1,1,0,0,0,0,0,0,1
+1987,Supporting Actor,Street Smart,Morgan Freeman,0,0,0,0,97,1119112,6.4,42,69,0,1,0,0,0,1,0,0,0
+1987,Supporting Actor,Moonstruck,Vincent Gardenia,0,0,0,0,102,91640528,7.1,80,92,1,0,1,0,0,1,0,0,0
+1987,Supporting Actor,Cry Freedom,Denzel Washington,0,0,0,0,157,5900000,7.5,88,81,0,0,1,0,0,0,0,0,1
+1988,Supporting Actor,A Fish Called Wanda,Kevin Kline,0,0,0,1,108,62500000,7.6,84,93,0,1,0,0,0,0,0,1,0
+1988,Supporting Actor,Little Dorrit,Alec Guinness,0,0,0,0,360,1025228,7.6,67,71,0,0,0,0,1,0,0,0,1
+1988,Supporting Actor,Tucker: The Man and His Dream,Martin Landau,0,1,0,0,110,19700000,6.9,67,84,1,0,1,0,0,0,0,1,0
+1988,Supporting Actor,Running on Empty,River Phoenix,0,0,0,0,111,2835116,7.7,68,85,1,0,0,1,0,0,0,1,0
+1988,Supporting Actor,Married to the Mob,Dean Stockwell,0,0,0,0,104,21486757,6.1,47,91,1,1,0,0,0,0,0,1,0
+1989,Supporting Actor,Glory,Denzel Washington,0,1,0,1,122,26800000,7.9,93,93,1,1,0,0,0,1,0,0,0
+1989,Supporting Actor,Do the Right Thing,Danny Aiello,0,0,0,0,120,37300000,7.9,90,93,1,1,0,0,0,0,0,1,0
+1989,Supporting Actor,Driving Miss Daisy,Dan Aykroyd,0,0,0,0,100,145800000,7.4,81,82,1,0,1,0,0,1,0,0,0
+1989,Supporting Actor,A Dry White Season,Marlon Brando,0,0,0,0,97,3766879,7,75,81,1,1,0,0,0,0,0,1,0
+1989,Supporting Actor,Crimes and Misdemeanors,Martin Landau,0,0,0,0,104,18254702,8,91,93,1,0,0,1,0,0,0,0,1
+1990,Supporting Actor,Goodfellas,Joe Pesci,0,0,0,1,145,46800000,8.7,97,97,1,1,0,0,0,0,0,1,0
+1990,Supporting Actor,Longtime Companion,Bruce Davison,0,1,0,0,96,4609953,7.5,82,100,1,1,0,0,0,0,1,0,0
+1990,Supporting Actor,The Godfather Part III,Andy Garca,0,0,0,0,162,136800000,7.6,78,67,1,1,0,0,0,0,0,0,1
+1990,Supporting Actor,Dances with Wolves,Graham Greene,0,0,0,0,181,424200000,8,87,82,1,0,0,1,0,0,0,0,1
+1990,Supporting Actor,Dick Tracy,Al Pacino,0,0,0,0,105,162700000,6.1,53,64,1,0,1,0,0,0,1,0,0
+1991,Supporting Actor,City Slickers,Jack Palance,0,1,0,1,112,180000000,6.7,64,90,1,0,0,1,0,0,1,0,0
+1991,Supporting Actor,JFK,Tommy Lee Jones,0,0,0,0,188,205400000,8,88,84,1,1,0,0,0,0,0,0,1
+1991,Supporting Actor,Bugsy,Harvey Keitel,0,0,0,0,137,49100000,6.8,69,85,1,1,0,0,0,0,0,0,1
+1991,Supporting Actor,Bugsy,Ben Kingsley,0,0,0,0,137,49100000,6.8,69,85,1,1,0,0,0,0,0,0,1
+1991,Supporting Actor,Barton Fink,Michael Lerner,0,0,0,0,117,6200000,7.7,89,91,1,1,0,0,0,0,0,1,0
+1992,Supporting Actor,Unforgiven,Gene Hackman,1,1,0,1,131,159200000,8.3,93,95,1,1,0,0,0,0,0,1,0
+1992,Supporting Actor,The Crying Game,Jaye Davidson,0,0,0,0,111,62500000,7.3,78,97,0,1,0,0,0,1,0,0,0
+1992,Supporting Actor,A Few Good Men,Jack Nicholson,0,0,0,0,138,243200000,7.6,89,81,1,1,0,0,0,0,0,0,1
+1992,Supporting Actor,Glengarry Glen Ross,Al Pacino,0,0,0,0,100,10700000,7.8,88,94,1,1,0,0,0,0,0,0,1
+1992,Supporting Actor,Mr. Saturday Night,David Paymer,0,0,0,0,119,13300000,5.8,36,56,1,1,0,0,0,0,0,1,0
+1993,Supporting Actor,The Fugitive,Tommy Lee Jones,0,1,0,1,130,368900000,7.8,89,96,1,0,0,1,0,0,0,1,0
+1993,Supporting Actor,What's Eating Gilbert Grape,Leonardo DiCaprio,0,0,0,0,118,10000000,7.8,89,89,1,0,0,1,0,1,0,0,0
+1993,Supporting Actor,Schindler's List,Ralph Fiennes,1,0,0,0,197,321200000,8.9,97,96,1,1,0,0,0,1,0,0,0
+1993,Supporting Actor,In the Line of Fire,John Malkovich,0,0,0,0,128,177000000,7.2,79,95,1,1,0,0,0,0,0,1,0
+1993,Supporting Actor,In the Name of the Father,Pete Postlethwaite,0,0,0,0,133,65800000,8.1,95,94,0,1,0,0,0,1,0,0,0
+1994,Supporting Actor,Ed Wood,Martin Landau,0,1,1,1,127,5900000,7.9,88,92,1,1,0,0,0,0,0,0,1
+1994,Supporting Actor,Pulp Fiction,Samuel L. Jackson,1,0,0,0,154,213900000,8.9,96,94,1,1,0,0,0,0,0,0,1
+1994,Supporting Actor,Bullets over Broadway,Chazz Palminteri,0,0,0,0,98,13400000,7.5,83,96,1,1,0,0,0,1,0,0,0
+1994,Supporting Actor,Quiz Show,Paul Scofield,0,0,0,0,133,24800000,7.5,87,96,1,0,0,1,0,0,0,0,1
+1994,Supporting Actor,Forrest Gump,Gary Sinise,0,0,0,0,142,677900000,8.8,95,72,1,0,0,1,0,0,0,1,0
+1995,Supporting Actor,The Usual Suspects,Kevin Spacey,0,0,0,1,106,34400000,8.6,96,88,1,1,0,0,0,0,0,1,0
+1995,Supporting Actor,Babe,James Cromwell,0,0,0,0,92,254100000,6.8,67,97,0,0,0,0,1,0,0,1,0
+1995,Supporting Actor,Apollo 13,Ed Harris,0,0,1,0,140,355200000,7.6,87,95,1,0,1,0,0,0,1,0,0
+1995,Supporting Actor,12 Monkeys,Brad Pitt,0,1,0,0,129,168800000,8,88,88,1,1,0,0,0,1,0,0,0
+1995,Supporting Actor,Rob Roy,Tim Roth,1,0,0,0,139,31600000,6.9,75,72,1,1,0,0,0,0,1,0,0
+1996,Supporting Actor,Jerry Maguire,Cuba Gooding Jr.,0,0,1,1,138,273600000,7.3,79,82,1,1,0,0,0,0,0,0,1
+1996,Supporting Actor,Fargo,William H. Macy,0,0,0,0,98,60600000,8.1,93,94,0,1,0,0,0,0,1,0,0
+1996,Supporting Actor,Shine,Armin Mueller-Stahl,0,0,0,0,105,35900000,7.7,90,91,0,0,0,1,0,1,0,0,0
+1996,Supporting Actor,Primal Fear,Edward Norton,0,1,0,0,130,102600000,7.7,89,74,1,1,0,0,0,0,1,0,0
+1996,Supporting Actor,Ghosts of Mississippi,James Woods,0,0,0,0,130,13323144,6.7,62,45,1,0,0,1,0,1,0,0,0
+1997,Supporting Actor,Good Will Hunting,Robin Williams,0,0,1,1,126,225900000,8.3,94,97,1,1,0,0,0,1,0,0,0
+1997,Supporting Actor,Jackie Brown,Robert Forster,0,0,0,0,154,74700000,7.5,85,87,1,1,0,0,0,0,0,0,1
+1997,Supporting Actor,Amistad,Anthony Hopkins,0,0,0,0,154,44200000,7.2,79,76,1,1,0,0,0,0,0,0,1
+1997,Supporting Actor,As Good as It Gets,Greg Kinnear,0,0,0,0,139,314178011,7.7,86,86,1,0,0,1,0,0,0,0,1
+1997,Supporting Actor,Boogie Nights,Burt Reynolds,0,1,0,0,155,43100000,7.9,89,92,1,1,0,0,0,0,0,0,1
+1998,Supporting Actor,Affliction,James Coburn,0,0,0,1,114,6330054,7,72,87,1,1,0,0,0,1,0,0,0
+1998,Supporting Actor,A Civil Action,Robert Duvall,0,0,1,0,115,56709981,6.5,55,60,1,0,0,1,0,1,0,0,0
+1998,Supporting Actor,The Truman Show,Ed Harris,0,1,0,0,103,264100000,8.1,88,94,1,0,1,0,0,0,1,0,0
+1998,Supporting Actor,Shakespeare in Love,Geoffrey Rush,0,0,0,0,123,289300000,7.2,80,92,1,1,0,0,0,1,0,0,0
+1998,Supporting Actor,A Simple Plan,Billy Bob Thornton,0,0,0,0,121,16300000,7.5,81,90,1,1,0,0,0,1,0,0,0
+1999,Supporting Actor,The Cider House Rules,Michael Caine,0,0,1,1,125,88500000,7.4,77,71,1,0,0,1,0,1,0,0,0
+1999,Supporting Actor,Magnolia,Tom Cruise,0,1,0,0,188,48500000,8,89,84,1,1,0,0,0,1,0,0,0
+1999,Supporting Actor,The Green Mile,Michael Clarke Duncan,0,0,0,0,189,290700000,8.5,94,80,1,1,0,0,0,0,0,0,1
+1999,Supporting Actor,The Talented Mr. Ripley,Jude Law,1,0,0,0,138,128800000,7.3,80,83,1,1,0,0,0,0,0,0,1
+1999,Supporting Actor,The Sixth Sense,Haley Joel Osment,0,0,0,0,107,672800000,8.1,89,85,1,0,0,1,0,0,0,1,0
+2000,Supporting Actor,Traffic,Benicio del Toro,1,1,0,1,147,207500000,7.6,85,92,1,1,0,0,0,1,0,0,0
+2000,Supporting Actor,The Contender,Jeff Bridges,0,0,0,0,126,22361811,7,73,76,1,1,0,0,0,0,0,0,1
+2000,Supporting Actor,Shadow of the Vampire,Willem Dafoe,0,0,0,0,92,11200000,6.9,74,81,0,1,0,0,0,1,0,0,0
+2000,Supporting Actor,Erin Brockovich,Albert Finney,0,0,1,0,130,256300000,7.3,80,84,1,1,0,0,0,1,0,0,0
+2000,Supporting Actor,Gladiator,Joaquin Phoenix,0,0,0,0,155,457600000,8.5,87,76,0,1,0,0,0,0,1,0,0
+2001,Supporting Actor,Iris,Jim Broadbent,0,1,0,1,90,16200000,7.1,74,79,0,1,0,0,0,1,0,0,0
+2001,Supporting Actor,Training Day,Ethan Hawke,0,0,0,0,122,104500000,7.7,89,72,1,1,0,0,0,0,0,0,1
+2001,Supporting Actor,Sexy Beast,Ben Kingsley,0,0,0,0,88,31765934,7.3,85,86,0,1,0,0,0,0,0,1,0
+2001,Supporting Actor,The Lord of the Rings: The Fellowship of the Ring,Ian McKellen,0,0,1,0,178,871500000,8.8,95,91,0,0,0,1,0,0,0,0,1
+2001,Supporting Actor,Ali,Jon Voight,0,0,0,0,157,87700000,6.8,65,67,1,1,0,0,0,0,0,0,1
+2002,Supporting Actor,Adaptation.,Chris Cooper,0,0,0,1,114,32800000,7.7,85,91,1,1,0,0,0,1,0,0,0
+2002,Supporting Actor,The Hours,Ed Harris,0,0,0,0,114,108800000,7.6,84,81,0,0,0,1,0,1,0,0,0
+2002,Supporting Actor,Road to Perdition,Paul Newman,0,0,0,0,117,181000000,7.7,86,81,1,1,0,0,0,0,0,1,0
+2002,Supporting Actor,Chicago,John C. Reilly,0,0,0,0,113,306800000,7.2,83,86,1,0,0,1,0,1,0,0,0
+2002,Supporting Actor,Catch Me If You Can,Christopher Walken,1,0,1,0,141,352100000,8,89,96,1,0,0,1,0,0,0,0,1
+2003,Supporting Actor,Mystic River,Tim Robbins,0,1,1,1,137,156800000,8,89,87,1,1,0,0,0,0,0,0,1
+2003,Supporting Actor,The Cooler,Alec Baldwin,0,0,0,0,101,10464788,7,69,77,1,1,0,0,0,1,0,0,0
+2003,Supporting Actor,21 Grams,Benicio del Toro,0,0,0,0,124,60400000,7.7,86,80,1,1,0,0,0,1,0,0,0
+2003,Supporting Actor,In America,Djimon Hounsou,0,0,0,0,105,25382911,7.8,91,89,0,0,0,1,0,1,0,0,0
+2003,Supporting Actor,The Last Samurai,Ken Watanabe,0,0,0,0,154,456800000,7.7,83,66,1,1,0,0,0,0,0,0,1
+2004,Supporting Actor,Million Dollar Baby,Morgan Freeman,0,0,1,1,132,216800000,8.1,90,91,1,0,0,1,0,1,0,0,0
+2004,Supporting Actor,The Aviator,Alan Alda,0,0,0,0,170,213700000,7.5,79,87,1,0,0,1,0,0,0,0,1
+2004,Supporting Actor,Sideways,Thomas Haden Church,0,0,0,0,123,109700000,7.5,78,96,1,1,0,0,0,1,0,0,0
+2004,Supporting Actor,Collateral,Jamie Foxx,0,0,0,0,120,217800000,7.6,84,86,1,1,0,0,0,0,0,1,0
+2004,Supporting Actor,Closer,Clive Owen,1,1,0,0,104,115505027,7.3,81,68,1,1,0,0,0,0,0,0,1
+2005,Supporting Actor,Syriana,George Clooney,0,1,0,1,128,94000000,7,67,72,1,1,0,0,0,0,0,0,1
+2005,Supporting Actor,Crash,Matt Dillon,0,0,0,0,112,98400000,7.8,88,75,1,1,0,0,0,0,1,0,0
+2005,Supporting Actor,Cinderella Man,Paul Giamatti,0,0,1,0,144,108500000,8,91,80,1,0,0,1,0,0,1,0,0
+2005,Supporting Actor,Brokeback Mountain,Jake Gyllenhaal,1,0,0,0,134,178100000,7.7,82,87,1,1,0,0,0,1,0,0,0
+2005,Supporting Actor,A History of Violence,William Hurt,0,0,0,0,96,60700000,7.5,76,87,1,1,0,0,0,0,0,1,0
+2006,Supporting Actor,Little Miss Sunshine,Alan Arkin,1,0,0,1,101,100500000,7.8,91,91,1,1,0,0,0,0,0,1,0
+2006,Supporting Actor,Little Children,Jackie Earle Haley,0,0,0,0,137,14800000,7.6,82,80,1,1,0,0,0,1,0,0,0
+2006,Supporting Actor,Blood Diamond,Djimon Hounsou,0,0,0,0,143,171400000,8,90,62,1,1,0,0,0,0,0,0,1
+2006,Supporting Actor,Dreamgirls,Eddie Murphy,0,1,1,0,130,154800000,6.5,71,78,1,0,0,1,0,0,0,0,1
+2006,Supporting Actor,The Departed,Mark Wahlberg,0,0,0,0,151,289800000,8.5,94,91,1,1,0,0,0,0,0,0,1
+2007,Supporting Actor,No Country for Old Men,Javier Bardem,1,1,1,1,122,171600000,8.1,86,93,1,1,0,0,0,0,0,0,1
+2007,Supporting Actor,The Assassination of Jesse James by the Coward Robert Ford,Casey Affleck,0,0,0,0,159,15000000,7.5,75,76,1,1,0,0,0,0,0,0,1
+2007,Supporting Actor,Charlie Wilson's War,Philip Seymour Hoffman,0,0,0,0,100,119000000,7.1,73,82,1,1,0,0,0,0,0,0,1
+2007,Supporting Actor,Into the Wild,Hal Holbrook,0,0,0,0,148,56300000,8.2,89,82,1,1,0,0,0,0,0,0,1
+2007,Supporting Actor,Michael Clayton,Tom Wilkinson,0,0,0,0,119,92900000,7.3,69,90,1,1,0,0,0,0,0,0,1
+2008,Supporting Actor,The Dark Knight,Heath Ledger,1,1,1,1,152,10050000,9,94,94,0,0,0,1,0,0,0,1,0
+2008,Supporting Actor,Milk,Josh Brolin,0,0,0,0,128,54600000,7.6,89,94,1,1,0,0,0,1,0,0,0
+2008,Supporting Actor,Tropic Thunder,Robert Downey Jr.,0,0,0,0,106,188100000,7,70,82,1,1,0,0,0,0,0,1,0
+2008,Supporting Actor,Doubt,Philip Seymour Hoffman,0,0,0,0,104,50900000,7.5,78,78,1,0,0,1,0,0,0,0,1
+2008,Supporting Actor,Revolutionary Road,Michael Shannon,0,0,0,0,119,75200000,7.3,71,67,1,1,0,0,0,1,0,0,0
+2009,Supporting Actor,Inglourious Basterds,Christoph Waltz,1,1,1,1,153,321500000,8.3,87,89,1,1,0,0,0,0,0,1,0
+2009,Supporting Actor,Invictus,Matt Damon,0,0,0,0,133,122200000,7.4,74,76,1,0,0,1,0,0,0,0,1
+2009,Supporting Actor,The Messenger,Woody Harrelson,0,0,0,0,113,1521261,7.2,75,89,1,1,0,0,0,0,0,0,1
+2009,Supporting Actor,The Last Station,Christopher Plummer,0,0,0,0,112,13550772,7,66,71,0,1,0,0,0,1,0,0,0
+2009,Supporting Actor,The Lovely Bones,Stanley Tucci,0,0,0,0,135,93600000,6.7,52,31,1,0,0,1,0,1,0,0,0
+2010,Supporting Actor,The Fighter,Christian Bale,0,1,1,1,115,129200000,7.9,89,90,1,1,0,0,0,0,0,0,1
+2010,Supporting Actor,Winter's Bone,John Hawkes,0,0,0,0,100,16100000,7.2,76,94,1,1,0,0,0,0,0,1,0
+2010,Supporting Actor,The Town,Jeremy Renner,0,0,0,0,124,154000000,7.6,85,94,1,1,0,0,0,0,0,1,0
+2010,Supporting Actor,The Kids Are All Right,Mark Ruffalo,0,0,0,0,107,34700000,7.1,73,93,1,1,0,0,0,0,0,1,0
+2010,Supporting Actor,The King's Speech,Geoffrey Rush,1,0,0,0,119,414200000,8,92,95,0,1,0,0,0,0,0,0,1
+2011,Supporting Actor,Beginners,Christopher Plummer,1,1,1,1,104,14300000,7.2,77,84,1,1,0,0,0,0,1,0,0
+2011,Supporting Actor,My Week with Marilyn,Kenneth Branagh,0,0,0,0,101,35000000,7,71,83,0,1,0,0,0,0,0,0,1
+2011,Supporting Actor,Moneyball,Jonah Hill,0,0,0,0,133,110200000,7.6,86,94,1,0,0,1,0,0,0,1,0
+2011,Supporting Actor,Warrior,Nick Nolte,0,0,0,0,140,23100000,8.2,92,82,1,0,0,1,0,0,0,1,0
+2011,Supporting Actor,Extremely Loud and Incredibly Close,Max von Sydow,0,0,0,0,129,55200000,6.9,61,46,1,0,0,1,0,1,0,0,0
+2012,Supporting Actor,Django Unchained,Christoph Waltz,1,1,0,1,165,425400000,8.4,91,88,1,1,0,0,0,0,0,0,1
+2012,Supporting Actor,Argo,Alan Arkin,0,0,0,0,120,232300000,7.7,90,96,1,1,0,0,0,0,0,0,1
+2012,Supporting Actor,Silver Linings Playbook,Robert De Niro,0,0,0,0,122,236400000,7.8,86,92,1,1,0,0,0,0,0,0,1
+2012,Supporting Actor,The Master,Philip Seymour Hoffman,0,0,0,0,137,28300000,7.1,61,86,1,1,0,0,0,0,0,1,0
+2012,Supporting Actor,Lincoln,Tommy Lee Jones,0,0,1,0,150,275300000,7.4,80,90,1,0,0,1,0,0,0,0,1
+2013,Supporting Actor,Dallas Buyers Club,Jared Leto,0,1,1,1,116,55200000,8,91,94,1,1,0,0,0,0,0,0,1
+2013,Supporting Actor,Captain Phillips,Barkhad Abdi,1,0,0,0,134,218800000,7.8,89,93,1,0,0,1,0,0,0,0,1
+2013,Supporting Actor,American Hustle,Bradley Cooper,0,0,0,0,138,251100000,7.3,74,93,1,1,0,0,0,0,0,0,1
+2013,Supporting Actor,12 Years a Slave,Michael Fassbender,0,0,0,0,134,187700000,8.1,90,96,1,1,0,0,0,0,0,0,1
+2013,Supporting Actor,The Wolf of Wall Street,Jonah Hill,0,0,0,0,179,392000000,8.2,82,77,1,1,0,0,0,0,0,0,1
+2014,Supporting Actor,Whiplash,J. K. Simmons,1,1,1,1,106,49000000,8.5,94,94,1,1,0,0,0,0,0,0,1
+2014,Supporting Actor,The Judge,Robert Duvall,0,0,0,0,141,84400000,7.4,72,48,1,1,0,0,0,0,0,0,1
+2014,Supporting Actor,Boyhood,Ethan Hawke,0,0,0,0,165,44500000,7.9,81,98,1,1,0,0,0,0,0,1,0
+2014,Supporting Actor,Birdman or (The Unexpected Virtue of Ignorance),Edward Norton,0,0,0,0,119,103200000,7.8,77,91,1,1,0,0,0,0,0,0,1
+2014,Supporting Actor,Foxcatcher,Mark Ruffalo,0,0,0,0,134,13600000,7,66,88,1,1,0,0,0,1,0,0,0
+2015,Supporting Actor,Bridge of Spies,Mark Rylance,1,0,0,1,141,165500000,7.6,87,91,1,0,0,1,0,0,0,0,1
+2015,Supporting Actor,The Big Short,Christian Bale,0,0,0,0,130,133300000,7.8,88,88,1,1,0,0,0,0,0,0,1
+2015,Supporting Actor,The Revenant,Tom Hardy,0,0,0,0,156,533000000,8,84,81,1,1,0,0,0,1,0,0,0
+2015,Supporting Actor,Spotlight,Mark Ruffalo,0,0,0,0,129,88300000,8.1,93,96,1,1,0,0,0,0,0,0,1
+2015,Supporting Actor,Creed,Sylvester Stallone,0,1,0,0,133,173600000,7.7,89,95,1,0,0,1,0,0,0,0,1
+2016,Supporting Actor,Moonlight,Mahershala Ali,0,0,1,1,111,23300000,7.9,86,98,1,1,0,0,0,0,0,0,1
+2016,Supporting Actor,Hell or High Water,Jeff Bridges,0,0,0,0,102,32300000,7.7,89,98,1,1,0,0,0,0,0,1,0
+2016,Supporting Actor,Manchester by the Sea,Lucas Hedges,0,0,0,0,137,60700000,8.1,81,96,1,1,0,0,0,0,0,0,1
+2016,Supporting Actor,Lion,Dev Patel,1,0,0,0,118,76300000,8,93,86,0,0,0,1,0,1,0,0,0
+2016,Supporting Actor,Nocturnal Animals,Michael Shannon,0,0,0,0,116,30600000,7.6,75,73,1,1,0,0,0,0,0,0,1
+2017,Supporting Actor,The Florida Project,Willem Dafoe,0,0,0,0,111,6700000,7.7,6.8,92,1,0,0,0,0,0,0,0,1
+2017,Supporting Actor,"Three Billboards outside Ebbing, Missouri",Woody Harrelson,0,0,0,0,115,91100000,8.3,7.4,88,0,1,0,0,0,0,0,0,1
+2017,Supporting Actor,The Shape of Water,Richard Jenkins,0,0,0,0,123,67000000,7.8,7.1,87,1,1,0,0,0,0,0,0,1
+2017,Supporting Actor,All the Money in the World,Christopher Plummer,0,0,0,0,132,44200000,7.1,6.4,72,1,1,0,0,0,0,0,0,1
+2017,Supporting Actor,"Three Billboards outside Ebbing, Missouri",Sam Rockwell,1,1,1,1,115,91100000,8.3,7.4,88,0,1,0,0,0,0,0,0,1
+2018,Supporting Actor,Green Book,Mahershala Ali,1,1,1,1,130,49078216,8.3,7.8,70,1,0,0,1,0,0,0,0,1
+2018,Supporting Actor,BlacKkKlansman,Adam Driver,0,0,0,0,135,48636445,7.5,7.5,83,1,1,0,0,0,0,0,1,0
+2018,Supporting Actor,A Star Is Born,Sam Elliott,0,0,0,0,136,206361489,8,8.5,88,1,1,0,0,0,0,0,0,1
+2018,Supporting Actor,Can You Ever Forgive Me? ,Richard E. Grant,0,0,0,0,106,8046201,7.4,7.6,87,1,1,0,0,0,0,0,0,1
+2018,Supporting Actor,Vice,Sam Rockwell,0,0,0,0,132,42197631,7.1,6.2,61,1,1,0,0,0,0,0,0,1
+2019,Supporting Actor,A Beautiful Day in the Neighborhood,Tom Hanks,0,0,0,0,109,60734525,7.6,7.3,80,1,0,1,0,0,0,0,0,1
+2019,Supporting Actor,The Two Popes,Anthony Hopkins,0,0,0,0,125,204998,7.6,7.5,75,1,0,0,1,0,0,0,0,1
+2019,Supporting Actor,The Irishman,Al Pacino,0,0,0,0,209,961224,8,8.2,94,1,1,0,0,0,0,0,1,0
+2019,Supporting Actor,The Irishman,Joe Pesci,0,0,0,0,209,961224,8,8.2,94,1,1,0,0,0,0,0,1,0
+2019,Supporting Actor,Once Upon a Time... in Hollywood,Brad Pitt,1,1,1,1,161,373058543,7.8,7.6,83,1,1,0,0,0,0,0,1,0

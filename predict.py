@@ -60,8 +60,8 @@ def gettingDistributionOfDatas():
     return class_weight_count
 
 #get dataset to train/test and to predict
-df = pd.read_csv('datasets/Base_Picture.csv')
-df_to_predict = pd.read_csv('datasets/Dados_Picture.csv')
+df = pd.read_csv('datasets/Base_Actor.csv')
+df_to_predict = pd.read_csv('datasets/Dados_Actor.csv')
 
 #check if exist any NaN values
 df.isnull().values.any()
@@ -129,7 +129,7 @@ def predict_results(model, result):
     for i in range(qt_candidates):
             if(resultOscar[i] == 1.0):
                 candidate0[i] = candidate0[i] + 1
-    if(result > 0.79):
+    if(result > 0.75):
         for i in range(qt_candidates):
             if(resultOscar[i] == 1.0):
                 candidate[i] = candidate[i] + 1
@@ -298,6 +298,6 @@ print('\nWithout accuracy validation:')
 print(candidate0)
 print(name_and_films.iloc[[candidate0.index(max(candidate0))]])
 print("\n")
-print('\nOnly if accuracy > 89%:')
+print('\nOnly if accuracy > 75%:')
 print(candidate)
 print(name_and_films.iloc[[candidate.index(max(candidate))]])

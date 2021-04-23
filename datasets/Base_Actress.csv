@@ -1,193 +1,198 @@
 year,category,film,name,BAFTA,Golden Globe,Guild,Oscar,running_time,box_office,imdb_score,rt_audience_score,rt_critic_score,produced_USA,R,PG,PG13,G,q1_release,q2_release,q3_release,q4_release
-1980,Actress,Coal Miner's Daughter,Sissy Spacek,0.0,1.0,0.0,1.0,125,67182787.0,7.5,86.0,100.0,1,0,1,0,0,1,0,0,0
-1980,Actress,Private Benjamin,Goldie Hawn,0.0,0.0,0.0,0.0,109,69847348.0,6.1,60.0,88.0,1,1,0,0,0,0,0,0,1
-1980,Actress,Ordinary People,Mary Tyler Moore,0.0,1.0,0.0,0.0,124,54800000.0,7.8,88.0,90.0,1,1,0,0,0,1,0,0,0
-1980,Actress,Gloria,Gena Rowlands,0.0,0.0,0.0,0.0,121,4100000.0,7.1,80.0,95.0,1,0,1,0,0,0,0,0,1
-1981,Actress,On Golden Pond,Katharine Hepburn,0.0,0.0,0.0,1.0,109,119300000.0,7.7,87.0,92.0,1,0,1,0,0,1,0,0,0
-1981,Actress,Reds,Diane Keaton,0.0,0.0,0.0,0.0,195,40400000.0,7.5,82.0,94.0,1,0,1,0,0,0,0,0,1
-1981,Actress,Only When I Laugh,Marsha Mason,0.0,0.0,0.0,0.0,120,25524778.0,6.5,40.0,50.0,1,1,0,0,0,0,0,1,0
-1981,Actress,Atlantic City,Susan Sarandon,0.0,0.0,0.0,0.0,104,12729675.0,7.4,77.0,100.0,0,1,0,0,0,0,1,0,0
-1981,Actress,The French Lieutenant's Woman,Meryl Streep,1.0,1.0,0.0,0.0,127,26890068.0,7.0,68.0,76.0,0,1,0,0,0,0,0,0,1
-1982,Actress,Sophie's Choice,Meryl Streep,0.0,1.0,0.0,1.0,151,30036000.0,7.7,85.0,79.0,1,1,0,0,0,1,0,0,0
-1982,Actress,Victor Victoria,Julie Andrews,0.0,1.0,0.0,0.0,132,28215453.0,7.6,86.0,96.0,0,0,1,0,0,1,0,0,0
-1982,Actress,Frances,Jessica Lange,0.0,0.0,0.0,0.0,140,5000000.0,7.4,77.0,68.0,1,1,0,0,0,1,0,0,0
-1982,Actress,Missing,Sissy Spacek,0.0,0.0,0.0,0.0,122,1416000000.0,7.8,85.0,97.0,1,0,1,0,0,1,0,0,0
-1982,Actress,An Officer and a Gentleman,Debra Winger,0.0,0.0,0.0,0.0,122,129800000.0,7.0,81.0,81.0,1,1,0,0,0,0,0,1,0
-1983,Actress,Terms of Endearment,Shirley MacLaine,0.0,1.0,0.0,1.0,132,108400000.0,7.4,84.0,88.0,1,0,1,0,0,0,0,0,1
-1983,Actress,Silkwood,Meryl Streep,0.0,0.0,0.0,0.0,131,35615609.0,7.2,78.0,75.0,1,1,0,0,0,1,0,0,0
-1983,Actress,Educating Rita,Julie Walters,1.0,1.0,0.0,0.0,110,14600000.0,7.2,81.0,85.0,0,0,1,0,0,0,0,0,1
-1983,Actress,Terms of Endearment,Debra Winger,0.0,0.0,0.0,0.0,132,108400000.0,7.4,84.0,88.0,1,0,1,0,0,0,0,0,1
-1984,Actress,Places in the Heart,Sally Field,0.0,1.0,0.0,1.0,102,34901614.0,7.3,82.0,96.0,1,0,1,0,0,0,0,0,1
-1984,Actress,A Passage to India,Judy Davis,0.0,0.0,0.0,0.0,163,27200000.0,7.4,78.0,85.0,0,0,1,0,0,1,0,0,0
-1984,Actress,Country,Jessica Lange,0.0,0.0,0.0,0.0,110,9640000.0,6.8,70.0,100.0,1,0,1,0,0,0,0,1,0
-1984,Actress,The River,Sissy Spacek,0.0,0.0,0.0,0.0,122,11500000.0,6.3,79.0,87.0,1,0,0,1,0,1,0,0,0
-1985,Actress,The Trip to Bountiful,Geraldine Page,0.0,0.0,0.0,1.0,108,7491903.0,7.6,86.0,100.0,1,0,1,0,0,1,0,0,0
-1985,Actress,Agnes of God,Anne Bancroft,0.0,0.0,0.0,0.0,98,25600000.0,6.6,55.0,46.0,1,0,0,1,0,0,0,1,0
-1985,Actress,The Color Purple,Whoopi Goldberg,0.0,1.0,0.0,0.0,153,142000000.0,7.8,94.0,88.0,1,0,0,1,0,1,0,0,0
-1985,Actress,Sweet Dreams,Jessica Lange,0.0,0.0,0.0,0.0,115,9085049.0,7.1,82.0,94.0,1,0,0,1,0,0,0,0,1
-1985,Actress,Out of Africa,Meryl Streep,0.0,0.0,0.0,0.0,161,128500000.0,7.2,83.0,56.0,1,0,1,0,0,0,0,0,1
-1986,Actress,Children of a Lesser God,Marlee Matlin,0.0,1.0,0.0,1.0,119,31853080.0,7.2,78.0,81.0,1,1,0,0,0,0,0,0,1
-1986,Actress,The Morning After,Jane Fonda,0.0,0.0,0.0,0.0,103,25147055.0,6.0,38.0,71.0,0,1,0,0,0,0,0,0,1
-1986,Actress,Crimes of the Heart,Sissy Spacek,0.0,1.0,0.0,0.0,105,22905522.0,6.4,66.0,81.0,1,0,0,1,0,1,0,0,0
-1986,Actress,Peggy Sue Got Married,Kathleen Turner,0.0,0.0,0.0,0.0,103,41382841.0,6.3,55.0,85.0,1,0,0,1,0,0,0,0,1
-1986,Actress,Aliens,Sigourney Weaver,0.0,0.0,0.0,0.0,137,131100000.0,8.4,94.0,98.0,1,1,0,0,0,0,0,1,0
-1987,Actress,Moonstruck,Cher,0.0,1.0,0.0,1.0,102,91640528.0,7.1,80.0,92.0,1,0,1,0,0,1,0,0,0
-1987,Actress,Fatal Attraction,Glenn Close,0.0,0.0,0.0,0.0,119,320100000.0,6.9,72.0,78.0,1,1,0,0,0,0,0,1,0
-1987,Actress,Broadcast News,Holly Hunter,0.0,0.0,0.0,0.0,133,67331309.0,7.2,78.0,98.0,1,1,0,0,0,0,0,0,1
-1987,Actress,Anna,Sally Kirkland,0.0,1.0,0.0,0.0,100,1236848.0,6.6,38.0,35.0,1,0,0,1,0,0,0,0,1
-1987,Actress,Ironweed,Meryl Streep,0.0,0.0,0.0,0.0,143,7393346.0,6.8,60.0,65.0,1,1,0,0,0,1,0,0,0
-1988,Actress,The Accused,Jodie Foster,0.0,1.0,0.0,1.0,111,32078318.0,7.1,79.0,95.0,0,1,0,0,0,0,0,0,1
-1988,Actress,Dangerous Liaisons,Glenn Close,0.0,0.0,0.0,0.0,119,34700000.0,7.7,83.0,93.0,1,1,0,0,0,1,0,0,0
-1988,Actress,Working Girl,Melanie Griffith,0.0,1.0,0.0,0.0,114,102953112.0,6.7,67.0,84.0,1,1,0,0,0,0,0,0,1
-1988,Actress,A Cry in the Dark,Meryl Streep,0.0,0.0,0.0,0.0,121,6900000.0,6.9,73.0,92.0,0,0,0,1,0,0,0,0,1
-1988,Actress,Gorillas in the Mist,Sigourney Weaver,0.0,1.0,0.0,0.0,129,61100000.0,7.0,74.0,82.0,1,0,0,1,0,0,0,0,1
-1989,Actress,Driving Miss Daisy,Jessica Tandy,0.0,1.0,0.0,1.0,100,145800000.0,7.4,81.0,82.0,1,0,1,0,0,1,0,0,0
-1989,Actress,Camille Claudel,Isabelle Adjani,0.0,0.0,0.0,0.0,175,23700000.0,7.3,88.0,100.0,0,1,0,0,0,0,0,0,1
-1989,Actress,Shirley Valentine,Pauline Collins,1.0,0.0,0.0,0.0,108,6353913.0,7.2,86.0,67.0,0,1,0,0,0,0,0,1,0
-1989,Actress,Music Box,Jessica Lange,0.0,0.0,0.0,0.0,124,6263883.0,7.3,77.0,75.0,1,0,0,1,0,1,0,0,0
-1989,Actress,The Fabulous Baker Boys,Michelle Pfeiffer,0.0,1.0,0.0,0.0,114,18428904.0,6.8,69.0,96.0,1,1,0,0,0,0,0,0,1
-1990,Actress,Misery,Kathy Bates,0.0,1.0,0.0,1.0,107,61300000.0,7.8,89.0,89.0,1,1,0,0,0,0,0,0,1
-1990,Actress,The Grifters,Anjelica Huston,0.0,0.0,0.0,0.0,110,13446769.0,7.0,70.0,90.0,1,1,0,0,0,1,0,0,0
-1990,Actress,Pretty Woman,Julia Roberts,0.0,1.0,0.0,0.0,119,463400000.0,6.9,68.0,61.0,1,1,0,0,0,1,0,0,0
-1990,Actress,Postcards from the Edge,Meryl Streep,0.0,0.0,0.0,0.0,101,39071603.0,6.7,66.0,90.0,1,1,0,0,0,0,0,1,0
-1990,Actress,Mr. and Mrs. Bridge,Joanne Woodward,0.0,0.0,0.0,0.0,126,7698010.0,6.7,42.0,80.0,1,0,0,1,0,1,0,0,0
-1991,Actress,The Silence of the Lambs,Jodie Foster,1.0,1.0,0.0,1.0,118,272700000.0,8.6,95.0,95.0,1,1,0,0,0,1,0,0,0
-1991,Actress,Thelma and Louise,Geena Davis,0.0,0.0,0.0,0.0,129,45400000.0,7.4,82.0,83.0,1,1,0,0,0,0,1,0,0
-1991,Actress,Rambling Rose,Laura Dern,0.0,0.0,0.0,0.0,112,6300000.0,6.7,52.0,100.0,1,1,0,0,0,0,0,1,0
-1991,Actress,For the Boys,Bette Midler,0.0,1.0,0.0,0.0,138,23202444.0,6.3,75.0,38.0,1,1,0,0,0,0,0,0,1
-1991,Actress,Thelma and Louise,Susan Sarandon,0.0,0.0,0.0,0.0,129,45400000.0,7.4,82.0,83.0,1,1,0,0,0,0,1,0,0
-1992,Actress,Howards End,Emma Thompson,1.0,1.0,0.0,1.0,140,26100000.0,7.5,82.0,92.0,0,0,1,0,0,1,0,0,0
-1992,Actress,Indochine,Catherine Deneuve,0.0,0.0,0.0,0.0,159,29600000.0,7.1,84.0,71.0,0,0,0,1,0,0,0,0,1
-1992,Actress,Passion Fish,Mary McDonnell,0.0,0.0,0.0,0.0,135,4814619.0,7.5,81.0,100.0,1,1,0,0,0,0,0,0,1
-1992,Actress,Love Field,Michelle Pfeiffer,0.0,0.0,0.0,0.0,102,1014726.0,6.7,56.0,36.0,1,0,0,1,0,1,0,0,0
-1992,Actress,Lorenzo's Oil,Susan Sarandon,0.0,0.0,0.0,0.0,129,7286310.0,7.2,79.0,94.0,1,0,0,1,0,1,0,0,0
-1993,Actress,The Piano,Holly Hunter,1.0,1.0,0.0,1.0,117,140000000.0,7.6,86.0,90.0,0,1,0,0,0,1,0,0,0
-1993,Actress,What's Love Got to Do with It,Angela Bassett,0.0,1.0,0.0,0.0,118,39100956.0,7.2,88.0,96.0,1,1,0,0,0,0,1,0,0
-1993,Actress,Six Degrees of Separation,Stockard Channing,0.0,0.0,0.0,0.0,112,6400000.0,6.9,71.0,88.0,1,1,0,0,0,0,0,0,1
-1993,Actress,The Remains of the Day,Emma Thompson,0.0,0.0,0.0,0.0,134,63900000.0,7.9,89.0,97.0,0,0,1,0,0,0,0,0,1
-1993,Actress,Shadowlands,Debra Winger,0.0,0.0,0.0,0.0,131,25842377.0,7.4,89.0,96.0,0,0,1,0,0,1,0,0,0
-1994,Actress,Blue Sky,Jessica Lange,0.0,1.0,0.0,1.0,101,3359465.0,6.4,57.0,74.0,1,0,0,1,0,0,0,1,0
-1994,Actress,Nell,Jodie Foster,0.0,0.0,1.0,0.0,113,106700000.0,6.5,64.0,53.0,1,0,0,1,0,0,0,0,1
-1994,Actress,Tom and Viv,Miranda Richardson,0.0,0.0,0.0,0.0,115,538534.0,6.5,61.0,33.0,0,0,0,1,0,0,0,0,1
-1994,Actress,Little Women,Winona Ryder,0.0,0.0,0.0,0.0,118,50083616.0,7.3,84.0,90.0,1,0,1,0,0,0,0,0,1
-1994,Actress,The Client,Susan Sarandon,1.0,0.0,0.0,0.0,119,117615211.0,6.7,69.0,80.0,1,0,0,1,0,0,0,1,0
-1995,Actress,Dead Man Walking,Susan Sarandon,0.0,0.0,1.0,1.0,122,83000000.0,7.6,86.0,95.0,1,1,0,0,0,1,0,0,0
-1995,Actress,Leaving Las Vegas,Elisabeth Shue,0.0,0.0,0.0,0.0,112,32029928.0,7.6,85.0,90.0,1,1,0,0,0,1,0,0,0
-1995,Actress,Casino,Sharon Stone,0.0,1.0,0.0,0.0,178,116100000.0,8.2,93.0,80.0,1,1,0,0,0,0,0,0,1
-1995,Actress,The Bridges of Madison County,Meryl Streep,0.0,0.0,0.0,0.0,134,182000000.0,7.5,87.0,89.0,1,0,0,1,0,0,1,0,0
-1995,Actress,Sense and Sensibility,Emma Thompson,1.0,0.0,0.0,0.0,136,134993774.0,7.7,90.0,98.0,0,0,1,0,0,1,0,0,0
-1996,Actress,Fargo,Frances McDormand,0.0,0.0,1.0,1.0,98,60600000.0,8.1,93.0,94.0,0,1,0,0,0,0,1,0,0
-1996,Actress,Secrets and Lies,Brenda Blethyn,1.0,1.0,0.0,0.0,142,13417292.0,8.0,91.0,94.0,0,1,0,0,0,1,0,0,0
-1996,Actress,Marvin's Room,Diane Keaton,0.0,0.0,0.0,0.0,98,12803305.0,6.7,62.0,80.0,1,0,0,1,0,1,0,0,0
-1996,Actress,The English Patient,Kristin Scott Thomas,0.0,0.0,0.0,0.0,162,232000000.0,7.4,83.0,84.0,0,1,0,0,0,0,0,0,1
-1996,Actress,Breaking the Waves,Emily Watson,0.0,0.0,0.0,0.0,158,3800000.0,7.9,91.0,86.0,0,1,0,0,0,0,0,0,1
-1997,Actress,As Good as It Gets,Helen Hunt,0.0,1.0,1.0,1.0,139,314178011.0,7.7,86.0,86.0,1,0,0,1,0,0,0,0,1
-1997,Actress,The Wings of the Dove,Helena Bonham Carter,0.0,0.0,0.0,0.0,102,13700000.0,7.2,78.0,86.0,0,1,0,0,0,1,0,0,0
-1997,Actress,Afterglow,Julie Christie,0.0,0.0,0.0,0.0,113,2465960.0,6.1,45.0,74.0,1,1,0,0,0,1,0,0,0
-1997,Actress,Mrs Brown,Judi Dench,1.0,0.0,0.0,0.0,103,9229808.0,7.3,78.0,94.0,0,0,1,0,0,0,0,0,1
-1997,Actress,Titanic,Kate Winslet,0.0,0.0,0.0,0.0,195,21870000.0,7.7,69.0,88.0,1,0,0,1,0,0,0,0,1
-1998,Actress,Shakespeare in Love,Gwyneth Paltrow,0.0,1.0,1.0,1.0,123,289300000.0,7.2,80.0,92.0,1,1,0,0,0,1,0,0,0
-1998,Actress,Elizabeth,Cate Blanchett,1.0,1.0,0.0,0.0,123,82150642.0,7.5,86.0,82.0,0,1,0,0,0,1,0,0,0
-1998,Actress,Central Station,Fernanda Montenegro,0.0,0.0,0.0,0.0,113,22000000.0,8.0,95.0,94.0,0,1,0,0,0,0,0,0,1
-1998,Actress,One True Thing,Meryl Streep,0.0,0.0,0.0,0.0,127,26616840.0,7.0,72.0,89.0,1,1,0,0,0,0,0,1,0
-1998,Actress,Hilary and Jackie,Emily Watson,0.0,0.0,0.0,0.0,121,4912892.0,7.4,83.0,86.0,0,1,0,0,0,1,0,0,0
-1999,Actress,Boys Don't Cry,Hilary Swank,0.0,1.0,0.0,1.0,118,11500000.0,7.6,87.0,88.0,1,1,0,0,0,1,0,0,0
-1999,Actress,American Beauty,Annette Bening,1.0,0.0,1.0,0.0,122,356300000.0,8.4,93.0,88.0,1,1,0,0,0,0,0,0,1
-1999,Actress,Tumbleweeds,Janet McTeer,0.0,1.0,0.0,0.0,100,1350248.0,6.7,65.0,82.0,1,0,0,1,0,1,0,0,0
-1999,Actress,The End of the Affair,Julianne Moore,0.0,0.0,0.0,0.0,102,10827816.0,7.2,74.0,67.0,0,1,0,0,0,1,0,0,0
-1999,Actress,Music of the Heart,Meryl Streep,0.0,0.0,0.0,0.0,123,14936407.0,6.8,72.0,63.0,1,0,1,0,0,0,0,0,1
-2000,Actress,Erin Brockovich,Julia Roberts,1.0,1.0,1.0,1.0,130,256300000.0,7.3,80.0,84.0,1,1,0,0,0,1,0,0,0
-2000,Actress,The Contender,Joan Allen,0.0,0.0,0.0,0.0,126,22361811.0,7.0,73.0,76.0,1,1,0,0,0,0,0,0,1
-2000,Actress,Chocolat,Juliette Binoche,0.0,0.0,0.0,0.0,121,152699946.0,7.3,83.0,63.0,1,0,0,1,0,1,0,0,0
-2000,Actress,Requiem for a Dream,Ellen Burstyn,0.0,0.0,0.0,0.0,101,7400000.0,8.4,93.0,78.0,1,1,0,0,0,0,0,0,1
-2000,Actress,You Can Count on Me,Laura Linney,0.0,0.0,0.0,0.0,111,11000000.0,7.7,88.0,95.0,1,1,0,0,0,0,0,0,1
-2001,Actress,Monster's Ball,Halle Berry,0.0,0.0,1.0,1.0,111,44909486.0,7.1,67.0,85.0,1,1,0,0,0,1,0,0,0
-2001,Actress,Iris,Judi Dench,1.0,0.0,0.0,0.0,90,16200000.0,7.1,74.0,79.0,0,1,0,0,0,1,0,0,0
-2001,Actress,Moulin Rouge!,Nicole Kidman,0.0,1.0,0.0,0.0,128,179200000.0,7.6,89.0,76.0,0,0,0,1,0,0,1,0,0
-2001,Actress,In the Bedroom,Sissy Spacek,0.0,1.0,0.0,0.0,131,43400000.0,7.5,81.0,93.0,1,1,0,0,0,1,0,0,0
-2001,Actress,Bridget Jones's Diary,Rene Zellweger,0.0,0.0,0.0,0.0,97,281900000.0,6.7,81.0,81.0,0,1,0,0,0,0,1,0,0
-2002,Actress,The Hours,Nicole Kidman,1.0,1.0,0.0,1.0,114,108800000.0,7.6,84.0,81.0,0,0,0,1,0,1,0,0,0
-2002,Actress,Frida,Salma Hayek,0.0,0.0,0.0,0.0,123,56300000.0,7.4,86.0,76.0,1,1,0,0,0,0,0,0,1
-2002,Actress,Unfaithful,Diane Lane,0.0,0.0,0.0,0.0,124,119137784.0,6.7,68.0,49.0,1,1,0,0,0,0,1,0,0
-2002,Actress,Far from Heaven,Julianne Moore,0.0,0.0,0.0,0.0,107,29000000.0,7.4,79.0,87.0,1,0,0,1,0,1,0,0,0
-2002,Actress,Chicago,Rene Zellweger,0.0,1.0,1.0,0.0,113,306800000.0,7.2,83.0,86.0,1,0,0,1,0,1,0,0,0
-2003,Actress,Monster,Charlize Theron,0.0,1.0,1.0,1.0,109,60400000.0,7.3,49.0,60.0,1,1,0,0,0,1,0,0,0
-2003,Actress,Whale Rider,Keisha Castle-Hughes,0.0,0.0,0.0,0.0,101,41400000.0,7.6,88.0,90.0,0,0,0,1,0,0,0,1,0
-2003,Actress,Something's Gotta Give,Diane Keaton,0.0,1.0,0.0,0.0,128,266728738.0,6.7,69.0,71.0,1,0,0,1,0,0,0,0,1
-2003,Actress,In America,Samantha Morton,0.0,0.0,0.0,0.0,105,25382911.0,7.8,91.0,89.0,0,0,0,1,0,1,0,0,0
-2003,Actress,21 Grams,Naomi Watts,0.0,0.0,0.0,0.0,124,60400000.0,7.7,86.0,80.0,1,1,0,0,0,1,0,0,0
-2004,Actress,Million Dollar Baby,Hilary Swank,0.0,1.0,1.0,1.0,132,216800000.0,8.1,90.0,91.0,1,0,0,1,0,1,0,0,0
-2004,Actress,Being Julia,Annette Bening,0.0,1.0,0.0,0.0,104,14339171.0,7.1,74.0,76.0,0,1,0,0,0,1,0,0,0
-2004,Actress,Maria Full of Grace,Catalina Sandino Moreno,0.0,0.0,0.0,0.0,101,12594630.0,7.5,87.0,97.0,0,1,0,0,0,0,0,1,0
-2004,Actress,Vera Drake,Imelda Staunton,1.0,0.0,0.0,0.0,125,13300000.0,7.7,84.0,92.0,0,1,0,0,0,1,0,0,0
-2004,Actress,Eternal Sunshine of the Spotless Mind,Kate Winslet,0.0,0.0,0.0,0.0,108,72300000.0,8.3,94.0,93.0,1,1,0,0,0,1,0,0,0
-2005,Actress,Walk the Line,Reese Witherspoon,1.0,1.0,1.0,1.0,136,186400000.0,7.9,90.0,82.0,1,0,0,1,0,0,0,0,1
-2005,Actress,Mrs Henderson Presents,Judi Dench,0.0,0.0,0.0,0.0,103,27876417.0,7.1,72.0,68.0,0,1,0,0,0,1,0,0,0
-2005,Actress,Transamerica,Felicity Huffman,0.0,1.0,0.0,0.0,103,15200000.0,7.4,83.0,76.0,1,1,0,0,0,1,0,0,0
-2005,Actress,Pride and Prejudice,Keira Knightley,0.0,0.0,0.0,0.0,127,121100000.0,7.8,89.0,85.0,0,0,1,0,0,0,0,0,1
-2005,Actress,North Country,Charlize Theron,0.0,0.0,0.0,0.0,126,25200000.0,7.3,76.0,68.0,1,1,0,0,0,0,0,0,1
-2006,Actress,The Queen,Helen Mirren,1.0,1.0,1.0,1.0,103,77900000.0,7.3,76.0,97.0,0,0,0,1,0,0,0,0,1
-2006,Actress,Volver,Penlope Cruz,0.0,0.0,0.0,0.0,121,85585177.0,7.6,89.0,92.0,0,1,0,0,0,1,0,0,0
-2006,Actress,Notes on a Scandal,Judi Dench,0.0,0.0,0.0,0.0,91,49800000.0,7.4,83.0,87.0,0,1,0,0,0,1,0,0,0
-2006,Actress,The Devil Wears Prada,Meryl Streep,0.0,1.0,0.0,0.0,109,326500000.0,6.8,76.0,76.0,1,0,0,1,0,0,1,0,0
-2006,Actress,Little Children,Kate Winslet,0.0,0.0,0.0,0.0,137,14800000.0,7.6,82.0,80.0,1,1,0,0,0,1,0,0,0
-2007,Actress,La Vie en Rose,Marion Cotillard,1.0,1.0,0.0,1.0,140,86300000.0,7.6,84.0,74.0,0,0,0,1,0,0,0,1,0
-2007,Actress,Elizabeth: The Golden Age,Cate Blanchett,0.0,0.0,0.0,0.0,114,74200000.0,6.9,59.0,35.0,0,0,0,1,0,0,0,0,1
-2007,Actress,Away from Her,Julie Christie,0.0,1.0,1.0,0.0,110,9194283.0,7.6,81.0,94.0,0,0,0,1,0,0,1,0,0
-2007,Actress,The Savages,Laura Linney,0.0,0.0,0.0,0.0,113,9610042.0,7.2,74.0,89.0,1,1,0,0,0,1,0,0,0
-2007,Actress,Juno,Ellen Page,0.0,0.0,0.0,0.0,96,231400000.0,7.5,88.0,94.0,1,0,0,1,0,0,0,0,1
-2008,Actress,The Reader,Kate Winslet,1.0,0.0,0.0,1.0,124,108900000.0,7.6,79.0,61.0,0,1,0,0,0,1,0,0,0
-2008,Actress,Rachel Getting Married,Anne Hathaway,0.0,0.0,0.0,0.0,114,17500000.0,6.7,62.0,84.0,1,1,0,0,0,0,0,0,1
-2008,Actress,Changeling,Angelina Jolie,0.0,0.0,0.0,0.0,141,113000000.0,7.8,82.0,62.0,1,1,0,0,0,0,0,0,1
-2008,Actress,Frozen River,Melissa Leo,0.0,0.0,0.0,0.0,97,5133210.0,7.2,74.0,88.0,1,1,0,0,0,0,0,1,0
-2008,Actress,Doubt,Meryl Streep,0.0,0.0,1.0,0.0,104,50900000.0,7.5,78.0,78.0,1,0,0,1,0,0,0,0,1
-2009,Actress,The Blind Side,Sandra Bullock,0.0,1.0,1.0,1.0,126,309200000.0,7.7,85.0,66.0,1,0,0,1,0,0,0,0,1
-2009,Actress,The Last Station,Helen Mirren,0.0,0.0,0.0,0.0,112,13550772.0,7.0,66.0,71.0,0,1,0,0,0,1,0,0,0
-2009,Actress,An Education,Carey Mulligan,1.0,0.0,0.0,0.0,95,26100000.0,7.3,80.0,94.0,0,0,0,1,0,1,0,0,0
-2009,Actress,Precious,Gabourey Sidibe,0.0,0.0,0.0,0.0,110,63600000.0,7.3,81.0,91.0,1,1,0,0,0,0,0,0,1
-2009,Actress,Julie and Julia,Meryl Streep,0.0,1.0,0.0,0.0,123,129500000.0,7.0,70.0,76.0,1,0,0,1,0,0,0,1,0
-2010,Actress,Black Swan,Natalie Portman,1.0,1.0,1.0,1.0,108,329400000.0,8.0,84.0,87.0,1,1,0,0,0,0,0,0,1
-2010,Actress,The Kids Are All Right,Annette Bening,0.0,1.0,0.0,0.0,107,34700000.0,7.1,73.0,93.0,1,1,0,0,0,0,0,1,0
-2010,Actress,Rabbit Hole,Nicole Kidman,0.0,0.0,0.0,0.0,91,5143154.0,7.0,72.0,86.0,1,0,0,1,0,1,0,0,0
-2010,Actress,Winter's Bone,Jennifer Lawrence,0.0,0.0,0.0,0.0,100,16100000.0,7.2,76.0,94.0,1,1,0,0,0,0,0,1,0
-2010,Actress,Blue Valentine,Michelle Williams,0.0,0.0,0.0,0.0,112,16600000.0,7.4,77.0,88.0,1,1,0,0,0,1,0,0,0
-2011,Actress,The Iron Lady,Meryl Streep,1.0,1.0,0.0,1.0,104,115000000.0,6.4,51.0,51.0,0,0,0,1,0,1,0,0,0
-2011,Actress,Albert Nobbs,Glenn Close,0.0,0.0,0.0,0.0,113,5600000.0,6.7,48.0,57.0,0,1,0,0,0,1,0,0,0
-2011,Actress,The Help,Viola Davis,0.0,0.0,1.0,0.0,146,216600000.0,8.1,89.0,75.0,1,0,0,1,0,0,0,1,0
-2011,Actress,The Girl with the Dragon Tattoo,Rooney Mara,0.0,0.0,0.0,0.0,158,232600000.0,7.8,86.0,86.0,1,1,0,0,0,0,0,0,1
-2011,Actress,My Week with Marilyn,Michelle Williams,0.0,1.0,0.0,0.0,101,35000000.0,7.0,71.0,83.0,0,1,0,0,0,0,0,0,1
-2012,Actress,Silver Linings Playbook,Jennifer Lawrence,0.0,1.0,1.0,1.0,122,236400000.0,7.8,86.0,92.0,1,1,0,0,0,0,0,0,1
-2012,Actress,Zero Dark Thirty,Jessica Chastain,0.0,1.0,0.0,0.0,157,132800000.0,7.4,80.0,92.0,1,1,0,0,0,1,0,0,0
-2012,Actress,Amour,Emmanuelle Riva,1.0,0.0,0.0,0.0,127,29900000.0,7.9,82.0,93.0,0,0,0,1,0,0,0,1,0
-2012,Actress,Beasts of the Southern Wild,Quvenzhan Wallis,0.0,0.0,0.0,0.0,93,21900000.0,7.3,76.0,86.0,1,0,0,1,0,0,0,1,0
-2012,Actress,The Impossible,Naomi Watts,0.0,0.0,0.0,0.0,113,180300000.0,7.6,84.0,81.0,0,0,0,1,0,1,0,0,0
-2013,Actress,Blue Jasmine,Cate Blanchett,1.0,1.0,1.0,1.0,99,97500000.0,7.3,77.0,91.0,1,0,0,1,0,0,0,1,0
-2013,Actress,American Hustle,Amy Adams,0.0,1.0,0.0,0.0,138,251100000.0,7.3,74.0,93.0,1,1,0,0,0,0,0,0,1
-2013,Actress,Gravity,Sandra Bullock,0.0,0.0,0.0,0.0,91,723200000.0,7.8,80.0,96.0,0,0,0,1,0,0,0,0,1
-2013,Actress,Philomena,Judi Dench,0.0,0.0,0.0,0.0,98,100100000.0,7.6,89.0,92.0,0,0,0,1,0,0,0,0,1
-2013,Actress,August: Osage County,Meryl Streep,0.0,0.0,0.0,0.0,120,74200000.0,7.2,65.0,64.0,1,1,0,0,0,1,0,0,0
-2014,Actress,Still Alice,Julianne Moore,1.0,1.0,1.0,1.0,101,43900000.0,7.5,85.0,88.0,1,0,0,1,0,1,0,0,0
-2014,Actress,"Two Days, One Night",Marion Cotillard,0.0,0.0,0.0,0.0,95,9000000.0,7.4,77.0,97.0,0,0,0,1,0,0,1,0,0
-2014,Actress,The Theory of Everything,Felicity Jones,0.0,0.0,0.0,0.0,123,123700000.0,7.7,84.0,79.0,0,0,0,1,0,0,0,0,1
-2014,Actress,Gone Girl,Rosamund Pike,0.0,0.0,0.0,0.0,149,369300000.0,8.1,87.0,88.0,1,1,0,0,0,0,0,0,1
-2014,Actress,Wild,Reese Witherspoon,0.0,0.0,0.0,0.0,115,52500000.0,7.1,75.0,90.0,1,1,0,0,0,0,0,0,1
-2015,Actress,Room,Brie Larson,1.0,1.0,1.0,1.0,118,36200000.0,8.2,93.0,94.0,0,1,0,0,0,1,0,0,0
-2015,Actress,Carol,Cate Blanchett,0.0,0.0,0.0,0.0,118,40300000.0,7.2,73.0,94.0,0,1,0,0,0,1,0,0,0
-2015,Actress,Joy,Jennifer Lawrence,0.0,1.0,0.0,0.0,124,101100000.0,6.6,57.0,60.0,1,0,0,1,0,0,0,0,1
-2015,Actress,45 Years,Charlotte Rampling,0.0,0.0,0.0,0.0,95,13900000.0,7.1,67.0,97.0,0,1,0,0,0,0,0,1,0
-2015,Actress,Brooklyn,Saoirse Ronan,0.0,0.0,0.0,0.0,112,62100000.0,7.5,87.0,97.0,0,0,0,1,0,0,0,0,1
-2016,Actress,Elle,Isabelle Huppert,0.0,1.0,0.0,0.0,130,10200000.0,7.3,75.0,89.0,0,1,0,0,0,0,0,0,1
-2016,Actress,Loving,Ruth Negga,0.0,0.0,0.0,0.0,123,8400000.0,7.1,77.0,89.0,0,0,0,1,0,0,0,0,1
-2016,Actress,Jackie,Natalie Portman,0.0,0.0,0.0,0.0,99,20100000.0,7.1,66.0,90.0,1,1,0,0,0,0,0,0,1
-2016,Actress,La La Land,Emma Stone,1.0,1.0,1.0,1.0,128,341100000.0,8.5,85.0,93.0,1,0,0,1,0,0,0,0,1
-2016,Actress,Florence Foster Jenkins,Meryl Streep,0.0,0.0,0.0,0.0,110,44300000.0,6.9,70.0,87.0,0,0,0,1,0,0,0,1,0
-2017,Actress,The Shape of Water,Sally Hawkins,0,0,0,0,123,67000000.0,7.8,7.1,87,1,1,0,0,0,0,0,0,1
-2017,Actress,"Three Billboards outside Ebbing, Missouri",Frances McDormand,1,1,1,1,115,91100000.0,8.3,7.4,88,0,1,0,0,0,0,0,0,1
-2017,Actress,"I, Tonya",Margot Robbie,0,0,0,0,120,28000000.0,7.7,7.5,77,1,0,0,0,0,0,0,0,1
-2017,Actress,Lady Bird,Saoirse Ronan,0,1,0,0,94,44200000.0,7.8,7.2,94,1,1,0,0,0,0,0,0,1
-2017,Actress,The Post,Meryl Streep,0,0,0,0,116,106500000.0,7.3,7.0,83,1,0,0,1,0,0,0,0,1
-2018,Actress,Roma,Yalitza Aparicio,0,0,0,0.0,135,116235682,8,8.1,96,0,1,0,0,0,0,0,0,1
-2018,Actress,The Wife,Glenn Close,0,1,1,0.0,100,8700552,7.3,7.5,77,1,1,0,0,0,0,0,1,0
-2018,Actress,The Favourite,Olivia Colman,1,1,0,1.0,119,26109876,7.9,7.5,90,1,1,0,0,0,0,0,0,1
-2018,Actress,A Star Is Born,Lady Gaga,0,0,0,0.0,136,206361489,8,8.5,88,1,1,0,0,0,0,0,0,1
-2018,Actress,Can You Ever Forgive Me? ,Melissa McCarthy,0,0,0,0.0,106,8046201,7.4,7.6,87,1,1,0,0,0,0,0,0,1
+1980,Actress,Coal Miner's Daughter,Sissy Spacek,0,1,0,1,125,67182787,7.5,86,100,1,0,1,0,0,1,0,0,0
+1980,Actress,Private Benjamin,Goldie Hawn,0,0,0,0,109,69847348,6.1,60,88,1,1,0,0,0,0,0,0,1
+1980,Actress,Ordinary People,Mary Tyler Moore,0,1,0,0,124,54800000,7.8,88,90,1,1,0,0,0,1,0,0,0
+1980,Actress,Gloria,Gena Rowlands,0,0,0,0,121,4100000,7.1,80,95,1,0,1,0,0,0,0,0,1
+1981,Actress,On Golden Pond,Katharine Hepburn,0,0,0,1,109,119300000,7.7,87,92,1,0,1,0,0,1,0,0,0
+1981,Actress,Reds,Diane Keaton,0,0,0,0,195,40400000,7.5,82,94,1,0,1,0,0,0,0,0,1
+1981,Actress,Only When I Laugh,Marsha Mason,0,0,0,0,120,25524778,6.5,40,50,1,1,0,0,0,0,0,1,0
+1981,Actress,Atlantic City,Susan Sarandon,0,0,0,0,104,12729675,7.4,77,100,0,1,0,0,0,0,1,0,0
+1981,Actress,The French Lieutenant's Woman,Meryl Streep,1,1,0,0,127,26890068,7,68,76,0,1,0,0,0,0,0,0,1
+1982,Actress,Sophie's Choice,Meryl Streep,0,1,0,1,151,30036000,7.7,85,79,1,1,0,0,0,1,0,0,0
+1982,Actress,Victor Victoria,Julie Andrews,0,1,0,0,132,28215453,7.6,86,96,0,0,1,0,0,1,0,0,0
+1982,Actress,Frances,Jessica Lange,0,0,0,0,140,5000000,7.4,77,68,1,1,0,0,0,1,0,0,0
+1982,Actress,Missing,Sissy Spacek,0,0,0,0,122,1416000000,7.8,85,97,1,0,1,0,0,1,0,0,0
+1982,Actress,An Officer and a Gentleman,Debra Winger,0,0,0,0,122,129800000,7,81,81,1,1,0,0,0,0,0,1,0
+1983,Actress,Terms of Endearment,Shirley MacLaine,0,1,0,1,132,108400000,7.4,84,88,1,0,1,0,0,0,0,0,1
+1983,Actress,Silkwood,Meryl Streep,0,0,0,0,131,35615609,7.2,78,75,1,1,0,0,0,1,0,0,0
+1983,Actress,Educating Rita,Julie Walters,1,1,0,0,110,14600000,7.2,81,85,0,0,1,0,0,0,0,0,1
+1983,Actress,Terms of Endearment,Debra Winger,0,0,0,0,132,108400000,7.4,84,88,1,0,1,0,0,0,0,0,1
+1984,Actress,Places in the Heart,Sally Field,0,1,0,1,102,34901614,7.3,82,96,1,0,1,0,0,0,0,0,1
+1984,Actress,A Passage to India,Judy Davis,0,0,0,0,163,27200000,7.4,78,85,0,0,1,0,0,1,0,0,0
+1984,Actress,Country,Jessica Lange,0,0,0,0,110,9640000,6.8,70,100,1,0,1,0,0,0,0,1,0
+1984,Actress,The River,Sissy Spacek,0,0,0,0,122,11500000,6.3,79,87,1,0,0,1,0,1,0,0,0
+1985,Actress,The Trip to Bountiful,Geraldine Page,0,0,0,1,108,7491903,7.6,86,100,1,0,1,0,0,1,0,0,0
+1985,Actress,Agnes of God,Anne Bancroft,0,0,0,0,98,25600000,6.6,55,46,1,0,0,1,0,0,0,1,0
+1985,Actress,The Color Purple,Whoopi Goldberg,0,1,0,0,153,142000000,7.8,94,88,1,0,0,1,0,1,0,0,0
+1985,Actress,Sweet Dreams,Jessica Lange,0,0,0,0,115,9085049,7.1,82,94,1,0,0,1,0,0,0,0,1
+1985,Actress,Out of Africa,Meryl Streep,0,0,0,0,161,128500000,7.2,83,56,1,0,1,0,0,0,0,0,1
+1986,Actress,Children of a Lesser God,Marlee Matlin,0,1,0,1,119,31853080,7.2,78,81,1,1,0,0,0,0,0,0,1
+1986,Actress,The Morning After,Jane Fonda,0,0,0,0,103,25147055,6,38,71,0,1,0,0,0,0,0,0,1
+1986,Actress,Crimes of the Heart,Sissy Spacek,0,1,0,0,105,22905522,6.4,66,81,1,0,0,1,0,1,0,0,0
+1986,Actress,Peggy Sue Got Married,Kathleen Turner,0,0,0,0,103,41382841,6.3,55,85,1,0,0,1,0,0,0,0,1
+1986,Actress,Aliens,Sigourney Weaver,0,0,0,0,137,131100000,8.4,94,98,1,1,0,0,0,0,0,1,0
+1987,Actress,Moonstruck,Cher,0,1,0,1,102,91640528,7.1,80,92,1,0,1,0,0,1,0,0,0
+1987,Actress,Fatal Attraction,Glenn Close,0,0,0,0,119,320100000,6.9,72,78,1,1,0,0,0,0,0,1,0
+1987,Actress,Broadcast News,Holly Hunter,0,0,0,0,133,67331309,7.2,78,98,1,1,0,0,0,0,0,0,1
+1987,Actress,Anna,Sally Kirkland,0,1,0,0,100,1236848,6.6,38,35,1,0,0,1,0,0,0,0,1
+1987,Actress,Ironweed,Meryl Streep,0,0,0,0,143,7393346,6.8,60,65,1,1,0,0,0,1,0,0,0
+1988,Actress,The Accused,Jodie Foster,0,1,0,1,111,32078318,7.1,79,95,0,1,0,0,0,0,0,0,1
+1988,Actress,Dangerous Liaisons,Glenn Close,0,0,0,0,119,34700000,7.7,83,93,1,1,0,0,0,1,0,0,0
+1988,Actress,Working Girl,Melanie Griffith,0,1,0,0,114,102953112,6.7,67,84,1,1,0,0,0,0,0,0,1
+1988,Actress,A Cry in the Dark,Meryl Streep,0,0,0,0,121,6900000,6.9,73,92,0,0,0,1,0,0,0,0,1
+1988,Actress,Gorillas in the Mist,Sigourney Weaver,0,1,0,0,129,61100000,7,74,82,1,0,0,1,0,0,0,0,1
+1989,Actress,Driving Miss Daisy,Jessica Tandy,0,1,0,1,100,145800000,7.4,81,82,1,0,1,0,0,1,0,0,0
+1989,Actress,Camille Claudel,Isabelle Adjani,0,0,0,0,175,23700000,7.3,88,100,0,1,0,0,0,0,0,0,1
+1989,Actress,Shirley Valentine,Pauline Collins,1,0,0,0,108,6353913,7.2,86,67,0,1,0,0,0,0,0,1,0
+1989,Actress,Music Box,Jessica Lange,0,0,0,0,124,6263883,7.3,77,75,1,0,0,1,0,1,0,0,0
+1989,Actress,The Fabulous Baker Boys,Michelle Pfeiffer,0,1,0,0,114,18428904,6.8,69,96,1,1,0,0,0,0,0,0,1
+1990,Actress,Misery,Kathy Bates,0,1,0,1,107,61300000,7.8,89,89,1,1,0,0,0,0,0,0,1
+1990,Actress,The Grifters,Anjelica Huston,0,0,0,0,110,13446769,7,70,90,1,1,0,0,0,1,0,0,0
+1990,Actress,Pretty Woman,Julia Roberts,0,1,0,0,119,463400000,6.9,68,61,1,1,0,0,0,1,0,0,0
+1990,Actress,Postcards from the Edge,Meryl Streep,0,0,0,0,101,39071603,6.7,66,90,1,1,0,0,0,0,0,1,0
+1990,Actress,Mr. and Mrs. Bridge,Joanne Woodward,0,0,0,0,126,7698010,6.7,42,80,1,0,0,1,0,1,0,0,0
+1991,Actress,The Silence of the Lambs,Jodie Foster,1,1,0,1,118,272700000,8.6,95,95,1,1,0,0,0,1,0,0,0
+1991,Actress,Thelma and Louise,Geena Davis,0,0,0,0,129,45400000,7.4,82,83,1,1,0,0,0,0,1,0,0
+1991,Actress,Rambling Rose,Laura Dern,0,0,0,0,112,6300000,6.7,52,100,1,1,0,0,0,0,0,1,0
+1991,Actress,For the Boys,Bette Midler,0,1,0,0,138,23202444,6.3,75,38,1,1,0,0,0,0,0,0,1
+1991,Actress,Thelma and Louise,Susan Sarandon,0,0,0,0,129,45400000,7.4,82,83,1,1,0,0,0,0,1,0,0
+1992,Actress,Howards End,Emma Thompson,1,1,0,1,140,26100000,7.5,82,92,0,0,1,0,0,1,0,0,0
+1992,Actress,Indochine,Catherine Deneuve,0,0,0,0,159,29600000,7.1,84,71,0,0,0,1,0,0,0,0,1
+1992,Actress,Passion Fish,Mary McDonnell,0,0,0,0,135,4814619,7.5,81,100,1,1,0,0,0,0,0,0,1
+1992,Actress,Love Field,Michelle Pfeiffer,0,0,0,0,102,1014726,6.7,56,36,1,0,0,1,0,1,0,0,0
+1992,Actress,Lorenzo's Oil,Susan Sarandon,0,0,0,0,129,7286310,7.2,79,94,1,0,0,1,0,1,0,0,0
+1993,Actress,The Piano,Holly Hunter,1,1,0,1,117,140000000,7.6,86,90,0,1,0,0,0,1,0,0,0
+1993,Actress,What's Love Got to Do with It,Angela Bassett,0,1,0,0,118,39100956,7.2,88,96,1,1,0,0,0,0,1,0,0
+1993,Actress,Six Degrees of Separation,Stockard Channing,0,0,0,0,112,6400000,6.9,71,88,1,1,0,0,0,0,0,0,1
+1993,Actress,The Remains of the Day,Emma Thompson,0,0,0,0,134,63900000,7.9,89,97,0,0,1,0,0,0,0,0,1
+1993,Actress,Shadowlands,Debra Winger,0,0,0,0,131,25842377,7.4,89,96,0,0,1,0,0,1,0,0,0
+1994,Actress,Blue Sky,Jessica Lange,0,1,0,1,101,3359465,6.4,57,74,1,0,0,1,0,0,0,1,0
+1994,Actress,Nell,Jodie Foster,0,0,1,0,113,106700000,6.5,64,53,1,0,0,1,0,0,0,0,1
+1994,Actress,Tom and Viv,Miranda Richardson,0,0,0,0,115,538534,6.5,61,33,0,0,0,1,0,0,0,0,1
+1994,Actress,Little Women,Winona Ryder,0,0,0,0,118,50083616,7.3,84,90,1,0,1,0,0,0,0,0,1
+1994,Actress,The Client,Susan Sarandon,1,0,0,0,119,117615211,6.7,69,80,1,0,0,1,0,0,0,1,0
+1995,Actress,Dead Man Walking,Susan Sarandon,0,0,1,1,122,83000000,7.6,86,95,1,1,0,0,0,1,0,0,0
+1995,Actress,Leaving Las Vegas,Elisabeth Shue,0,0,0,0,112,32029928,7.6,85,90,1,1,0,0,0,1,0,0,0
+1995,Actress,Casino,Sharon Stone,0,1,0,0,178,116100000,8.2,93,80,1,1,0,0,0,0,0,0,1
+1995,Actress,The Bridges of Madison County,Meryl Streep,0,0,0,0,134,182000000,7.5,87,89,1,0,0,1,0,0,1,0,0
+1995,Actress,Sense and Sensibility,Emma Thompson,1,0,0,0,136,134993774,7.7,90,98,0,0,1,0,0,1,0,0,0
+1996,Actress,Fargo,Frances McDormand,0,0,1,1,98,60600000,8.1,93,94,0,1,0,0,0,0,1,0,0
+1996,Actress,Secrets and Lies,Brenda Blethyn,1,1,0,0,142,13417292,8,91,94,0,1,0,0,0,1,0,0,0
+1996,Actress,Marvin's Room,Diane Keaton,0,0,0,0,98,12803305,6.7,62,80,1,0,0,1,0,1,0,0,0
+1996,Actress,The English Patient,Kristin Scott Thomas,0,0,0,0,162,232000000,7.4,83,84,0,1,0,0,0,0,0,0,1
+1996,Actress,Breaking the Waves,Emily Watson,0,0,0,0,158,3800000,7.9,91,86,0,1,0,0,0,0,0,0,1
+1997,Actress,As Good as It Gets,Helen Hunt,0,1,1,1,139,314178011,7.7,86,86,1,0,0,1,0,0,0,0,1
+1997,Actress,The Wings of the Dove,Helena Bonham Carter,0,0,0,0,102,13700000,7.2,78,86,0,1,0,0,0,1,0,0,0
+1997,Actress,Afterglow,Julie Christie,0,0,0,0,113,2465960,6.1,45,74,1,1,0,0,0,1,0,0,0
+1997,Actress,Mrs Brown,Judi Dench,1,0,0,0,103,9229808,7.3,78,94,0,0,1,0,0,0,0,0,1
+1997,Actress,Titanic,Kate Winslet,0,0,0,0,195,21870000,7.7,69,88,1,0,0,1,0,0,0,0,1
+1998,Actress,Shakespeare in Love,Gwyneth Paltrow,0,1,1,1,123,289300000,7.2,80,92,1,1,0,0,0,1,0,0,0
+1998,Actress,Elizabeth,Cate Blanchett,1,1,0,0,123,82150642,7.5,86,82,0,1,0,0,0,1,0,0,0
+1998,Actress,Central Station,Fernanda Montenegro,0,0,0,0,113,22000000,8,95,94,0,1,0,0,0,0,0,0,1
+1998,Actress,One True Thing,Meryl Streep,0,0,0,0,127,26616840,7,72,89,1,1,0,0,0,0,0,1,0
+1998,Actress,Hilary and Jackie,Emily Watson,0,0,0,0,121,4912892,7.4,83,86,0,1,0,0,0,1,0,0,0
+1999,Actress,Boys Don't Cry,Hilary Swank,0,1,0,1,118,11500000,7.6,87,88,1,1,0,0,0,1,0,0,0
+1999,Actress,American Beauty,Annette Bening,1,0,1,0,122,356300000,8.4,93,88,1,1,0,0,0,0,0,0,1
+1999,Actress,Tumbleweeds,Janet McTeer,0,1,0,0,100,1350248,6.7,65,82,1,0,0,1,0,1,0,0,0
+1999,Actress,The End of the Affair,Julianne Moore,0,0,0,0,102,10827816,7.2,74,67,0,1,0,0,0,1,0,0,0
+1999,Actress,Music of the Heart,Meryl Streep,0,0,0,0,123,14936407,6.8,72,63,1,0,1,0,0,0,0,0,1
+2000,Actress,Erin Brockovich,Julia Roberts,1,1,1,1,130,256300000,7.3,80,84,1,1,0,0,0,1,0,0,0
+2000,Actress,The Contender,Joan Allen,0,0,0,0,126,22361811,7,73,76,1,1,0,0,0,0,0,0,1
+2000,Actress,Chocolat,Juliette Binoche,0,0,0,0,121,152699946,7.3,83,63,1,0,0,1,0,1,0,0,0
+2000,Actress,Requiem for a Dream,Ellen Burstyn,0,0,0,0,101,7400000,8.4,93,78,1,1,0,0,0,0,0,0,1
+2000,Actress,You Can Count on Me,Laura Linney,0,0,0,0,111,11000000,7.7,88,95,1,1,0,0,0,0,0,0,1
+2001,Actress,Monster's Ball,Halle Berry,0,0,1,1,111,44909486,7.1,67,85,1,1,0,0,0,1,0,0,0
+2001,Actress,Iris,Judi Dench,1,0,0,0,90,16200000,7.1,74,79,0,1,0,0,0,1,0,0,0
+2001,Actress,Moulin Rouge!,Nicole Kidman,0,1,0,0,128,179200000,7.6,89,76,0,0,0,1,0,0,1,0,0
+2001,Actress,In the Bedroom,Sissy Spacek,0,1,0,0,131,43400000,7.5,81,93,1,1,0,0,0,1,0,0,0
+2001,Actress,Bridget Jones's Diary,Rene Zellweger,0,0,0,0,97,281900000,6.7,81,81,0,1,0,0,0,0,1,0,0
+2002,Actress,The Hours,Nicole Kidman,1,1,0,1,114,108800000,7.6,84,81,0,0,0,1,0,1,0,0,0
+2002,Actress,Frida,Salma Hayek,0,0,0,0,123,56300000,7.4,86,76,1,1,0,0,0,0,0,0,1
+2002,Actress,Unfaithful,Diane Lane,0,0,0,0,124,119137784,6.7,68,49,1,1,0,0,0,0,1,0,0
+2002,Actress,Far from Heaven,Julianne Moore,0,0,0,0,107,29000000,7.4,79,87,1,0,0,1,0,1,0,0,0
+2002,Actress,Chicago,Rene Zellweger,0,1,1,0,113,306800000,7.2,83,86,1,0,0,1,0,1,0,0,0
+2003,Actress,Monster,Charlize Theron,0,1,1,1,109,60400000,7.3,49,60,1,1,0,0,0,1,0,0,0
+2003,Actress,Whale Rider,Keisha Castle-Hughes,0,0,0,0,101,41400000,7.6,88,90,0,0,0,1,0,0,0,1,0
+2003,Actress,Something's Gotta Give,Diane Keaton,0,1,0,0,128,266728738,6.7,69,71,1,0,0,1,0,0,0,0,1
+2003,Actress,In America,Samantha Morton,0,0,0,0,105,25382911,7.8,91,89,0,0,0,1,0,1,0,0,0
+2003,Actress,21 Grams,Naomi Watts,0,0,0,0,124,60400000,7.7,86,80,1,1,0,0,0,1,0,0,0
+2004,Actress,Million Dollar Baby,Hilary Swank,0,1,1,1,132,216800000,8.1,90,91,1,0,0,1,0,1,0,0,0
+2004,Actress,Being Julia,Annette Bening,0,1,0,0,104,14339171,7.1,74,76,0,1,0,0,0,1,0,0,0
+2004,Actress,Maria Full of Grace,Catalina Sandino Moreno,0,0,0,0,101,12594630,7.5,87,97,0,1,0,0,0,0,0,1,0
+2004,Actress,Vera Drake,Imelda Staunton,1,0,0,0,125,13300000,7.7,84,92,0,1,0,0,0,1,0,0,0
+2004,Actress,Eternal Sunshine of the Spotless Mind,Kate Winslet,0,0,0,0,108,72300000,8.3,94,93,1,1,0,0,0,1,0,0,0
+2005,Actress,Walk the Line,Reese Witherspoon,1,1,1,1,136,186400000,7.9,90,82,1,0,0,1,0,0,0,0,1
+2005,Actress,Mrs Henderson Presents,Judi Dench,0,0,0,0,103,27876417,7.1,72,68,0,1,0,0,0,1,0,0,0
+2005,Actress,Transamerica,Felicity Huffman,0,1,0,0,103,15200000,7.4,83,76,1,1,0,0,0,1,0,0,0
+2005,Actress,Pride and Prejudice,Keira Knightley,0,0,0,0,127,121100000,7.8,89,85,0,0,1,0,0,0,0,0,1
+2005,Actress,North Country,Charlize Theron,0,0,0,0,126,25200000,7.3,76,68,1,1,0,0,0,0,0,0,1
+2006,Actress,The Queen,Helen Mirren,1,1,1,1,103,77900000,7.3,76,97,0,0,0,1,0,0,0,0,1
+2006,Actress,Volver,Penlope Cruz,0,0,0,0,121,85585177,7.6,89,92,0,1,0,0,0,1,0,0,0
+2006,Actress,Notes on a Scandal,Judi Dench,0,0,0,0,91,49800000,7.4,83,87,0,1,0,0,0,1,0,0,0
+2006,Actress,The Devil Wears Prada,Meryl Streep,0,1,0,0,109,326500000,6.8,76,76,1,0,0,1,0,0,1,0,0
+2006,Actress,Little Children,Kate Winslet,0,0,0,0,137,14800000,7.6,82,80,1,1,0,0,0,1,0,0,0
+2007,Actress,La Vie en Rose,Marion Cotillard,1,1,0,1,140,86300000,7.6,84,74,0,0,0,1,0,0,0,1,0
+2007,Actress,Elizabeth: The Golden Age,Cate Blanchett,0,0,0,0,114,74200000,6.9,59,35,0,0,0,1,0,0,0,0,1
+2007,Actress,Away from Her,Julie Christie,0,1,1,0,110,9194283,7.6,81,94,0,0,0,1,0,0,1,0,0
+2007,Actress,The Savages,Laura Linney,0,0,0,0,113,9610042,7.2,74,89,1,1,0,0,0,1,0,0,0
+2007,Actress,Juno,Ellen Page,0,0,0,0,96,231400000,7.5,88,94,1,0,0,1,0,0,0,0,1
+2008,Actress,The Reader,Kate Winslet,1,0,0,1,124,108900000,7.6,79,61,0,1,0,0,0,1,0,0,0
+2008,Actress,Rachel Getting Married,Anne Hathaway,0,0,0,0,114,17500000,6.7,62,84,1,1,0,0,0,0,0,0,1
+2008,Actress,Changeling,Angelina Jolie,0,0,0,0,141,113000000,7.8,82,62,1,1,0,0,0,0,0,0,1
+2008,Actress,Frozen River,Melissa Leo,0,0,0,0,97,5133210,7.2,74,88,1,1,0,0,0,0,0,1,0
+2008,Actress,Doubt,Meryl Streep,0,0,1,0,104,50900000,7.5,78,78,1,0,0,1,0,0,0,0,1
+2009,Actress,The Blind Side,Sandra Bullock,0,1,1,1,126,309200000,7.7,85,66,1,0,0,1,0,0,0,0,1
+2009,Actress,The Last Station,Helen Mirren,0,0,0,0,112,13550772,7,66,71,0,1,0,0,0,1,0,0,0
+2009,Actress,An Education,Carey Mulligan,1,0,0,0,95,26100000,7.3,80,94,0,0,0,1,0,1,0,0,0
+2009,Actress,Precious,Gabourey Sidibe,0,0,0,0,110,63600000,7.3,81,91,1,1,0,0,0,0,0,0,1
+2009,Actress,Julie and Julia,Meryl Streep,0,1,0,0,123,129500000,7,70,76,1,0,0,1,0,0,0,1,0
+2010,Actress,Black Swan,Natalie Portman,1,1,1,1,108,329400000,8,84,87,1,1,0,0,0,0,0,0,1
+2010,Actress,The Kids Are All Right,Annette Bening,0,1,0,0,107,34700000,7.1,73,93,1,1,0,0,0,0,0,1,0
+2010,Actress,Rabbit Hole,Nicole Kidman,0,0,0,0,91,5143154,7,72,86,1,0,0,1,0,1,0,0,0
+2010,Actress,Winter's Bone,Jennifer Lawrence,0,0,0,0,100,16100000,7.2,76,94,1,1,0,0,0,0,0,1,0
+2010,Actress,Blue Valentine,Michelle Williams,0,0,0,0,112,16600000,7.4,77,88,1,1,0,0,0,1,0,0,0
+2011,Actress,The Iron Lady,Meryl Streep,1,1,0,1,104,115000000,6.4,51,51,0,0,0,1,0,1,0,0,0
+2011,Actress,Albert Nobbs,Glenn Close,0,0,0,0,113,5600000,6.7,48,57,0,1,0,0,0,1,0,0,0
+2011,Actress,The Help,Viola Davis,0,0,1,0,146,216600000,8.1,89,75,1,0,0,1,0,0,0,1,0
+2011,Actress,The Girl with the Dragon Tattoo,Rooney Mara,0,0,0,0,158,232600000,7.8,86,86,1,1,0,0,0,0,0,0,1
+2011,Actress,My Week with Marilyn,Michelle Williams,0,1,0,0,101,35000000,7,71,83,0,1,0,0,0,0,0,0,1
+2012,Actress,Silver Linings Playbook,Jennifer Lawrence,0,1,1,1,122,236400000,7.8,86,92,1,1,0,0,0,0,0,0,1
+2012,Actress,Zero Dark Thirty,Jessica Chastain,0,1,0,0,157,132800000,7.4,80,92,1,1,0,0,0,1,0,0,0
+2012,Actress,Amour,Emmanuelle Riva,1,0,0,0,127,29900000,7.9,82,93,0,0,0,1,0,0,0,1,0
+2012,Actress,Beasts of the Southern Wild,Quvenzhan Wallis,0,0,0,0,93,21900000,7.3,76,86,1,0,0,1,0,0,0,1,0
+2012,Actress,The Impossible,Naomi Watts,0,0,0,0,113,180300000,7.6,84,81,0,0,0,1,0,1,0,0,0
+2013,Actress,Blue Jasmine,Cate Blanchett,1,1,1,1,99,97500000,7.3,77,91,1,0,0,1,0,0,0,1,0
+2013,Actress,American Hustle,Amy Adams,0,1,0,0,138,251100000,7.3,74,93,1,1,0,0,0,0,0,0,1
+2013,Actress,Gravity,Sandra Bullock,0,0,0,0,91,723200000,7.8,80,96,0,0,0,1,0,0,0,0,1
+2013,Actress,Philomena,Judi Dench,0,0,0,0,98,100100000,7.6,89,92,0,0,0,1,0,0,0,0,1
+2013,Actress,August: Osage County,Meryl Streep,0,0,0,0,120,74200000,7.2,65,64,1,1,0,0,0,1,0,0,0
+2014,Actress,Still Alice,Julianne Moore,1,1,1,1,101,43900000,7.5,85,88,1,0,0,1,0,1,0,0,0
+2014,Actress,"Two Days, One Night",Marion Cotillard,0,0,0,0,95,9000000,7.4,77,97,0,0,0,1,0,0,1,0,0
+2014,Actress,The Theory of Everything,Felicity Jones,0,0,0,0,123,123700000,7.7,84,79,0,0,0,1,0,0,0,0,1
+2014,Actress,Gone Girl,Rosamund Pike,0,0,0,0,149,369300000,8.1,87,88,1,1,0,0,0,0,0,0,1
+2014,Actress,Wild,Reese Witherspoon,0,0,0,0,115,52500000,7.1,75,90,1,1,0,0,0,0,0,0,1
+2015,Actress,Room,Brie Larson,1,1,1,1,118,36200000,8.2,93,94,0,1,0,0,0,1,0,0,0
+2015,Actress,Carol,Cate Blanchett,0,0,0,0,118,40300000,7.2,73,94,0,1,0,0,0,1,0,0,0
+2015,Actress,Joy,Jennifer Lawrence,0,1,0,0,124,101100000,6.6,57,60,1,0,0,1,0,0,0,0,1
+2015,Actress,45 Years,Charlotte Rampling,0,0,0,0,95,13900000,7.1,67,97,0,1,0,0,0,0,0,1,0
+2015,Actress,Brooklyn,Saoirse Ronan,0,0,0,0,112,62100000,7.5,87,97,0,0,0,1,0,0,0,0,1
+2016,Actress,Elle,Isabelle Huppert,0,1,0,0,130,10200000,7.3,75,89,0,1,0,0,0,0,0,0,1
+2016,Actress,Loving,Ruth Negga,0,0,0,0,123,8400000,7.1,77,89,0,0,0,1,0,0,0,0,1
+2016,Actress,Jackie,Natalie Portman,0,0,0,0,99,20100000,7.1,66,90,1,1,0,0,0,0,0,0,1
+2016,Actress,La La Land,Emma Stone,1,1,1,1,128,341100000,8.5,85,93,1,0,0,1,0,0,0,0,1
+2016,Actress,Florence Foster Jenkins,Meryl Streep,0,0,0,0,110,44300000,6.9,70,87,0,0,0,1,0,0,0,1,0
+2017,Actress,The Shape of Water,Sally Hawkins,0,0,0,0,123,67000000,7.8,7.1,87,1,1,0,0,0,0,0,0,1
+2017,Actress,"Three Billboards outside Ebbing, Missouri",Frances McDormand,1,1,1,1,115,91100000,8.3,7.4,88,0,1,0,0,0,0,0,0,1
+2017,Actress,"I, Tonya",Margot Robbie,0,0,0,0,120,28000000,7.7,7.5,77,1,0,0,0,0,0,0,0,1
+2017,Actress,Lady Bird,Saoirse Ronan,0,1,0,0,94,44200000,7.8,7.2,94,1,1,0,0,0,0,0,0,1
+2017,Actress,The Post,Meryl Streep,0,0,0,0,116,106500000,7.3,7,83,1,0,0,1,0,0,0,0,1
+2018,Actress,Roma,Yalitza Aparicio,0,0,0,0,135,116235682,8,8.1,96,0,1,0,0,0,0,0,0,1
+2018,Actress,The Wife,Glenn Close,0,1,1,0,100,8700552,7.3,7.5,77,1,1,0,0,0,0,0,1,0
+2018,Actress,The Favourite,Olivia Colman,1,1,0,1,119,26109876,7.9,7.5,90,1,1,0,0,0,0,0,0,1
+2018,Actress,A Star Is Born,Lady Gaga,0,0,0,0,136,206361489,8,8.5,88,1,1,0,0,0,0,0,0,1
+2018,Actress,Can You Ever Forgive Me? ,Melissa McCarthy,0,0,0,0,106,8046201,7.4,7.6,87,1,1,0,0,0,0,0,0,1
+2019,Actress,Harriet,Cythia Erivo,0,0,0,0,125,43240890,6.2,6.2,66,1,0,0,1,0,0,0,0,1
+2019,Actress,Marriage Story,Scarlett Johansson,0,0,0,0,136,2300000,8.1,8,93,1,1,0,0,0,0,0,0,1
+2019,Actress,Little Women,Saoirse Ronan,0,0,0,0,135,130191052,8.2,7.7,87,1,0,1,0,0,0,0,0,1
+2019,Actress,Bombshell,Charlize Theron,0,0,0,0,108,31852638,6.8,6.6,64,1,1,0,0,0,0,0,0,1
+2019,Actress,Judy,Renée Zellweger,1,1,1,1,118,38774464,7,6.6,66,1,0,0,1,0,0,0,1,0
