@@ -1,16 +1,8 @@
-Atigos Linkedin:
-- Contextualizando: https://www.linkedin.com/pulse/chutando-os-resultados-do-oscar-2018-com-inteligência-caíque-coelho/
-
-Resultados:
-
-- Atriz Coadjuvante: Allison Janney, em I, Tonya
-- Ator Coadjuvante: Sam Rockwell, em Three Billboards outside Ebbing, Missouri
-- Atriz: Frances McDormand, em Three Billboards outside Ebbing
-- Ator: Gary Oldman, em Darkest Hour
-- Diretor: Guillermo del Toro, em The Shape of Water
-- Roteiro Adaptado: Logan
-- Roteiro Original: Three Billboards outside Ebbing, Missouri 
-- Filme: Three Billboards outside Ebbing, Missouri
+Atigos:
+- Prevendo o Oscar de 2018: https://www.linkedin.com/pulse/chutando-os-resultados-do-oscar-2018-com-inteligência-caíque-coelho/
+- Prevendo o Oscar de 2019: https://caiquecoelho.medium.com/predizendo-os-resultados-do-oscar-2019-com-intelig%C3%AAncia-artificial-64f8e68390f8
+- Prevendo o Oscar de 2020: https://caiquecoelho.medium.com/prevendo-os-resultados-do-oscar-2020-com-intelig%C3%AAncia-artificial-65e152d7ccb5
+- Prevendo o Oscar de 2021: https://caiquecoelho.medium.com/prevendo-os-resultados-do-oscar-2021-com-ia-6375344cefd5
 
 Trabalhos Futuros:
 
